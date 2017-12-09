@@ -1,0 +1,206 @@
+unit Unit3;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
+  ComCtrls, StdCtrls;
+
+type
+
+  { TForm3 }
+
+  TForm3 = class(TForm)
+    Image1: TImage;
+    Image10: TImage;
+    Image11: TImage;
+    Image12: TImage;
+    Image13: TImage;
+    Image14: TImage;
+    Image15: TImage;
+    Image16: TImage;
+    Image17: TImage;
+    Image18: TImage;
+    Image19: TImage;
+    Image2: TImage;
+    Image20: TImage;
+    Image21: TImage;
+    Image22: TImage;
+    Image23: TImage;
+    Image24: TImage;
+    Image25: TImage;
+    Image26: TImage;
+    Image27: TImage;
+    Image28: TImage;
+    Image29: TImage;
+    Image3: TImage;
+    Image30: TImage;
+    Image31: TImage;
+    Image32: TImage;
+    Image33: TImage;
+    Image34: TImage;
+    Image35: TImage;
+    Image36: TImage;
+    Image37: TImage;
+    Image38: TImage;
+    Image39: TImage;
+    Image4: TImage;
+    Image40: TImage;
+    Image41: TImage;
+    Image42: TImage;
+    Image43: TImage;
+    Image44: TImage;
+    Image45: TImage;
+    Image46: TImage;
+    Image47: TImage;
+    Image48: TImage;
+    Image49: TImage;
+    Image5: TImage;
+    Image50: TImage;
+    Image51: TImage;
+    Image52: TImage;
+    Image53: TImage;
+    Image54: TImage;
+    Image55: TImage;
+    Image56: TImage;
+    Image57: TImage;
+    Image58: TImage;
+    Image59: TImage;
+    Image6: TImage;
+    Image60: TImage;
+    Image61: TImage;
+    Image62: TImage;
+    Image63: TImage;
+    Image64: TImage;
+    Image65: TImage;
+    Image66: TImage;
+    Image67: TImage;
+    Image68: TImage;
+    Image69: TImage;
+    Image7: TImage;
+    Image70: TImage;
+    Image71: TImage;
+    Image72: TImage;
+    Image73: TImage;
+    Image74: TImage;
+    Image75: TImage;
+    Image76: TImage;
+    Image77: TImage;
+    Image78: TImage;
+    Image79: TImage;
+    Image8: TImage;
+    Image80: TImage;
+    Image81: TImage;
+    Image82: TImage;
+    Image83: TImage;
+    Image84: TImage;
+    Image85: TImage;
+    Image86: TImage;
+    Image87: TImage;
+    Image88: TImage;
+    Image89: TImage;
+    Image9: TImage;
+    Image90: TImage;
+    Image91: TImage;
+    Image92: TImage;
+    Image93: TImage;
+    Image94: TImage;
+    Image95: TImage;
+    Image96: TImage;
+    Memo1: TMemo;
+    Memo10: TMemo;
+    Memo11: TMemo;
+    Memo12: TMemo;
+    Memo13: TMemo;
+    Memo14: TMemo;
+    Memo15: TMemo;
+    Memo16: TMemo;
+    Memo17: TMemo;
+    Memo18: TMemo;
+    Memo19: TMemo;
+    Memo2: TMemo;
+    Memo20: TMemo;
+    Memo21: TMemo;
+    Memo22: TMemo;
+    Memo23: TMemo;
+    Memo24: TMemo;
+    Memo25: TMemo;
+    Memo26: TMemo;
+    Memo27: TMemo;
+    Memo28: TMemo;
+    Memo29: TMemo;
+    Memo3: TMemo;
+    Memo30: TMemo;
+    Memo31: TMemo;
+    Memo32: TMemo;
+    Memo4: TMemo;
+    Memo5: TMemo;
+    Memo6: TMemo;
+    Memo7: TMemo;
+    Memo8: TMemo;
+    Memo9: TMemo;
+    PageControl1: TPageControl;
+    Panel1: TPanel;
+    TabSheet1: TTabSheet;
+    TabSheet10: TTabSheet;
+    TabSheet11: TTabSheet;
+    TabSheet12: TTabSheet;
+    TabSheet13: TTabSheet;
+    TabSheet14: TTabSheet;
+    TabSheet15: TTabSheet;
+    TabSheet16: TTabSheet;
+    TabSheet17: TTabSheet;
+    TabSheet18: TTabSheet;
+    TabSheet19: TTabSheet;
+    TabSheet2: TTabSheet;
+    TabSheet20: TTabSheet;
+    TabSheet21: TTabSheet;
+    TabSheet22: TTabSheet;
+    TabSheet23: TTabSheet;
+    TabSheet24: TTabSheet;
+    TabSheet25: TTabSheet;
+    TabSheet26: TTabSheet;
+    TabSheet27: TTabSheet;
+    TabSheet28: TTabSheet;
+    TabSheet29: TTabSheet;
+    TabSheet3: TTabSheet;
+    TabSheet30: TTabSheet;
+    TabSheet31: TTabSheet;
+    TabSheet32: TTabSheet;
+    TabSheet4: TTabSheet;
+    TabSheet5: TTabSheet;
+    TabSheet6: TTabSheet;
+    TabSheet7: TTabSheet;
+    TabSheet8: TTabSheet;
+    TabSheet9: TTabSheet;
+    procedure PageControl1Change(Sender: TObject);
+    procedure TabControl1Change(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.lfm}
+
+{ TForm3 }
+
+procedure TForm3.TabControl1Change(Sender: TObject);
+begin
+
+end;
+
+procedure TForm3.PageControl1Change(Sender: TObject);
+begin
+
+end;
+
+end.
+

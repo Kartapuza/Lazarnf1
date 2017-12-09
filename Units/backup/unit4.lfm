@@ -1,0 +1,1077 @@
+object Form4: TForm4
+  Left = 214
+  Height = 627
+  Top = 212
+  Width = 788
+  Caption = 'Parse lab'
+  ClientHeight = 627
+  ClientWidth = 788
+  LCLVersion = '1.6.2.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 627
+    Top = 0
+    Width = 106
+    Align = alLeft
+    ClientHeight = 627
+    ClientWidth = 106
+    TabOrder = 0
+    object Edit1: TEdit
+      Left = 13
+      Height = 23
+      Top = 24
+      Width = 80
+      TabOrder = 0
+      Text = '2017'
+    end
+    object Label1: TLabel
+      Left = 13
+      Height = 15
+      Top = 8
+      Width = 24
+      Caption = 'yyyy'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 13
+      Height = 15
+      Top = 48
+      Width = 27
+      Caption = 'week'
+      ParentColor = False
+    end
+    object Edit2: TEdit
+      Left = 13
+      Height = 23
+      Top = 64
+      Width = 80
+      TabOrder = 1
+      Text = '13'
+    end
+  end
+  object Panel2: TPanel
+    Left = 106
+    Height = 627
+    Top = 0
+    Width = 682
+    Align = alClient
+    ClientHeight = 627
+    ClientWidth = 682
+    TabOrder = 1
+    object Panel3: TPanel
+      Left = 1
+      Height = 234
+      Top = 392
+      Width = 680
+      Align = alBottom
+      ClientHeight = 234
+      ClientWidth = 680
+      TabOrder = 0
+      object PageControl3: TPageControl
+        Left = 240
+        Height = 232
+        Top = 1
+        Width = 439
+        ActivePage = TabSheet12
+        Align = alClient
+        TabIndex = 0
+        TabOrder = 0
+        object TabSheet12: TTabSheet
+          Caption = 'TabSheet12'
+          ClientHeight = 204
+          ClientWidth = 431
+          object Memo12: TMemo
+            Left = 0
+            Height = 204
+            Top = 0
+            Width = 431
+            Align = alClient
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet13: TTabSheet
+          Caption = 'TabSheet13'
+          ClientHeight = 119
+          ClientWidth = 431
+          object Memo13: TMemo
+            Left = 0
+            Height = 119
+            Top = 0
+            Width = 431
+            Align = alClient
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet14: TTabSheet
+          Caption = 'TabSheet14'
+          ClientHeight = 119
+          ClientWidth = 431
+          object Memo14: TMemo
+            Left = 0
+            Height = 119
+            Top = 0
+            Width = 431
+            Align = alClient
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet15: TTabSheet
+          Caption = 'TabSheet15'
+          ClientHeight = 119
+          ClientWidth = 431
+          object Memo15: TMemo
+            Left = 0
+            Height = 119
+            Top = 0
+            Width = 431
+            Align = alClient
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+      end
+      object Panel8: TPanel
+        Left = 1
+        Height = 232
+        Top = 1
+        Width = 239
+        Align = alLeft
+        ClientHeight = 232
+        ClientWidth = 239
+        TabOrder = 1
+        object Button2: TButton
+          Left = 16
+          Height = 25
+          Top = 8
+          Width = 75
+          Caption = 'Parse'
+          OnClick = Button2Click
+          TabOrder = 0
+        end
+      end
+    end
+    object Panel4: TPanel
+      Left = 1
+      Height = 199
+      Top = 1
+      Width = 680
+      Align = alTop
+      ClientHeight = 199
+      ClientWidth = 680
+      TabOrder = 1
+      object Panel5: TPanel
+        Left = 1
+        Height = 197
+        Top = 1
+        Width = 239
+        Align = alLeft
+        ClientHeight = 197
+        ClientWidth = 239
+        TabOrder = 0
+        object ComboBox1: TComboBox
+          Left = 16
+          Height = 23
+          Top = 24
+          Width = 160
+          ItemHeight = 15
+          ItemIndex = 0
+          Items.Strings = (
+            'NoThing'
+            'Load Week'
+          )
+          TabOrder = 0
+          Text = 'NoThing'
+        end
+        object CheckGroup1: TCheckGroup
+          Left = 4
+          Height = 128
+          Top = 56
+          Width = 120
+          AutoFill = True
+          Caption = 'links'
+          ChildSizing.LeftRightSpacing = 6
+          ChildSizing.TopBottomSpacing = 6
+          ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+          ChildSizing.EnlargeVertical = crsHomogenousChildResize
+          ChildSizing.ShrinkHorizontal = crsScaleChilds
+          ChildSizing.ShrinkVertical = crsScaleChilds
+          ChildSizing.Layout = cclLeftToRightThenTopToBottom
+          ChildSizing.ControlsPerLine = 1
+          ClientHeight = 108
+          ClientWidth = 116
+          TabOrder = 1
+          object CheckBox1: TCheckBox
+            Left = 6
+            Height = 20
+            Top = 6
+            Width = 104
+            Caption = 'nfl scores'
+            TabOrder = 0
+          end
+          object CheckBox2: TCheckBox
+            Left = 6
+            Height = 19
+            Top = 26
+            Width = 104
+            Caption = 'cbss pwr'
+            TabOrder = 1
+          end
+          object CheckBox3: TCheckBox
+            Left = 6
+            Height = 19
+            Top = 45
+            Width = 104
+            Caption = 'espn picks'
+            TabOrder = 2
+          end
+          object CheckBox4: TCheckBox
+            Left = 6
+            Height = 19
+            Top = 64
+            Width = 104
+            Caption = 'cbss expert s-up'
+            TabOrder = 3
+          end
+          object CheckBox5: TCheckBox
+            Left = 6
+            Height = 19
+            Top = 83
+            Width = 104
+            Caption = 'cbss expert agn'
+            TabOrder = 4
+          end
+        end
+        object CheckGroup2: TCheckGroup
+          Left = 128
+          Height = 80
+          Top = 56
+          Width = 104
+          AutoFill = True
+          Caption = 'links'
+          ChildSizing.LeftRightSpacing = 6
+          ChildSizing.TopBottomSpacing = 6
+          ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+          ChildSizing.EnlargeVertical = crsHomogenousChildResize
+          ChildSizing.ShrinkHorizontal = crsScaleChilds
+          ChildSizing.ShrinkVertical = crsScaleChilds
+          ChildSizing.Layout = cclLeftToRightThenTopToBottom
+          ChildSizing.ControlsPerLine = 1
+          ClientHeight = 60
+          ClientWidth = 100
+          TabOrder = 2
+          object CheckBox6: TCheckBox
+            Left = 6
+            Height = 16
+            Top = 6
+            Width = 88
+            Caption = 'all stat game'
+            TabOrder = 0
+          end
+          object CheckBox7: TCheckBox
+            Left = 6
+            Height = 16
+            Top = 22
+            Width = 88
+            Caption = 'team ranking'
+            TabOrder = 1
+          end
+          object CheckBox8: TCheckBox
+            Left = 6
+            Height = 16
+            Top = 38
+            Width = 88
+            Caption = 'game log'
+            TabOrder = 2
+          end
+        end
+        object CheckGroup3: TCheckGroup
+          Left = 128
+          Height = 57
+          Top = 136
+          Width = 104
+          AutoFill = True
+          Caption = 'links'
+          ChildSizing.LeftRightSpacing = 6
+          ChildSizing.TopBottomSpacing = 6
+          ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+          ChildSizing.EnlargeVertical = crsHomogenousChildResize
+          ChildSizing.ShrinkHorizontal = crsScaleChilds
+          ChildSizing.ShrinkVertical = crsScaleChilds
+          ChildSizing.Layout = cclLeftToRightThenTopToBottom
+          ChildSizing.ControlsPerLine = 1
+          ClientHeight = 37
+          ClientWidth = 100
+          TabOrder = 3
+          object CheckBox9: TCheckBox
+            Left = 6
+            Height = 12
+            Top = 6
+            Width = 88
+            Caption = 'team stat'
+            TabOrder = 0
+          end
+          object CheckBox10: TCheckBox
+            Left = 6
+            Height = 13
+            Top = 18
+            Width = 88
+            Caption = 'roster stat'
+            TabOrder = 1
+          end
+        end
+      end
+      object PageControl2: TPageControl
+        Left = 240
+        Height = 197
+        Top = 1
+        Width = 439
+        ActivePage = TabSheet7
+        Align = alClient
+        TabIndex = 1
+        TabOrder = 1
+        object TabSheet6: TTabSheet
+          Caption = 'TabSheet1'
+          ClientHeight = 169
+          ClientWidth = 431
+          object Memo1: TMemo
+            Left = 0
+            Height = 169
+            Top = 0
+            Width = 431
+            Align = alClient
+            Lines.Strings = (
+              '1'
+              'http://www.nfl.com/scores'
+              '1'
+              'https://www.cbssports.com/nfl/powerrankings'
+              '1'
+              'http://www.espn.com/nfl/picks'
+              '1'
+              'https://www.cbssports.com/nfl/features/writers/expert/picks/straight-up'
+              '1'
+              'https://www.cbssports.com/nfl/features/writers/expert/picks'
+              '0'
+              'http://stats.bet365.chalkpartners.com/stats/schedule/football/nfl'
+            )
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet7: TTabSheet
+          Caption = 'TabSheet2'
+          ClientHeight = 169
+          ClientWidth = 431
+          object Memo2: TMemo
+            Left = 0
+            Height = 169
+            Top = 0
+            Width = 431
+            Align = alClient
+            Lines.Strings = (
+              '1'
+              'http://stats.bet365.chalkpartners.com/stats/schedule/football/nfl'
+              '1'
+              'http://stats.bet365.chalkpartners.com/stats/team/football/nfl/61'
+              '1'
+              'http://stats.bet365.chalkpartners.com/stats/gamelog/football/nfl/61'
+            )
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet8: TTabSheet
+          Caption = 'TabSheet3'
+          ClientHeight = 169
+          ClientWidth = 431
+          object Memo3: TMemo
+            Left = 0
+            Height = 169
+            Top = 0
+            Width = 431
+            Align = alClient
+            Lines.Strings = (
+              '1'
+              'http://www.nfl.com/teams/statistics?team=Phi'
+              '1'
+              'http://www.nfl.com/teams/roster?team=Car'
+            )
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet9: TTabSheet
+          Caption = 'TabSheet4'
+          ClientHeight = 169
+          ClientWidth = 431
+          object Memo4: TMemo
+            Left = 0
+            Height = 169
+            Top = 0
+            Width = 431
+            Align = alClient
+            Lines.Strings = (
+              'Memo1'
+            )
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet10: TTabSheet
+          Caption = 'TabSheet5'
+          ClientHeight = 169
+          ClientWidth = 431
+          object Memo5: TMemo
+            Left = 0
+            Height = 169
+            Top = 0
+            Width = 431
+            Align = alClient
+            Lines.Strings = (
+              'Memo1'
+            )
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+      end
+    end
+    object Panel6: TPanel
+      Left = 1
+      Height = 192
+      Top = 200
+      Width = 680
+      Align = alClient
+      ClientHeight = 192
+      ClientWidth = 680
+      TabOrder = 2
+      object Panel7: TPanel
+        Left = 1
+        Height = 190
+        Top = 1
+        Width = 239
+        Align = alLeft
+        ClientHeight = 190
+        ClientWidth = 239
+        TabOrder = 0
+        object Button1: TButton
+          Left = 16
+          Height = 25
+          Top = 8
+          Width = 75
+          Caption = 'Run'
+          OnClick = Button1Click
+          TabOrder = 0
+        end
+      end
+      object PageControl1: TPageControl
+        Left = 240
+        Height = 190
+        Top = 1
+        Width = 439
+        ActivePage = TabSheet1
+        Align = alClient
+        TabIndex = 0
+        TabOrder = 1
+        object TabSheet1: TTabSheet
+          Caption = 'TabSheet1'
+          ClientHeight = 162
+          ClientWidth = 431
+          object Memo6: TMemo
+            Left = 0
+            Height = 162
+            Top = 0
+            Width = 431
+            Align = alClient
+            Lines.Strings = (
+              'import os'
+              'import requests  #__version__ = ''2.18.4'''
+              'from bs4 import BeautifulSoup #__version__ = "4.0.0b"'
+              'import re'
+              'import urllib3'
+              'from requests.packages.urllib3.exceptions import InsecureRequestWarning'
+              'import sys'
+              ''
+              'requests.packages.urllib3.disable_warnings(InsecureRequestWarning)'
+              'urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)'
+              ''
+              '#Создание структуры каталогов'
+              'current_dir = os.getcwd()'
+              'directory_data = (current_dir + ''\data'')'
+              ''
+              'def ensure_dir(directory):'
+              ' if not os.path.exists(directory):'
+              '    os.makedirs(directory)'
+              ''
+              'def save_file(name_file, lines):'
+              ' save_changes = open(name_file, ''w'')'
+              ' save_changes.writelines(lines)'
+              ' save_changes.close()'
+              ''
+              'def Load_Settings():'
+              '    global url_nfl, url_powerrankings, url_espn, url_cbs, url_cbs_aganist, url_bwin'
+              '    url_nfl = url_powerrankings = url_espn = url_cbs = url_bwin = url_cbs_aganist = ''none'''
+              '    settings_1 = open(''settings.txt'', ''r'')'
+              '    my_string = settings_1.readlines()'
+              '    if my_string[0].strip() == ''1'':'
+              '       url_nfl = my_string[1].strip()'
+              '    else: url_nfl = ''none'''
+              ''
+              '    if my_string[2].strip() ==''1'':'
+              '       url_powerrankings = my_string[3].strip()'
+              '    else: url_powerrankings = ''none'''
+              ''
+              '    if my_string[4].strip() == ''1'':'
+              '       url_espn = my_string[5].strip()'
+              '    else: url_espn = ''none'''
+              ''
+              '    if my_string[6].strip() ==''1'':'
+              '       url_cbs = my_string[7].strip()'
+              '    else: url_cbs = ''none'''
+              ''
+              '    if my_string[8].strip() ==''1'':'
+              '        url_cbs_aganist = my_string[9].strip()'
+              '    else: url_cbs_aganist = ''none'''
+              ''
+              '    if my_string[10].strip() ==''1'':'
+              '       url_bwin = my_string[10].strip()'
+              '    else: url_bwin = ''none'''
+              ''
+              'def GetUrl():'
+              ' headers = {'
+              '  ''User-Agent'': ''Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'''
+              ' }'
+              ' if len(url_nfl) > 5:'
+              '    r = requests.get(url_nfl, headers=headers)'
+              '    with open(''scores.html'', ''w'', encoding=''utf-8'') as output_file:'
+              '        output_file.write(r.text)'
+              ''
+              ' if len(url_powerrankings) > 5:'
+              '    r = requests.get(url_powerrankings , headers=headers)'
+              '    with open(''power.html'', ''w'', encoding=''utf-8'') as output_file:'
+              '        output_file.write(r.text)'
+              ''
+              ' if len(url_espn) > 5:'
+              '    r = requests.get(url_espn, headers=headers)'
+              '    with open(''espn.html'', ''w'', encoding=''utf-8'') as output_file:'
+              '        output_file.write(r.text)'
+              ''
+              ' if len(url_cbs) > 5:'
+              '    try:'
+              '     r = requests.get(url_cbs, headers=headers,  verify=False, timeout=(10, 1))'
+              '    except requests.exceptions.ReadTimeout:'
+              '     print(''Oops. Read timeout occured'')'
+              '    except requests.exceptions.ConnectTimeout:'
+              '     print(''Oops. Connection timeout occured!'')'
+              '    with open(''cbs.html'', ''w'', encoding=''utf-8'') as output_file:'
+              '        output_file.write(r.text)'
+              ''
+              ' if len(url_cbs_aganist) > 5:'
+              '    try:'
+              '     r = requests.get(url_cbs_aganist, headers=headers,  verify=False, timeout=(10, 1))'
+              '    except requests.exceptions.ReadTimeout:'
+              '     print(''Oops. Read timeout occured'')'
+              '    except requests.exceptions.ConnectTimeout:'
+              '     print(''Oops. Connection timeout occured!'')'
+              '    with open(''cbsagn.html'', ''w'', encoding=''utf-8'') as output_file:'
+              '        output_file.write(r.text)'
+              ''
+              'def find_week_games():'
+              '    nflsite_1 = open(''scores.html'', ''r'')'
+              '    my_string = nflsite_1.read()'
+              ''
+              '    save_file(directory_data + ''nf1.txt'', my_string)'
+              ''
+              '    soup = BeautifulSoup(my_string, ''html.parser'')'
+              '    week_scores = soup.find(id="score-boxes")'
+              '    game_team = week_scores.find_all(''div'', attrs={"class":"new-score-box"})'
+              ''
+              '    for i in range(0, len(game_team)):'
+              '        tonight = game_team[i]'
+              ''
+              '        away_team = tonight.find(''div'', attrs={"class":"away-team"})'
+              '        away_name = away_team.find(''p'', attrs={"class":"team-name"}).get_text()'
+              '        away_score = away_team.find(''p'', attrs={"class":"total-score"}).get_text()'
+              '        away_record = away_team.find(''p'', attrs={"class":"team-record"}).get_text()'
+              ''
+              '        if away_team.find(''p'', attrs={"class": "quarters-score"}) is None:'
+              '            quarters_score = 0'
+              '        else:'
+              '            quarters_score = 1'
+              '            score_first_qt = away_team.find(''span'', attrs={"class": "first-qt"}).get_text()'
+              '            score_second_qt = away_team.find(''span'', attrs={"class": "second-qt"}).get_text()'
+              '            score_third_qt = away_team.find(''span'', attrs={"class": "third-qt"}).get_text()'
+              '            score_fourth_qt = away_team.find(''span'', attrs={"class": "fourth-qt"}).get_text()'
+              '            score_ot_qt = away_team.find(''span'', attrs={"class": "ot-qt"}).get_text()'
+              '        print(''s--'')'
+              '        print(away_name)'
+              '        print(away_record.strip())'
+              '        print(away_score.strip())'
+              '        if int(quarters_score) > 0:'
+              '          print(score_first_qt + '' '' + score_second_qt + '' '' + score_third_qt + '' '' + score_fourth_qt + '' '' + score_ot_qt )'
+              '        else:'
+              '          print(''_ '' + ''_ '' + ''_ '' + ''_ '')'
+              ''
+              '        home_team = tonight.find(''div'', attrs={"class":"home-team"})'
+              '        home_name =  home_team.find(''p'', attrs={"class":"team-name"}).get_text()'
+              '        home_score =  home_team.find(''p'', attrs={"class":"total-score"}).get_text()'
+              '        home_record = home_team.find(''p'', attrs={"class":"team-record"}).get_text()'
+              ''
+              '        if home_team.find(''p'', attrs={"class": "quarters-score"}) is None:'
+              '            quarters_score = 0'
+              '        else:'
+              '            quarters_score = 1'
+              '            score_first_qt = home_team.find(''span'', attrs={"class": "first-qt"}).get_text()'
+              '            score_second_qt = home_team.find(''span'', attrs={"class": "second-qt"}).get_text()'
+              '            score_third_qt = home_team.find(''span'', attrs={"class": "third-qt"}).get_text()'
+              '            score_fourth_qt = home_team.find(''span'', attrs={"class": "fourth-qt"}).get_text()'
+              '            score_ot_qt = home_team.find(''span'', attrs={"class": "ot-qt"}).get_text()'
+              ''
+              '        print(home_name)'
+              '        print(home_record.strip())'
+              '        print(home_score.strip())'
+              '        if int(quarters_score) > 0:'
+              '          print(score_first_qt + '' '' + score_second_qt + '' '' + score_third_qt + '' '' + score_fourth_qt + '' '' + score_ot_qt )'
+              '        else:'
+              '          print(''_ '' + ''_ '' + ''_ '' + ''_ '')'
+              ''
+              'def power_rankings():'
+              '    nflsite_1 = open(''power.html'', ''r'')'
+              '    my_string = nflsite_1.read()'
+              ''
+              '    soup = BeautifulSoup(my_string, ''html.parser'')'
+              '    week_power = soup.find("div", attrs={"class":"table-wrapper"})'
+              '    game_team = week_power.find_all(''tr'', attrs={"class":"player-rankings-stats"})'
+              ''
+              '    for i in range(0, len(game_team)):'
+              '        tonight = game_team[i]'
+              ''
+              '        team_rank = tonight.find(''span'', attrs={"class":"rank"}).get_text()'
+              ''
+              '        if tonight.find(''td'', attrs={"class": "cell-left change-up"}) is None:'
+              '             team_rank_up = 0'
+              '        else:'
+              '             team_rank_up = tonight.find(''td'', attrs={"class": "cell-left change-up"}).get_text()'
+              ''
+              '        if tonight.find(''td'', attrs={"class": "cell-left change-down"})  is None:'
+              '             team_rank_down = 0'
+              '        else:'
+              '             team_rank_down = tonight.find(''td'', attrs={"class": "cell-left change-down"}).get_text()'
+              ''
+              '        team_stats = tonight.find_all(''td'', attrs={"class": "cell-left"})'
+              '        team_stat = team_stats[1].get_text()'
+              ''
+              '        team_name = tonight.find(''td'', attrs={"class":"cell-left team"}).get_text()'
+              '        team_comment = tonight.find(''td'', attrs={"class":"cell-left dek"}).get_text()'
+              '        print(''p--'')'
+              '        print(team_rank.strip())'
+              ''
+              '        if int(team_rank_up) > 0:'
+              '            print(''+'' + team_rank_up.strip())'
+              '        elif int(team_rank_down) > 0:'
+              '            print(''-'' + team_rank_down.strip())'
+              '        else:'
+              '            print(''`'')'
+              '        print(team_name.strip())'
+              '        print(team_stat.strip())'
+              '        print(team_comment.strip())'
+              ''
+              'def espn_read():'
+              '    espn_1 = open(''espn.html'', ''r'')'
+              '    my_string = espn_1.read()'
+              ''
+              '    soup = BeautifulSoup(my_string, ''html.parser'')'
+              '    week_pick_espn = soup.find("table", attrs={"class": "tablehead"})'
+              '    game_pick = week_pick_espn.find_all(''tr'', attrs={"class": re.compile(r''[a-z]||row team||r''''[a-z]'')})'
+              '    for i in range(0, len(game_pick)):'
+              '        tonight = game_pick[i]'
+              '        game_day_pick = tonight.find_all(''div'', attrs={"class": re.compile(r''[a-z]||teampick logo||r''''[a-z]'')})'
+              '        print(''e--'')'
+              '        for j in range(0, len(game_day_pick)):'
+              '            topick = game_day_pick[j]'
+              '            print(game_day_pick[j].get_text())'
+              ''
+              'def cbs_read():'
+              '    cbs_1 = open(''cbs.html'', ''r'')'
+              '    my_string = cbs_1.read()'
+              '    soup = BeautifulSoup(my_string, ''html.parser'')'
+              '    week_pick_cbs = soup.find("table", attrs={"id": "oddsTable"})'
+              '    game_day_pick = week_pick_cbs.find_all(''div'', attrs={"class": "writerPicksCtr"})'
+              '    print(''c--'')'
+              '    for j in range(0, len(game_day_pick)):'
+              '            team_img_name = game_day_pick[j].find_all(''img'')'
+              '            p_url = team_img_name[0].get(''src'')'
+              '            p_name = p_url.split(''/'')[-1]'
+              '            print(p_name.split(''.'')[0])'
+              ''
+              ''
+              'def cbs_read_aganist():'
+              '    cbs_2 = open(''cbsagn.html'', ''r'')'
+              '    my_string = cbs_2.read()'
+              '    soup = BeautifulSoup(my_string, ''html.parser'')'
+              '    week_pick_cbs_a = soup.find("table", attrs={"id": "oddsTable"})'
+              '    game_day_pick = week_pick_cbs_a.find_all(''div'', attrs={"class": "writerPicksCtr"})'
+              '    gameLine = week_pick_cbs_a.find_all(''div'', attrs={"class": "gameLineCtr"})'
+              '    k = int(((len(game_day_pick) / len(gameLine))))'
+              '    p = k'
+              '    for j in range(0, len(gameLine)):'
+              '            print(''L--'')'
+              '            team_Line = gameLine[j]'
+              '            print(team_Line.text)'
+              '            print(''a--'')'
+              '            for q in range(p-k, p):'
+              '                team_img_name = game_day_pick[q]'
+              '                print(team_img_name.text)'
+              '            p = p + k'
+              ''
+              ''
+              'if __name__ == ''__main__'':'
+              '    sys.stdout = open(''result.out'', ''w'')'
+              '    ensure_dir(directory_data)'
+              '    Load_Settings()'
+              '    GetUrl()'
+              '    if len(url_nfl) > 5:'
+              '        find_week_games()'
+              '    if len(url_powerrankings) > 5:'
+              '        power_rankings()'
+              '    if len(url_espn) > 5:'
+              '        espn_read()'
+              '    if len(url_cbs) > 5:'
+              '        cbs_read()'
+              '    if len(url_cbs_aganist) > 5:'
+              '        cbs_read_aganist()'
+            )
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet2: TTabSheet
+          Caption = 'TabSheet2'
+          ClientHeight = 154
+          ClientWidth = 431
+          object Memo7: TMemo
+            Left = 0
+            Height = 154
+            Top = 0
+            Width = 431
+            Align = alClient
+            Lines.Strings = (
+              'import os'
+              'import requests  #__version__ = ''2.18.4'''
+              'from bs4 import BeautifulSoup #__version__ = "4.0.0b"'
+              'import re'
+              'import urllib3'
+              'from requests.packages.urllib3.exceptions import InsecureRequestWarning'
+              'import sys'
+              ''
+              'requests.packages.urllib3.disable_warnings(InsecureRequestWarning)'
+              'urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)'
+              ''
+              'def Load_Settings():'
+              '    global url_scores_stat, url_team_stat, url_team_game_logs'
+              '    url_scores_stat = url_team_stat = url_team_game_logs = ''none'''
+              '    settings_1 = open(''settingsstat.txt'', ''r'')'
+              '    my_string = settings_1.readlines()'
+              '    if my_string[0].strip() == ''1'':'
+              '        url_scores_stat = my_string[1].strip()'
+              '    else: url_scores_stat = ''none'''
+              ''
+              '    if my_string[2].strip() == ''1'':'
+              '        url_team_stat = my_string[3].strip()'
+              '    else:'
+              '        url_team_stat = ''none'''
+              ''
+              '    if my_string[4].strip() == ''1'':'
+              '        url_team_game_logs = my_string[5].strip()'
+              '    else:'
+              '        url_team_game_logs = ''none'''
+              ''
+              'def GetUrl():'
+              ' headers = {'
+              '  ''User-Agent'': ''Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'''
+              ' }'
+              ' if len(url_scores_stat) > 5:'
+              '    r = requests.get(url_scores_stat, headers=headers)'
+              '    with open(''statsall.html'', ''w'', encoding=''utf-8'') as output_file:'
+              '        output_file.write(r.text)'
+              ''
+              ' if len(url_team_stat) > 5:'
+              '     r = requests.get(url_team_stat, headers=headers)'
+              '     with open(''statsteam.html'', ''w'', encoding=''utf-8'') as output_file:'
+              '         output_file.write(r.text)'
+              ''
+              ' if len(url_team_game_logs) > 5:'
+              '     r = requests.get(url_team_game_logs, headers=headers)'
+              '     with open(''statsteamgamelog.html'', ''w'', encoding=''utf-8'') as output_file:'
+              '         output_file.write(r.text)'
+              ''
+              'def Read_All_Stats():'
+              '    stat_1 = open(''statsall.html'', ''r'')'
+              '    my_string = stat_1.read()'
+              '    soup = BeautifulSoup(my_string, ''html.parser'')'
+              '    #stat_all_read = soup.find("div", attrs={"id": "chalk_stats"})'
+              '    stat_all_read = soup.find("div", id = "chalk_stats")'
+              '    allgame_stats = stat_all_read.find_all(''td'', attrs={"class": re.compile(''(team|score|time)'')})'
+              '    allgame_team_name =  stat_all_read.find_all(''td'', attrs={"class": "team"})'
+              '    allgame_team_score = stat_all_read.find_all(''td'', attrs={"class": "score"})'
+              '    allgame_team_time = stat_all_read.find_all(''td'', attrs={"class": "time"})'
+              '    for i in range(0, len(allgame_team_name)):'
+              '        team_link1A2B = allgame_team_name[i].find_all(''a'')'
+              '        for j in range(0, len(team_link1A2B)):'
+              '            team_link1A = team_link1A2B[0].get(''href'')'
+              '            team_link2B = team_link1A2B[1].get(''href'')'
+              '        print(allgame_team_name[i].get_text().strip())'
+              '        print(allgame_team_score[i].get_text().strip())'
+              '        print(allgame_team_time[i].get_text().strip())'
+              '        print(team_link1A)'
+              '        print(team_link2B)'
+              '        team_link1A = team_link2B = '''''
+              '        print(''s--'')'
+              ''
+              'def Read_Stats_Team():'
+              '    stat_2 = open(''statsteam.html'', ''r'')'
+              '    my_string2 = stat_2.read()'
+              '    soup = BeautifulSoup(my_string2, ''html.parser'')'
+              '    team_city = soup.find(''div'', attrs={"class": "team-city"}).get_text()'
+              '    team_nickname = soup.find(''div'', attrs={"class": "team-nickname"}).get_text()'
+              '    team_record = soup.find(''div'', attrs={"class": "team-record"}).get_text()'
+              '    print(team_city)'
+              '    print(team_nickname)'
+              '    print(team_record)'
+              '    print(''ls-'')'
+              '    last5games = soup.find("table", attrs={"class": "chalk last5 base-table base-table-sortable"})'
+              '    last5_game_date = last5games.find_all(''td'', attrs={"class": "game_date"})'
+              '    last5_result = last5games.find_all(''td'', attrs={"class": "result"})'
+              '    last5_line = last5games.find_all(''td'', attrs={"class": "line"})'
+              '    last5_total = last5games.find_all(''td'', attrs={"class": "total"})'
+              '    last5_ats_result = last5games.find_all(''td'', attrs={"class": "ats_result"})'
+              '    last5_ou_result = last5games.find_all(''td'', attrs={"class": "ou_result"})'
+              '    for i in range(0, len(last5_result)):'
+              '        print(last5_game_date[i].get_text().strip(), '';'', last5_result[i].get_text().strip(), '';'','
+              '              last5_line[i].get_text().strip(), '';'', last5_total[i].get_text().strip(), '';'','
+              '              last5_ats_result[i].get_text().strip(), '';'', last5_ou_result[i].get_text().strip())'
+              '    print(''st-'')'
+              '    big_statistic_team = soup.find("table", attrs={"class": "chalk team-stats base-table base-table-sortable"})'
+              '    big_statistic_team_title =  big_statistic_team.find_all(''td'', attrs={"class": "title"})'
+              '    big_statistic_team_stat1 = big_statistic_team.find_all(''td'', attrs={"class": "stat1"})'
+              '    big_statistic_team_stat1_rank = big_statistic_team.find_all(''td'', attrs={"class": "stat1_rank"})'
+              '    for i in range(0, len(big_statistic_team_title)):'
+              '        print(big_statistic_team_title[i].get_text().strip(), '';'', big_statistic_team_stat1[i].get_text().strip(), '';'','
+              '              big_statistic_team_stat1_rank[i].get_text().strip())'
+              ''
+              'def Read_Team_games_log():'
+              '    stat_3 = open(''statsteamgamelog.html'', ''r'')'
+              '    my_string3 = stat_3.read()'
+              '    soup = BeautifulSoup(my_string3, ''html.parser'')'
+              ''
+              '    event_data_list = soup.find_all(''td'', attrs={"class": "event_date"})'
+              '    event_data_Opponent = soup.find_all(''td'', attrs={"class": "opponent"})'
+              '    event_data_Type = soup.find_all(''td'', attrs={"class": "game_type"})'
+              '    event_data_Result = soup.find_all(''td'', attrs={"class": "result"})'
+              '    event_data_Score = soup.find_all(''td'', attrs={"class": "score"})'
+              '    event_data_ATS = soup.find_all(''td'', attrs={"class": "ats_result"})'
+              '    event_data_closing_spread = soup.find_all(''td'', attrs={"class": "closing_spread"})'
+              '    event_data_ou_result = soup.find_all(''td'', attrs={"class": "ou_result"})'
+              '    event_data_closing_total = soup.find_all(''td'', attrs={"class": "closing_total"})'
+              '    event_data_preview_available = soup.find_all(''td'', attrs={"class": "preview_available"})'
+              '    event_data_preview_recap_available = soup.find_all(''td'', attrs={"class": "recap_available"})'
+              '    for i in range(0, len(event_data_list)):'
+              '        print(event_data_list[i].text, '';'',event_data_Opponent[i].text.strip(), '';'',event_data_Type[i].text, '';'','
+              '              event_data_Result[i].text, '';'',event_data_Score[i].text, '';'',event_data_ATS[i].text, '';'','
+              '              event_data_closing_spread[i].text, '';'',event_data_ou_result[i].text, '';'',event_data_closing_total[i].text, '';'','
+              '              event_data_preview_available[i].text, '';'',event_data_preview_recap_available[i].text)'
+              ''
+              'if __name__ == ''__main__'':'
+              '    Load_Settings()'
+              '    GetUrl()'
+              '    if len(url_scores_stat) > 5:'
+              '        sys.stdout = open(''resultstat.out'', ''w'')'
+              '        Read_All_Stats()'
+              '    if len(url_team_stat) > 5:'
+              '        sys.stdout = open(''resultstatteam.out'', ''w'')'
+              '        Read_Stats_Team()'
+              '    if len(url_team_game_logs) > 5:'
+              '        sys.stdout = open(''resultstatteamgamelogs.out'', ''w'')'
+              '        Read_Team_games_log()'
+            )
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet3: TTabSheet
+          Caption = 'TabSheet3'
+          ClientHeight = 154
+          ClientWidth = 431
+          object Memo8: TMemo
+            Left = 0
+            Height = 154
+            Top = 0
+            Width = 431
+            Align = alClient
+            Lines.Strings = (
+              'import os'
+              'import requests  #__version__ = ''2.18.4'''
+              'from bs4 import BeautifulSoup #__version__ = "4.0.0b"'
+              'import re'
+              'import urllib3'
+              'from requests.packages.urllib3.exceptions import InsecureRequestWarning'
+              'import sys'
+              ''
+              'requests.packages.urllib3.disable_warnings(InsecureRequestWarning)'
+              'urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)'
+              ''
+              'def Load_Settings():'
+              '    global url_player_stat, url_team_roster'
+              '    url_player_stat = url_team_roster = ''none'''
+              '    settings_1 = open(''settingsplayer.txt'', ''r'')'
+              '    my_string = settings_1.readlines()'
+              '    if my_string[0].strip() == ''1'':'
+              '        url_player_stat = my_string[1].strip()'
+              '    else: url_player_stat = ''none'''
+              ''
+              '    if my_string[2].strip() == ''1'':'
+              '        url_team_roster = my_string[3].strip()'
+              '    else:'
+              '        url_team_roster = ''none'''
+              ''
+              'def GetUrl():'
+              ' headers = {'
+              '  ''User-Agent'': ''Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'''
+              ' }'
+              ' if len(url_team_roster) > 5:'
+              '    r = requests.get(url_team_roster, headers=headers)'
+              '    with open(''teamroster.html'', ''w'', encoding=''utf-8'') as output_file:'
+              '        output_file.write(r.text)'
+              ''
+              ' if len(url_player_stat) > 5:'
+              '     r = requests.get(url_player_stat, headers=headers)'
+              '     with open(''statsplayer.html'', ''w'', encoding=''utf-8'') as output_file:'
+              '         output_file.write(r.text)'
+              ''
+              'def Read_Roster():'
+              '    team_roster = open(''teamroster.html'', ''r'')'
+              '    my_string2 = team_roster.read()'
+              '    soup = BeautifulSoup(my_string2, ''html.parser'')'
+              '    team_rosters1 = soup.find_all(''tr'', attrs={"class": "odd"})'
+              '    team_rosters2 = soup.find_all(''tr'', attrs={"class": "even"})'
+              '    for i in range(0, len(team_rosters2)):'
+              '        team_rosters1_td = team_rosters1[i].find_all(''td'')'
+              '        team_rosters2_td = team_rosters2[i].find_all(''td'')'
+              '        str_tr1 = '''''
+              '        for j in range(0, len(team_rosters1_td)):'
+              '            str_tr1 = str_tr1 + team_rosters1_td[j].text + '' ; '''
+              '        print(str_tr1)'
+              ''
+              '        str_tr2 = '''''
+              '        for j in range(0, len(team_rosters2_td)):'
+              '            str_tr2 = str_tr2 + team_rosters2_td[j].text + '' ; '''
+              '        print(str_tr2)'
+              ''
+              '    if len(team_rosters1)>len(team_rosters2):'
+              '        team_rosters1_td = team_rosters1[len(team_rosters1)-1].find_all(''td'')'
+              '        str_tr1 = '''''
+              '        for j in range(0, len(team_rosters1_td)):'
+              '            str_tr1 = str_tr1 + team_rosters1_td[j].text.strip() + '' ; '''
+              '        print(str_tr1)'
+              ''
+              'def Read_Stats_Player():'
+              '    team_player = open(''statsplayer.html'', ''r'')'
+              '    my_string2 = team_player.read()'
+              '    soup = BeautifulSoup(my_string2, ''html.parser'')'
+              '    team_stats_player = soup.find_all(''tr'')'
+              '    for i in range(0,len(team_stats_player)):'
+              '        team_stats_player_hr = team_stats_player[i].find_all(''td'')'
+              '        str_tr1 = '''''
+              '        for j in range(0, len(team_stats_player_hr)):'
+              '            str_tr1 = str_tr1 + team_stats_player_hr[j].text.strip() + '' ; '''
+              '        print(str_tr1)'
+              '    print(''ps-'')'
+              ''
+              ''
+              ''
+              'if __name__ == ''__main__'':'
+              '    Load_Settings()'
+              '    GetUrl()'
+              '    if len(url_team_roster) > 5:'
+              '        sys.stdout = open(''resultroster.out'', ''w'')'
+              '        Read_Roster()'
+              '    if len(url_player_stat) > 5:'
+              '        sys.stdout = open(''resultstatplayer.out'', ''w'')'
+              '        Read_Stats_Player()'
+            )
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet4: TTabSheet
+          Caption = 'TabSheet4'
+          ClientHeight = 154
+          ClientWidth = 431
+          object Memo9: TMemo
+            Left = 0
+            Height = 154
+            Top = 0
+            Width = 431
+            Align = alClient
+            Lines.Strings = (
+              'Memo1'
+            )
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet5: TTabSheet
+          Caption = 'TabSheet5'
+          ClientHeight = 154
+          ClientWidth = 431
+          object Memo10: TMemo
+            Left = 0
+            Height = 154
+            Top = 0
+            Width = 431
+            Align = alClient
+            Lines.Strings = (
+              'Memo1'
+            )
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+        object TabSheet11: TTabSheet
+          Caption = 'Run'
+          ClientHeight = 154
+          ClientWidth = 431
+          object Memo11: TMemo
+            Left = 0
+            Height = 154
+            Top = 0
+            Width = 431
+            Align = alClient
+            Lines.Strings = (
+              'Memo1'
+            )
+            ScrollBars = ssBoth
+            TabOrder = 0
+            WordWrap = False
+          end
+        end
+      end
+    end
+  end
+end

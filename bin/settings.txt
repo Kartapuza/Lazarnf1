@@ -1,0 +1,12 @@
+1
+http://www.nfl.com/scores
+0
+https://www.cbssports.com/nfl/powerrankings
+0
+http://www.espn.com/nfl/picks
+0
+https://www.cbssports.com/nfl/features/writers/expert/picks/straight-up
+0
+https://www.cbssports.com/nfl/features/writers/expert/picks
+0
+http://stats.bet365.chalkpartners.com/stats/schedule/football/nfl
