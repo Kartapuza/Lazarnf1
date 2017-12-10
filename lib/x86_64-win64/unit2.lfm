@@ -415,19 +415,19 @@ object Form2: TForm2
         Left = 1
         Height = 640
         Top = 24
-        Width = 159
+        Width = 223
         Align = alLeft
         ClientHeight = 640
-        ClientWidth = 159
+        ClientWidth = 223
         TabOrder = 2
         object Panel33: TPanel
           Left = 1
           Height = 38
           Top = 1
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 0
           object Image1: TImage
             Left = 1
@@ -573,7 +573,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image2: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -753,7 +753,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label5: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -765,10 +765,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 39
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 1
           object Image3: TImage
             Left = 1
@@ -779,7 +779,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image4: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -787,7 +787,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label6: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -799,10 +799,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 77
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 2
           object Image5: TImage
             Left = 1
@@ -813,7 +813,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image6: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -821,7 +821,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label7: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -833,10 +833,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 115
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 3
           object Image7: TImage
             Left = 1
@@ -1006,7 +1006,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image8: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1163,7 +1163,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label8: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1175,10 +1175,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 153
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 4
           object Image9: TImage
             Left = 1
@@ -1189,7 +1189,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image10: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1197,7 +1197,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label9: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1209,10 +1209,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 191
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 5
           object Image11: TImage
             Left = 1
@@ -1223,7 +1223,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image12: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1231,7 +1231,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label10: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1243,10 +1243,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 229
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 6
           object Image13: TImage
             Left = 1
@@ -1257,7 +1257,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image14: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1265,7 +1265,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label11: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1277,10 +1277,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 267
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 7
           object Image15: TImage
             Left = 1
@@ -1291,7 +1291,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image16: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1299,7 +1299,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label12: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1311,10 +1311,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 305
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 8
           object Image17: TImage
             Left = 1
@@ -1325,7 +1325,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image18: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1333,7 +1333,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label13: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1345,10 +1345,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 343
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 9
           object Image19: TImage
             Left = 1
@@ -1359,7 +1359,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image20: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1367,7 +1367,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label14: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1379,10 +1379,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 381
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 10
           object Image21: TImage
             Left = 1
@@ -1393,7 +1393,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image22: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1401,7 +1401,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label15: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1413,10 +1413,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 419
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 11
           object Image23: TImage
             Left = 1
@@ -1427,7 +1427,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image24: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1435,7 +1435,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label16: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1447,10 +1447,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 457
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 12
           object Image25: TImage
             Left = 1
@@ -1461,7 +1461,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image26: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1469,7 +1469,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label17: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1481,10 +1481,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 495
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 13
           object Image27: TImage
             Left = 1
@@ -1495,7 +1495,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image28: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1503,7 +1503,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label18: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1515,10 +1515,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 533
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 14
           object Image29: TImage
             Left = 1
@@ -1529,7 +1529,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image30: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1537,7 +1537,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label19: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1549,10 +1549,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 571
-          Width = 157
+          Width = 221
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 157
+          ClientWidth = 221
           TabOrder = 15
           object Image31: TImage
             Left = 1
@@ -1563,7 +1563,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Image32: TImage
-            Left = 109
+            Left = 173
             Height = 36
             Top = 1
             Width = 47
@@ -1571,7 +1571,7 @@ object Form2: TForm2
             Stretch = True
           end
           object Label20: TLabel
-            Left = 72
+            Left = 81
             Height = 15
             Top = 11
             Width = 10
@@ -1583,16 +1583,16 @@ object Form2: TForm2
           Left = 1
           Height = 30
           Top = 609
-          Width = 157
+          Width = 221
           Align = alClient
           TabOrder = 16
         end
       end
       object Panel49: TPanel
-        Left = 160
+        Left = 224
         Height = 640
         Top = 24
-        Width = 842
+        Width = 778
         Align = alClient
         Caption = 'Panel49'
         TabOrder = 3

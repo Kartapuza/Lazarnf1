@@ -15,6 +15,8 @@ type
   TForm4 = class(TForm)
     Button1: TButton;
     Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
     CheckBox1: TCheckBox;
     CheckBox10: TCheckBox;
     CheckBox2: TCheckBox;
@@ -76,6 +78,8 @@ type
     TabSheet9: TTabSheet;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
   private
     { private declarations }
   public
@@ -99,12 +103,62 @@ begin
     Form4.ComboBox1.Text := 'NoThing';
 end;
 
+Procedure PreLoadSettings;
+begin
+      Form4.Memo1.Lines.Strings[0]:= '0';
+      Form4.Memo1.Lines.Strings[2]:= '0';
+      Form4.Memo1.Lines.Strings[4]:= '0';
+      Form4.Memo1.Lines.Strings[6]:= '0';
+      Form4.Memo1.Lines.Strings[8]:= '0';
+      Form4.Memo1.Lines.Strings[10]:= '0';
+           Form4.Memo2.Lines.Strings[0]:= '0';
+           Form4.Memo2.Lines.Strings[2]:= '0';
+           Form4.Memo2.Lines.Strings[4]:= '0';
+           Form4.Memo2.Lines.Strings[6]:= '0';
+                      Form4.Memo3.Lines.Strings[0]:= '0';
+                      Form4.Memo3.Lines.Strings[2]:= '0';
+                      Form4.Memo3.Lines.Strings[4]:= '0';
+
+  if Form4.CheckBox1.Checked = True then
+   begin
+     Form4.Memo1.Lines.Strings[0]:= '1';
+     Form4.Memo1.Lines.Strings[1]:= Form4.CheckBox1.Hint + '/'+ Form4.Edit1.Text + '/REG' + Form4.Edit2.Text;
+   end;
+  if Form4.CheckBox2.Checked = True then
+   begin
+     Form4.Memo1.Lines.Strings[2]:= '1';
+     Form4.Memo1.Lines.Strings[3]:= Form4.CheckBox2.Hint;
+   end;
+  if Form4.CheckBox3.Checked = True then
+   begin
+     Form4.Memo1.Lines.Strings[4]:= '1';
+     Form4.Memo1.Lines.Strings[5]:= Form4.CheckBox3.Hint+'/' + Form4.Edit2.Text;;
+   end;
+  if Form4.CheckBox4.Checked = True then
+   begin
+     Form4.Memo1.Lines.Strings[6]:= '1';
+     Form4.Memo1.Lines.Strings[7]:= Form4.CheckBox4.Hint+'/' + Form4.Edit2.Text;;
+   end;
+  if Form4.CheckBox4.Checked = True then
+   begin
+     Form4.Memo1.Lines.Strings[6]:= '1';
+     Form4.Memo1.Lines.Strings[7]:= Form4.CheckBox4.Hint+'/' + Form4.Edit2.Text;;
+   end;
+  if Form4.CheckBox5.Checked = True then
+   begin
+     Form4.Memo1.Lines.Strings[8]:= '1';
+     Form4.Memo1.Lines.Strings[9]:= Form4.CheckBox5.Hint+'/' + Form4.Edit2.Text;;
+   end;
+
+end;
+
 procedure TForm4.Button1Click(Sender: TObject);
 var
   s: String;
 begin
    GetDir(0,s);
-   Memo11.Lines.Clear;
+
+  PreLoadSettings;
 
  if combobox1.Text = 'Load Week' then
   begin
@@ -116,7 +170,6 @@ begin
 
   Memo11.Lines.Add('cd '+ s +'\bin\');
   Memo11.Lines.Add('python '+ s+'\bin\py1.py');
-  //  Memo11.Lines.Add('pause');
 
   Memo11.Lines.SaveToFile(s+'\bin\cmd.bat');
 
@@ -147,19 +200,6 @@ var
 begin
     GetDir(0,s);
 
- if combobox1.Text = 'NoThing' then
-  begin
-   if CreateDir(s+'\bin\data\'+Edit2.Text) then
-    memo12.Lines.LoadFromFile(s+'\bin\data\'+Edit2.Text+'\result.out');
-  end;
-  { else
-  if CreateDir(s+'\bin\data\'+Edit2.Text) then;
-  begin
-  memo12.Lines.LoadFromFile(s+'\bin\result.out');
-  memo12.Lines.SaveToFile(s+'\bin\data\'+Edit2.Text+'\result.out');
-  end;
-  }
-
  if combobox1.Text = 'Load Week' then
   begin
   game := 1;
@@ -174,6 +214,38 @@ begin
     end;
 
   end;
+
+end;
+
+procedure TForm4.Button3Click(Sender: TObject);
+var
+  i: integer;
+  s: String;
+  game: integer;
+begin
+    GetDir(0,s);
+
+ if combobox1.Text = 'Load Week' then
+  begin
+  if CreateDir(s+'\bin\data\'+Edit1.Text) then;
+
+   if CreateDir(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text) then
+    begin
+     memo12.Lines.LoadFromFile(s+'\bin\result.out');
+     memo12.Lines.SaveToFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\result.out');
+    end
+     else
+    begin
+     memo12.Lines.LoadFromFile(s+'\bin\result.out');
+     memo12.Lines.SaveToFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\result.out');
+    end;
+
+   end;
+
+end;
+
+procedure TForm4.Button4Click(Sender: TObject);
+begin
 
 end;
 

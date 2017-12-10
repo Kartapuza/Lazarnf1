@@ -1,5 +1,5 @@
 1
-http://www.nfl.com/scores
+http://www.nfl.com/scores/2016/REG1
 0
 https://www.cbssports.com/nfl/powerrankings
 0

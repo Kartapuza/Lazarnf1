@@ -210,41 +210,56 @@ object Form4: TForm4
           object CheckBox1: TCheckBox
             Left = 6
             Height = 20
+            Hint = 'http://www.nfl.com/scores'
             Top = 6
             Width = 104
             Caption = 'nfl scores'
+            ParentShowHint = False
+            ShowHint = True
             TabOrder = 0
           end
           object CheckBox2: TCheckBox
             Left = 6
             Height = 19
+            Hint = 'https://www.cbssports.com/nfl/powerrankings'
             Top = 26
             Width = 104
             Caption = 'cbss pwr'
+            ParentShowHint = False
+            ShowHint = True
             TabOrder = 1
           end
           object CheckBox3: TCheckBox
             Left = 6
             Height = 19
+            Hint = 'http://www.espn.com/nfl/picks/_/week'
             Top = 45
             Width = 104
             Caption = 'espn picks'
+            ParentShowHint = False
+            ShowHint = True
             TabOrder = 2
           end
           object CheckBox4: TCheckBox
             Left = 6
             Height = 19
+            Hint = 'https://www.cbssports.com/nfl/features/writers/expert/picks/straight-up'
             Top = 64
             Width = 104
             Caption = 'cbss expert s-up'
+            ParentShowHint = False
+            ShowHint = True
             TabOrder = 3
           end
           object CheckBox5: TCheckBox
             Left = 6
             Height = 19
+            Hint = 'https://www.cbssports.com/nfl/features/writers/expert/picks/against-the-spread'
             Top = 83
             Width = 104
             Caption = 'cbss expert agn'
+            ParentShowHint = False
+            ShowHint = True
             TabOrder = 4
           end
         end
@@ -272,6 +287,8 @@ object Form4: TForm4
             Top = 6
             Width = 88
             Caption = 'all stat game'
+            ParentShowHint = False
+            ShowHint = True
             TabOrder = 0
           end
           object CheckBox7: TCheckBox
@@ -280,6 +297,8 @@ object Form4: TForm4
             Top = 22
             Width = 88
             Caption = 'team ranking'
+            ParentShowHint = False
+            ShowHint = True
             TabOrder = 1
           end
           object CheckBox8: TCheckBox
@@ -288,6 +307,8 @@ object Form4: TForm4
             Top = 38
             Width = 88
             Caption = 'game log'
+            ParentShowHint = False
+            ShowHint = True
             TabOrder = 2
           end
         end
@@ -315,6 +336,8 @@ object Form4: TForm4
             Top = 6
             Width = 88
             Caption = 'team stat'
+            ParentShowHint = False
+            ShowHint = True
             TabOrder = 0
           end
           object CheckBox10: TCheckBox
@@ -323,6 +346,8 @@ object Form4: TForm4
             Top = 18
             Width = 88
             Caption = 'roster stat'
+            ParentShowHint = False
+            ShowHint = True
             TabOrder = 1
           end
         end
@@ -332,9 +357,9 @@ object Form4: TForm4
         Height = 197
         Top = 1
         Width = 439
-        ActivePage = TabSheet7
+        ActivePage = TabSheet6
         Align = alClient
-        TabIndex = 1
+        TabIndex = 0
         TabOrder = 1
         object TabSheet6: TTabSheet
           Caption = 'TabSheet1'
@@ -473,6 +498,24 @@ object Form4: TForm4
           Caption = 'Run'
           OnClick = Button1Click
           TabOrder = 0
+        end
+        object Button3: TButton
+          Left = 16
+          Height = 25
+          Top = 32
+          Width = 75
+          Caption = 'Save Result '
+          OnClick = Button3Click
+          TabOrder = 1
+        end
+        object Button4: TButton
+          Left = 16
+          Height = 25
+          Top = 56
+          Width = 75
+          Caption = 'Load Week'
+          OnClick = Button4Click
+          TabOrder = 2
         end
       end
       object PageControl1: TPageControl
@@ -1037,11 +1080,11 @@ object Form4: TForm4
         end
         object TabSheet5: TTabSheet
           Caption = 'TabSheet5'
-          ClientHeight = 154
+          ClientHeight = 162
           ClientWidth = 431
           object Memo10: TMemo
             Left = 0
-            Height = 154
+            Height = 162
             Top = 0
             Width = 431
             Align = alClient
