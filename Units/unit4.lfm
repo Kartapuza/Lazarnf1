@@ -6,7 +6,7 @@ object Form4: TForm4
   Caption = 'Parse lab'
   ClientHeight = 627
   ClientWidth = 788
-  LCLVersion = '1.6.2.0'
+  LCLVersion = '1.8.0.6'
   object Panel1: TPanel
     Left = 0
     Height = 627
@@ -154,6 +154,15 @@ object Form4: TForm4
           Caption = 'Parse'
           OnClick = Button2Click
           TabOrder = 0
+        end
+        object Button5: TButton
+          Left = 16
+          Height = 25
+          Top = 32
+          Width = 75
+          Caption = 'Draw'
+          OnClick = Button5Click
+          TabOrder = 1
         end
       end
     end

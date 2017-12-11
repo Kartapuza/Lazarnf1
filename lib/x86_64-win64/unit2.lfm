@@ -7,7 +7,7 @@ object Form2: TForm2
   ClientHeight = 802
   ClientWidth = 1091
   OnResize = FormResize
-  LCLVersion = '1.6.2.0'
+  LCLVersion = '1.8.0.6'
   object Panel1: TPanel
     Left = 0
     Height = 802
@@ -435,6 +435,7 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
             Picture.Data = {
               1754506F727461626C654E6574776F726B477261706869637010000089504E47
               0D0A1A0A0000000D49484452000000520000003708060000009F151D72000000
@@ -570,6 +571,7 @@ object Form2: TForm2
               3EC7BE3AA1BEFFF303076584BF91BE0903E78EED7F020C0080BDAB95B9038964
               0000000049454E44AE426082
             }
+            ShowHint = True
             Stretch = True
           end
           object Image2: TImage
@@ -578,6 +580,7 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
             Picture.Data = {
               1754506F727461626C654E6574776F726B477261706869630D15000089504E47
               0D0A1A0A0000000D49484452000000520000003708060000009F151D72000000
@@ -750,10 +753,11 @@ object Form2: TForm2
               565995B063C70E993469D231ABB3E67BFE578001006A71B1217B1997D8000000
               0049454E44AE426082
             }
+            ShowHint = True
             Stretch = True
           end
           object Label5: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -776,6 +780,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image4: TImage
@@ -784,10 +790,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label6: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -810,6 +818,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image6: TImage
@@ -818,10 +828,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label7: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -844,6 +856,7 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
             Picture.Data = {
               1754506F727461626C654E6574776F726B477261706869637C13000089504E47
               0D0A1A0A0000000D49484452000000520000003708060000009F151D72000000
@@ -1003,6 +1016,7 @@ object Form2: TForm2
               6B32D4ABD88ACFFE9AD06CC68F4D5945887DEEDEBFA3EECEE61FFC7F787175DE
               FF2FC00051666F42F754225F0000000049454E44AE426082
             }
+            ShowHint = True
             Stretch = True
           end
           object Image8: TImage
@@ -1011,6 +1025,7 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
             Picture.Data = {
               1754506F727461626C654E6574776F726B477261706869634212000089504E47
               0D0A1A0A0000000D49484452000000520000003708060000009F151D72000000
@@ -1160,10 +1175,11 @@ object Form2: TForm2
               10B861DE9B40C37A41CC6496EFB1F785F11D1F000AA551515121EBF73973E6C4
               3D56FCAFACFC5F800100D3B545DC58AFA4A40000000049454E44AE426082
             }
+            ShowHint = True
             Stretch = True
           end
           object Label8: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1186,6 +1202,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image10: TImage
@@ -1194,10 +1212,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label9: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1220,6 +1240,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image12: TImage
@@ -1228,10 +1250,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label10: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1254,6 +1278,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image14: TImage
@@ -1262,10 +1288,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label11: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1288,6 +1316,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image16: TImage
@@ -1296,10 +1326,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label12: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1322,6 +1354,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image18: TImage
@@ -1330,10 +1364,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label13: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1356,6 +1392,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image20: TImage
@@ -1364,10 +1402,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label14: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1390,6 +1430,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image22: TImage
@@ -1398,10 +1440,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label15: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1424,6 +1468,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image24: TImage
@@ -1432,10 +1478,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label16: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1458,6 +1506,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image26: TImage
@@ -1466,10 +1516,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label17: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1492,6 +1544,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image28: TImage
@@ -1500,10 +1554,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label18: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1526,6 +1582,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image30: TImage
@@ -1534,10 +1592,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label19: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
@@ -1560,6 +1620,8 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alLeft
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Image32: TImage
@@ -1568,10 +1630,12 @@ object Form2: TForm2
             Top = 1
             Width = 47
             Align = alRight
+            ParentShowHint = False
+            ShowHint = True
             Stretch = True
           end
           object Label20: TLabel
-            Left = 81
+            Left = 97
             Height = 15
             Top = 11
             Width = 10
