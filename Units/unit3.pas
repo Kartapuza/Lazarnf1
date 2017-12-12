@@ -196,7 +196,7 @@ Function Painter(sPic:string; iPic:integer): TPicture;
 var
 xx1: integer;
 begin
- for xx1:=0 to 8 do
+ for xx1:=0 to 13 do
  begin
   if sPic=Form3.memo32.Lines.Strings[xx1] then begin
   //DAL

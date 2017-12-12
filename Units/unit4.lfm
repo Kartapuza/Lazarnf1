@@ -6,7 +6,7 @@ object Form4: TForm4
   Caption = 'Parse lab'
   ClientHeight = 627
   ClientWidth = 788
-  LCLVersion = '1.8.0.6'
+  LCLVersion = '1.6.2.0'
   object Panel1: TPanel
     Left = 0
     Height = 627
@@ -123,11 +123,11 @@ object Form4: TForm4
         end
         object TabSheet15: TTabSheet
           Caption = 'TabSheet15'
-          ClientHeight = 119
+          ClientHeight = 204
           ClientWidth = 431
           object Memo15: TMemo
             Left = 0
-            Height = 119
+            Height = 204
             Top = 0
             Width = 431
             Align = alClient
@@ -194,6 +194,7 @@ object Form4: TForm4
           Items.Strings = (
             'NoThing'
             'Load Week'
+            'Load Exp_e'
           )
           TabOrder = 0
           Text = 'NoThing'

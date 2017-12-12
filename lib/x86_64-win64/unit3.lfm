@@ -20,9 +20,9 @@ object Form3: TForm3
     Height = 387
     Top = 0
     Width = 654
-    ActivePage = TabSheet32
+    ActivePage = TabSheet15
     Align = alClient
-    TabIndex = 31
+    TabIndex = 14
     TabOrder = 1
     OnChange = PageControl1Change
     object TabSheet1: TTabSheet
@@ -3898,7 +3898,7 @@ object Form3: TForm3
       end
       object Memo20: TMemo
         Left = 8
-        Height = 184
+        Height = 200
         Top = 128
         Width = 298
         Lines.Strings = (
@@ -3908,6 +3908,7 @@ object Form3: TForm3
           'SD'
           'SD"'
           'Los Angeles Chargers'
+          'Chargers Los Angeles'
           'Лос-Анджелес Чарджерз'
           'San Diego Chargers'
           'Сан-Диего Чарджерз'
@@ -4315,12 +4316,13 @@ object Form3: TForm3
           'Rams'
           'L.A. Rams'
           'LA'
-          'STL'
+          'Rams Los Angeles'
           'STL'
           'Los Angeles Rams'
           'Сент-Луис Рэмз'
           'St. Louis Rams'
           'Лос-Анджелес Рамс'
+          'Rams Los Angeles'
           'Сент-Луис Рэмз'
           'St. Louis'
           'Rams St. Louis'
@@ -5014,7 +5016,7 @@ object Form3: TForm3
           'Seahawks'
           'Seattle'
           'SEA'
-          'SEA'
+          'Seahawks Seattle'
           'SEA'
           'Seattle Seahawks'
           'Сиэтл Сихоукс'

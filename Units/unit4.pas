@@ -439,9 +439,9 @@ end;
 
 procedure TForm4.Button2Click(Sender: TObject);
 var
-  i: integer;
+  i, ii: integer;
   s: String;
-  game, score: integer;
+  game, score, epick: integer;
 begin
     GetDir(0,s);
 
@@ -450,7 +450,8 @@ begin
   game := 0;
   score := 5;
 
-    for i := 0 to memo12.Lines.Count-1 do begin
+    for i := 0 to memo12.Lines.Count-1 do
+    begin
        if memo12.Lines.Strings[i] = 's--' then
         begin
         inc(game);
@@ -468,6 +469,28 @@ begin
          inc(score);
 
         end;
+    end;
+  end;
+
+ if combobox1.Text = 'Load Exp_e' then
+  begin
+  epick := 33;
+
+    for i := 0 to memo12.Lines.Count-1 do
+    begin
+       if ((memo12.Lines.Strings[i] = 'e--') and (length(memo12.Lines.Strings[i+1])>3)) then
+        begin
+
+         for ii:=1 to 12 do
+         begin
+              with TImage(Form2.FindComponent('Image'+ IntToStr(epick))) do
+              if length(memo12.Lines.Strings[i+ii]) > 3 then
+              Hint := memo12.Lines.Strings[i+ii];
+              epick:=epick+1;
+         end;
+
+        end;
+
     end;
 
   end;
@@ -523,12 +546,23 @@ procedure TForm4.Button5Click(Sender: TObject);
 var
   i: integer;
 begin
- for i := 1 to 32 do
- begin
-  with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
-   Picture := Painter(Hint,2);
-  //Form2.Image1.Picture := Painter(Form2.Image1.Hint,2);
- end;
+ if combobox1.Text = 'Load Week' then
+  begin
+   for i := 1 to 32 do
+   begin
+    with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+    Picture := Painter(Hint,2);
+   end;
+  end;
+
+ if combobox1.Text = 'Load Exp_e' then
+  begin
+   for i := 33 to 224 do
+   begin
+    with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+    if length(Hint) > 0 then Picture := Painter(Hint,1);
+   end;
+  end;
 
 end;
 
