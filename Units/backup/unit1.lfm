@@ -3,7 +3,7 @@ object Form1: TForm1
   Height = 226
   Top = 356
   Width = 436
-  Caption = 'About'
+  Caption = 'BetsNFLscout'
   ClientHeight = 226
   ClientWidth = 436
   LCLVersion = '1.6.2.0'

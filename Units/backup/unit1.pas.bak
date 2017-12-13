@@ -29,6 +29,8 @@ var
 
 implementation
 
+uses form4;
+
 {$R *.lfm}
 
 { TForm1 }

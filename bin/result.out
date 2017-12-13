@@ -1,147 +1,138 @@
 s--
-Broncos
-(4-9-0)
---
-_ _ _ _ 
-Colts
-(3-10-0)
---
-_ _ _ _ 
-s--
-Bears
-(4-9-0)
---
-_ _ _ _ 
-Lions
-(7-6-0)
---
-_ _ _ _ 
-s--
-Chargers
-(7-6-0)
---
-_ _ _ _ 
 Chiefs
-(7-6-0)
---
-_ _ _ _ 
+(1-0-0)
+42
+7 7 7 21 
+Patriots
+(0-1-0)
+27
+7 10 10 0 
 s--
-Ravens
-(7-6-0)
---
-_ _ _ _ 
+Steelers
+(1-0-0)
+21
+7 7 7 0 
 Browns
-(0-13-0)
---
-_ _ _ _ 
+(0-1-0)
+18
+7 0 3 8 
 s--
 Cardinals
-(6-7-0)
---
-_ _ _ _ 
-Redskins
-(5-8-0)
---
-_ _ _ _ 
+(0-1-0)
+23
+10 0 7 6 
+Lions
+(1-0-0)
+35
+0 9 6 20 
+s--
+Jaguars
+(1-0-0)
+29
+3 16 7 3 
+Texans
+(0-1-0)
+7
+0 0 7 0 
+s--
+Raiders
+(1-0-0)
+26
+7 6 3 10 
+Titans
+(0-1-0)
+16
+7 3 3 3 
 s--
 Eagles
-(11-2-0)
---
-_ _ _ _ 
-Giants
-(2-11-0)
---
-_ _ _ _ 
+(1-0-0)
+30
+7 9 3 11 
+Redskins
+(0-1-0)
+17
+0 14 3 0 
 s--
-Dolphins
-(6-7-0)
---
-_ _ _ _ 
-Bills
-(7-6-0)
---
-_ _ _ _ 
-s--
-Packers
-(7-6-0)
---
-_ _ _ _ 
-Panthers
-(9-4-0)
---
-_ _ _ _ 
-s--
-Texans
-(4-9-0)
---
-_ _ _ _ 
-Jaguars
-(9-4-0)
---
-_ _ _ _ 
-s--
+Ravens
+(1-0-0)
+20
+3 14 3 0 
 Bengals
-(5-8-0)
---
-_ _ _ _ 
-Vikings
-(10-3-0)
---
-_ _ _ _ 
-s--
-Jets
-(5-8-0)
---
-_ _ _ _ 
-Saints
-(9-4-0)
---
-_ _ _ _ 
-s--
-Rams
-(9-4-0)
---
-_ _ _ _ 
-Seahawks
-(8-5-0)
---
-_ _ _ _ 
-s--
-Patriots
-(10-3-0)
---
-_ _ _ _ 
-Steelers
-(11-2-0)
---
-_ _ _ _ 
-s--
-Titans
-(8-5-0)
---
-_ _ _ _ 
-49ers
-(3-10-0)
---
-_ _ _ _ 
-s--
-Cowboys
-(7-6-0)
---
-_ _ _ _ 
-Raiders
-(6-7-0)
---
-_ _ _ _ 
+(0-1-0)
+0
+0 0 0 0 
 s--
 Falcons
-(8-5-0)
---
-_ _ _ _ 
-Buccaneers
-(4-9-0)
---
-_ _ _ _ 
+(1-0-0)
+23
+3 7 3 10 
+Bears
+(0-1-0)
+17
+0 10 0 7 
+s--
+Jets
+(0-1-0)
+12
+0 6 6 0 
+Bills
+(1-0-0)
+21
+0 7 7 7 
+s--
+Colts
+(0-1-0)
+9
+3 0 0 6 
+Rams
+(1-0-0)
+46
+10 17 10 9 
+s--
+Seahawks
+(0-1-0)
+9
+0 3 3 3 
+Packers
+(1-0-0)
+17
+0 0 14 3 
+s--
+Panthers
+(1-0-0)
+23
+7 6 10 0 
+49ers
+(0-1-0)
+3
+0 0 3 0 
+s--
+Giants
+(0-1-0)
+3
+0 0 3 0 
+Cowboys
+(1-0-0)
+19
+3 13 0 3 
+s--
+Saints
+(0-1-0)
+19
+3 3 3 10 
+Vikings
+(1-0-0)
+29
+3 13 3 10 
+s--
+Chargers
+(0-1-0)
+21
+0 7 0 14 
+Broncos
+(1-0-0)
+24
+7 7 10 0 
 p--
 1
 +1
@@ -338,23 +329,23 @@ e--
 e--
 e--
 e--
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Falcons Atlanta
-Saints New Orleans
-Saints New Orleans
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
-Saints New Orleans
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
 e--
-Colts Indianapolis
 Bills Buffalo
-Colts Indianapolis
 Bills Buffalo
-Colts Indianapolis
+Bills Buffalo
+Bills Buffalo
+Bills Buffalo
 Bills Buffalo
 Bills Buffalo
 Bills Buffalo
@@ -362,173 +353,477 @@ Bills Buffalo
 Bills Buffalo
 Bills Buffalo
 e--
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
+Bears Chicago
+Falcons Atlanta
+Bears Chicago
+Bears Chicago
+e--
+Ravens Baltimore
+Bengals Cincinnati
+Bengals Cincinnati
+Bengals Cincinnati
+Bengals Cincinnati
+Bengals Cincinnati
+Bengals Cincinnati
+Bengals Cincinnati
+Bengals Cincinnati
+Bengals Cincinnati
+Bengals Cincinnati
+e--
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+e--
+Cardinals Arizona
+Cardinals Arizona
+Cardinals Arizona
+Lions Detroit
+Cardinals Arizona
+Cardinals Arizona
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Cardinals Arizona
+e--
+Texans Houston
+Texans Houston
+Texans Houston
+Texans Houston
+Texans Houston
+Texans Houston
+Texans Houston
+Texans Houston
+Texans Houston
+Texans Houston
+Texans Houston
+e--
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
+Dolphins Miami
+e--
+Raiders Oakland
+Titans Tennessee
+Titans Tennessee
+Raiders Oakland
+Raiders Oakland
+Titans Tennessee
+Raiders Oakland
+Titans Tennessee
+Titans Tennessee
+Titans Tennessee
+Raiders Oakland
+e--
+Redskins Washington
+Redskins Washington
+Eagles Philadelphia
+Eagles Philadelphia
+Redskins Washington
+Eagles Philadelphia
+Redskins Washington
+Redskins Washington
+Redskins Washington
+Eagles Philadelphia
+Redskins Washington
+e--
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+e--
+Packers Green Bay
+Packers Green Bay
+Seahawks Seattle
+Packers Green Bay
+Seahawks Seattle
+Packers Green Bay
+Packers Green Bay
+Packers Green Bay
+Packers Green Bay
+Packers Green Bay
+Packers Green Bay
+e--
 Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+49ers San Francisco
+49ers San Francisco
+Panthers Carolina
+Panthers Carolina
+e--
+Giants New York
+Cowboys Dallas
+Giants New York
+Giants New York
+Giants New York
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+e--
 Vikings Minnesota
 Vikings Minnesota
+Saints New Orleans
+Saints New Orleans
+Saints New Orleans
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Saints New Orleans
+Saints New Orleans
 e--
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-e--
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-e--
-Texans Houston
-Texans Houston
-Texans Houston
-Texans Houston
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-Texans Houston
-Texans Houston
-Texans Houston
-e--
-Chiefs Kansas City
-Chiefs Kansas City
-Chiefs Kansas City
-Raiders Oakland
-Raiders Oakland
-Chiefs Kansas City
-Chiefs Kansas City
-Chiefs Kansas City
-Chiefs Kansas City
-Chiefs Kansas City
-Chiefs Kansas City
-e--
-Lions Detroit
-Buccaneers Tampa Bay
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Buccaneers Tampa Bay
-Buccaneers Tampa Bay
-Lions Detroit
-Lions Detroit
-Lions Detroit
-e--
-Cowboys Dallas
-Cowboys Dallas
-Cowboys Dallas
-Cowboys Dallas
-Cowboys Dallas
-Cowboys Dallas
-Cowboys Dallas
-Giants New York
-Giants New York
-Giants New York
-Cowboys Dallas
-e--
-Titans Tennessee
-Titans Tennessee
-Cardinals Arizona
-Cardinals Arizona
-Titans Tennessee
-Titans Tennessee
-Cardinals Arizona
-Titans Tennessee
-Cardinals Arizona
-Titans Tennessee
-Titans Tennessee
-e--
-Jets New York
-Jets New York
 Broncos Denver
-Jets New York
-Jets New York
-Jets New York
-Jets New York
-Jets New York
+Chargers Los Angeles
+Broncos Denver
+Chargers Los Angeles
+Chargers Los Angeles
+Chargers Los Angeles
 Broncos Denver
 Broncos Denver
-Jets New York
-e--
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-e--
-Seahawks Seattle
-Jaguars Jacksonville
-Seahawks Seattle
-Jaguars Jacksonville
-Seahawks Seattle
-Seahawks Seattle
-Jaguars Jacksonville
-Jaguars Jacksonville
-Seahawks Seattle
-Jaguars Jacksonville
-Seahawks Seattle
-e--
-Eagles Philadelphia
-Rams Los Angeles
-Eagles Philadelphia
-Eagles Philadelphia
-Eagles Philadelphia
-Eagles Philadelphia
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Eagles Philadelphia
-e--
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-e--
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
+Broncos Denver
+Broncos Denver
+Broncos Denver
 e--
 e--
 c--
+NE
+NE
+NE
+NE
+NE
+NE
+NE
+NE
+BUF
+BUF
+BUF
+BUF
+BUF
+BUF
+BUF
+BUF
+WAS
+PHI
+PHI
+WAS
+PHI
+PHI
+WAS
+PHI
+ARI
+DET
+ARI
+DET
+ARI
+DET
+ARI
+ARI
+ATL
+ATL
+ATL
+ATL
+ATL
+ATL
+ATL
+ATL
+TEN
+TEN
+TEN
+TEN
+TEN
+TEN
+TEN
+TEN
+HOU
+HOU
+HOU
+HOU
+HOU
+HOU
+HOU
+HOU
+PIT
+PIT
+PIT
+PIT
+PIT
+PIT
+PIT
+PIT
+CIN
+CIN
+CIN
+CIN
+CIN
+CIN
+CIN
+BAL
+MIA
+TB
+MIA
+TB
+TB
+MIA
+TB
+TB
+LAR
+LAR
+LAR
+IND
+LAR
+LAR
+LAR
+LAR
+CAR
+CAR
+CAR
+CAR
+CAR
+SF
+SF
+CAR
+GB
+SEA
+GB
+GB
+GB
+GB
+SEA
+GB
+NYG
+NYG
+DAL
+DAL
+DAL
+DAL
+NYG
+NYG
+MIN
+NO
+MIN
+NO
+MIN
+MIN
+MIN
+MIN
+DEN
+LAC
+LAC
+LAC
+DEN
+LAC
+LAC
+DEN
+L--
+-9NE
+a--
+NE
+NE
+KC
+NE
+NE
+NE
+NE
+NE
+L--
+-8BUF
+a--
+NYJ
+BUF
+NYJ
+NYJ
+BUF
+NYJ
+BUF
+NYJ
+L--
++1WAS
+a--
+WAS
+PHI
+PHI
+WAS
+PHI
+PHI
+WAS
+PHI
+L--
++1.5DET
+a--
+ARI
+DET
+ARI
+ARI
+ARI
+DET
+ARI
+ARI
+L--
++7CHI
+a--
+ATL
+ATL
+CHI
+ATL
+ATL
+ATL
+CHI
+CHI
+L--
+-2TEN
+a--
+TEN
+TEN
+TEN
+TEN
+TEN
+TEN
+TEN
+TEN
+L--
+-5.5HOU
+a--
+JAC
+HOU
+HOU
+HOU
+JAC
+HOU
+HOU
+HOU
+L--
++8.5CLE
+a--
+CLE
+PIT
+CLE
+PIT
+CLE
+CLE
+CLE
+CLE
+L--
+-3CIN
+a--
+CIN
+CIN
+CIN
+CIN
+CIN
+CIN
+CIN
+BAL
+L--
++2.5MIA
+a--
+MIA
+TB
+MIA
+TB
+TB
+MIA
+TB
+TB
+L--
+-3.5LAR
+a--
+LAR
+LAR
+LAR
+IND
+LAR
+LAR
+LAR
+LAR
+L--
++5.5SF
+a--
+CAR
+SF
+SF
+CAR
+SF
+SF
+SF
+CAR
+L--
+-3GB
+a--
+GB
+SEA
+GB
+GB
+SEA
+GB
+SEA
+GB
+L--
+-3.5DAL
+a--
+NYG
+NYG
+NYG
+DAL
+DAL
+NYG
+NYG
+NYG
+L--
+-3.5MIN
+a--
+NO
+NO
+NO
+NO
+NO
+NO
+NO
+MIN
+L--
+-3.5DEN
+a--
+LAC
+LAC
+LAC
+LAC
+LAC
+LAC
+LAC
+LAC

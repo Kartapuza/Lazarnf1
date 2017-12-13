@@ -29,6 +29,8 @@ var
 
 implementation
 
+uses unit4;
+
 {$R *.lfm}
 
 { TForm1 }
@@ -36,6 +38,7 @@ implementation
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   Form2.Show;
+  form4.Button7.Click;
 end;
 
 end.

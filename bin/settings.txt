@@ -1,12 +1,12 @@
 1
-http://www.nfl.com/scores/2017/REG15
+http://www.nfl.com/scores/2017/REG1
 1
 https://www.cbssports.com/nfl/powerrankings
 1
-http://www.espn.com/nfl/picks/_/week/15
+http://www.espn.com/nfl/picks/_/week/1
 1
-https://www.cbssports.com/nfl/features/writers/expert/picks/straight-up/15
+https://www.cbssports.com/nfl/features/writers/expert/picks/straight-up/1
 1
-https://www.cbssports.com/nfl/features/writers/expert/picks/against-the-spread/15
+https://www.cbssports.com/nfl/features/writers/expert/picks/against-the-spread/1
 0
 http://stats.bet365.chalkpartners.com/stats/schedule/football/nfl

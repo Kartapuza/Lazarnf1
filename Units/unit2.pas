@@ -361,7 +361,9 @@ type
     procedure Image44Click(Sender: TObject);
     procedure Label3DblClick(Sender: TObject);
     procedure Label4DblClick(Sender: TObject);
+    procedure Label6Click(Sender: TObject);
     procedure Panel15Click(Sender: TObject);
+    procedure Panel34Click(Sender: TObject);
     procedure Panel49Click(Sender: TObject);
     procedure Panel5Click(Sender: TObject);
     procedure Panel6Click(Sender: TObject);
@@ -476,6 +478,11 @@ begin
   Form4.Show;
 end;
 
+procedure TForm2.Label6Click(Sender: TObject);
+begin
+
+end;
+
 procedure TForm2.Panel15Click(Sender: TObject);
 var
 jj: integer;
@@ -497,6 +504,14 @@ for jj:=15 to 31 do begin
 
 
 //загрузка     form3.Button1.Click;
+
+form4.Button7.Click;
+
+end;
+
+procedure TForm2.Panel34Click(Sender: TObject);
+begin
+
 end;
 
 procedure TForm2.Panel49Click(Sender: TObject);

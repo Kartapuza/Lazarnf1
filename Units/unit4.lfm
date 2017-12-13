@@ -164,6 +164,24 @@ object Form4: TForm4
           OnClick = Button5Click
           TabOrder = 1
         end
+        object Button6: TButton
+          Left = 16
+          Height = 25
+          Top = 96
+          Width = 75
+          Caption = 'Style fix'
+          OnClick = Button6Click
+          TabOrder = 2
+        end
+        object Button7: TButton
+          Left = 16
+          Height = 25
+          Top = 72
+          Width = 75
+          Caption = 'Reset Canvas'
+          OnClick = Button7Click
+          TabOrder = 3
+        end
       end
     end
     object Panel4: TPanel

@@ -15,6 +15,7 @@ type
   TForm3 = class(TForm)
     Image1: TImage;
     Image10: TImage;
+    Image100: TImage;
     Image11: TImage;
     Image12: TImage;
     Image13: TImage;
@@ -109,6 +110,9 @@ type
     Image94: TImage;
     Image95: TImage;
     Image96: TImage;
+    Image97: TImage;
+    Image98: TImage;
+    Image99: TImage;
     Memo1: TMemo;
     Memo10: TMemo;
     Memo11: TMemo;
@@ -135,6 +139,7 @@ type
     Memo30: TMemo;
     Memo31: TMemo;
     Memo32: TMemo;
+    Memo33: TMemo;
     Memo4: TMemo;
     Memo5: TMemo;
     Memo6: TMemo;
@@ -169,6 +174,7 @@ type
     TabSheet30: TTabSheet;
     TabSheet31: TTabSheet;
     TabSheet32: TTabSheet;
+    TabSheet33: TTabSheet;
     TabSheet4: TTabSheet;
     TabSheet5: TTabSheet;
     TabSheet6: TTabSheet;
@@ -198,6 +204,13 @@ xx1: integer;
 begin
  for xx1:=0 to 13 do
  begin
+  if sPic=Form3.memo33.Lines.Strings[xx1] then begin
+  //Zero
+    if iPic=1 then begin Result:=Form3.Image98.Picture; break; end;
+    if iPic=2 then begin Result:=Form3.Image99.Picture; break;; end;
+    if iPic=3 then begin Result:=Form3.Image100.Picture; break; end;
+                                               end;
+
   if sPic=Form3.memo32.Lines.Strings[xx1] then begin
   //DAL
     if iPic=1 then begin Result:=Form3.Image94.Picture; break; end;
@@ -433,6 +446,7 @@ begin
                                                end;
 
    end;
+
 
 end;
 

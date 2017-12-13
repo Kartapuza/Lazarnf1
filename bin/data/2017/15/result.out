@@ -338,197 +338,353 @@ e--
 e--
 e--
 e--
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Falcons Atlanta
-Saints New Orleans
-Saints New Orleans
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
-Saints New Orleans
+Colts Indianapolis
+Colts Indianapolis
+Broncos Denver
 e--
-Colts Indianapolis
-Bills Buffalo
-Colts Indianapolis
-Bills Buffalo
-Colts Indianapolis
-Bills Buffalo
-Bills Buffalo
-Bills Buffalo
+Lions Detroit
+Lions Detroit
+Lions Detroit
+e--
+Chargers Los Angeles
+Chargers Los Angeles
+Chargers Los Angeles
+e--
 Bills Buffalo
 Bills Buffalo
 Bills Buffalo
 e--
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
 Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+e--
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+e--
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+e--
 Vikings Minnesota
 Vikings Minnesota
+Vikings Minnesota
 e--
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
-Bengals Cincinnati
+Saints New Orleans
+Saints New Orleans
+Saints New Orleans
 e--
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
-Packers Green Bay
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
 e--
-Texans Houston
-Texans Houston
-Texans Houston
-Texans Houston
+Redskins Washington
+Cardinals Arizona
+Redskins Washington
+e--
+Seahawks Seattle
+Seahawks Seattle
+Rams Los Angeles
+e--
+Patriots New England
+Patriots New England
+Steelers Pittsburgh
+e--
 49ers San Francisco
 49ers San Francisco
 49ers San Francisco
-49ers San Francisco
-Texans Houston
-Texans Houston
-Texans Houston
-e--
-Chiefs Kansas City
-Chiefs Kansas City
-Chiefs Kansas City
-Raiders Oakland
-Raiders Oakland
-Chiefs Kansas City
-Chiefs Kansas City
-Chiefs Kansas City
-Chiefs Kansas City
-Chiefs Kansas City
-Chiefs Kansas City
-e--
-Lions Detroit
-Buccaneers Tampa Bay
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Lions Detroit
-Buccaneers Tampa Bay
-Buccaneers Tampa Bay
-Lions Detroit
-Lions Detroit
-Lions Detroit
 e--
 Cowboys Dallas
 Cowboys Dallas
 Cowboys Dallas
-Cowboys Dallas
-Cowboys Dallas
-Cowboys Dallas
-Cowboys Dallas
-Giants New York
-Giants New York
-Giants New York
-Cowboys Dallas
 e--
-Titans Tennessee
-Titans Tennessee
-Cardinals Arizona
-Cardinals Arizona
-Titans Tennessee
-Titans Tennessee
-Cardinals Arizona
-Titans Tennessee
-Cardinals Arizona
-Titans Tennessee
-Titans Tennessee
-e--
-Jets New York
-Jets New York
-Broncos Denver
-Jets New York
-Jets New York
-Jets New York
-Jets New York
-Jets New York
-Broncos Denver
-Broncos Denver
-Jets New York
-e--
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-e--
-Seahawks Seattle
-Jaguars Jacksonville
-Seahawks Seattle
-Jaguars Jacksonville
-Seahawks Seattle
-Seahawks Seattle
-Jaguars Jacksonville
-Jaguars Jacksonville
-Seahawks Seattle
-Jaguars Jacksonville
-Seahawks Seattle
-e--
-Eagles Philadelphia
-Rams Los Angeles
-Eagles Philadelphia
-Eagles Philadelphia
-Eagles Philadelphia
-Eagles Philadelphia
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Rams Los Angeles
-Eagles Philadelphia
-e--
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-e--
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-Patriots New England
-e--
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
 e--
 c--
+DEN
+DEN
+IND
+IND
+DEN
+IND
+DEN
+spacer
+DET
+CHI
+DET
+DET
+CHI
+DET
+DET
+spacer
+LAC
+LAC
+LAC
+LAC
+LAC
+LAC
+KC
+spacer
+NO
+NO
+NO
+NO
+NO
+NO
+NO
+spacer
+WAS
+ARI
+WAS
+WAS
+WAS
+WAS
+ARI
+spacer
+PHI
+NYG
+PHI
+PHI
+PHI
+PHI
+PHI
+spacer
+CAR
+CAR
+CAR
+GB
+CAR
+CAR
+CAR
+spacer
+BAL
+CLE
+BAL
+BAL
+BAL
+BAL
+BAL
+spacer
+MIN
+MIN
+MIN
+MIN
+MIN
+MIN
+MIN
+spacer
+JAC
+JAC
+JAC
+JAC
+JAC
+JAC
+JAC
+spacer
+SEA
+SEA
+SEA
+SEA
+LAR
+SEA
+SEA
+spacer
+NE
+NE
+NE
+NE
+NE
+PIT
+PIT
+spacer
+SF
+SF
+SF
+TEN
+SF
+SF
+SF
+spacer
+OAK
+DAL
+OAK
+DAL
+DAL
+DAL
+OAK
+spacer
+ATL
+ATL
+ATL
+ATL
+ATL
+ATL
+ATL
+spacer
+L--
++2.5IND
+a--
+DEN
+DEN
+IND
+IND
+DEN
+IND
+DEN
+
+L--
+-5.5DET
+a--
+CHI
+CHI
+DET
+DET
+CHI
+CHI
+CHI
+
+L--
++1.5KC
+a--
+LAC
+LAC
+LAC
+LAC
+KC
+LAC
+KC
+
+L--
+-16NO
+a--
+NO
+NO
+NO
+NO
+NYJ
+NO
+NO
+
+L--
+-4.5WAS
+a--
+WAS
+ARI
+WAS
+WAS
+ARI
+WAS
+ARI
+
+L--
++7.5NYG
+a--
+NYG
+NYG
+NYG
+PHI
+NYG
+NYG
+PHI
+
+L--
+-3CAR
+a--
+CAR
+CAR
+CAR
+GB
+CAR
+CAR
+CAR
+
+L--
++7CLE
+a--
+CLE
+CLE
+CLE
+BAL
+BAL
+BAL
+CLE
+
+L--
+-10.5MIN
+a--
+MIN
+MIN
+MIN
+MIN
+CIN
+CIN
+MIN
+
+L--
+-11JAC
+a--
+HOU
+JAC
+HOU
+JAC
+HOU
+JAC
+HOU
+
+L--
+-2SEA
+a--
+SEA
+SEA
+SEA
+SEA
+LAR
+SEA
+SEA
+
+L--
++3PIT
+a--
+NE
+NE
+NE
+NE
+PIT
+PIT
+PIT
+
+L--
+-2SF
+a--
+SF
+SF
+SF
+TEN
+SF
+SF
+SF
+
+L--
++3OAK
+a--
+OAK
+DAL
+OAK
+DAL
+DAL
+DAL
+OAK
+
+L--
++6TB
+a--
+ATL
+ATL
+ATL
+ATL
+ATL
+ATL
+ATL
+

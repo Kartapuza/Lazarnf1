@@ -18,6 +18,8 @@ type
     Button3: TButton;
     Button4: TButton;
     Button5: TButton;
+    Button6: TButton;
+    Button7: TButton;
     CheckBox1: TCheckBox;
     CheckBox10: TCheckBox;
     CheckBox2: TCheckBox;
@@ -82,6 +84,8 @@ type
     procedure Button3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
   private
     { private declarations }
   public
@@ -532,6 +536,8 @@ var
 begin
     GetDir(0,s);
 
+ memo12.Lines.Clear;
+
  if combobox1.Text = 'Load Week' then
   begin
    if FileExists(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\result.out') then
@@ -560,9 +566,64 @@ begin
    for i := 33 to 224 do
    begin
     with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
-    Picture := Painter(Hint,1);
+    if length(Hint) > 0 then Picture := Painter(Hint,1);
    end;
   end;
+
+end;
+
+procedure TForm4.Button6Click(Sender: TObject);
+var
+  i: integer;
+begin
+
+   for i := 33 to 224 do
+   begin
+    with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+    Width :=37;
+   end;
+
+   for i := 69 to 100 do
+   begin
+    with TPanel(Form2.FindComponent('Panel'+ IntToStr(i))) do
+    AutoSize := True;
+   end;
+
+
+end;
+
+procedure TForm4.Button7Click(Sender: TObject);
+var
+  i: integer;
+begin
+
+   for i := 1 to 32 do
+   begin
+    with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+     begin
+     Picture := Form3.Image97.Picture;
+     Hint:= 'z'
+     end;
+   end;
+
+
+   for i := 33 to 224 do
+   begin
+    with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+     begin
+     Picture := Form3.Image97.Picture;
+     Hint:= 'z'
+     end;
+   end;
+
+   for i := 5 to 20 do
+   begin
+    with TLabel(Form2.FindComponent('Label'+ IntToStr(i))) do
+     begin
+     Caption := '--'
+     end;
+   end;
+
 
 end;
 
