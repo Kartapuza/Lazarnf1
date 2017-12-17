@@ -636,6 +636,24 @@ begin
 
    end;
 
+
+ if combobox1.Text = 'Load Team' then
+  begin
+   if CreateDir(s+'\bin\data\'+Edit1.Text) then;
+
+    if CreateDir(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text) then
+     begin
+      memo12.Lines.LoadFromFile(s+'\bin\resultroster.out');
+      memo12.Lines.SaveToFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out');
+     end
+      else
+     begin
+      memo12.Lines.LoadFromFile(s+'\bin\resultroster.out');
+      memo12.Lines.SaveToFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out');
+     end;
+
+  end;
+
 end;
 
 procedure TForm4.Button4Click(Sender: TObject);
@@ -655,6 +673,16 @@ begin
         memo12.Lines.LoadFromFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\result.out');
     end;
   end;
+
+
+  if combobox1.Text = 'Load Team' then
+   begin
+    if FileExists(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out') then
+     begin
+         memo12.Lines.LoadFromFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out');
+     end;
+   end;
+
 
 end;
 

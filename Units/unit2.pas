@@ -990,7 +990,8 @@ end;
 
 procedure TForm2.Image225Click(Sender: TObject);
 begin
-
+  Form4.Show;
+  Form4.Close;
 
     Form4.CheckBox9.Checked:=True;
     Form4.CheckBox10.Checked:=True;
@@ -999,6 +1000,7 @@ begin
    begin
       Form4.ComboBox1.Text:='Load Team';
        form4.Button1.Click;
+       Form4.Button3.Hint:=Label85.Hint;
    end;
 
 

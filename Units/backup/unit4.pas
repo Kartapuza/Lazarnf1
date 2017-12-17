@@ -18,6 +18,8 @@ type
     Button3: TButton;
     Button4: TButton;
     Button5: TButton;
+    Button6: TButton;
+    Button7: TButton;
     CheckBox1: TCheckBox;
     CheckBox10: TCheckBox;
     CheckBox2: TCheckBox;
@@ -82,6 +84,8 @@ type
     procedure Button3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
   private
     { private declarations }
   public
@@ -103,8 +107,15 @@ Function Painter(sPic:string; iPic:integer): TPicture;
 var
 xx1: integer;
 begin
- for xx1:=0 to 8 do
+ for xx1:=0 to 13 do
  begin
+  if sPic=Form3.memo33.Lines.Strings[xx1] then begin
+  //Zero
+    if iPic=1 then begin Result:=Form3.Image98.Picture; break; end;
+    if iPic=2 then begin Result:=Form3.Image99.Picture; break;; end;
+    if iPic=3 then begin Result:=Form3.Image100.Picture; break; end;
+                                               end;
+
   if sPic=Form3.memo32.Lines.Strings[xx1] then begin
   //DAL
     if iPic=1 then begin Result:=Form3.Image94.Picture; break; end;
@@ -395,6 +406,19 @@ begin
      Form4.Memo1.Lines.Strings[9]:= Form4.CheckBox5.Hint+'/' + Form4.Edit2.Text;;
    end;
 
+
+  if Form4.CheckBox9.Checked = True then
+    begin
+      Form4.Memo3.Lines.Strings[0]:= '1';
+      Form4.Memo3.Lines.Strings[1]:= Form4.CheckBox9.Hint + Form2.Label85.Hint;
+    end;
+   if Form4.CheckBox10.Checked = True then
+    begin
+      Form4.Memo3.Lines.Strings[2]:= '1';
+      Form4.Memo3.Lines.Strings[3]:= Form4.CheckBox10.Hint + Form2.Label85.Hint;
+    end;
+
+
 end;
 
 procedure TForm4.Button1Click(Sender: TObject);
@@ -422,8 +446,25 @@ begin
 
   end;
 
- ClearWorkSpace;
 
+ if combobox1.Text = 'Load Team' then
+  begin
+  Memo5.Lines.Text := Memo3.Lines.Text;
+  Memo10.Lines.Text := Memo8.Lines.Text;
+
+  Memo5.Lines.SaveToFile(s+'\bin\settingsplayer.txt');
+  Memo10.Lines.SaveToFile(s+'\bin\py1.py');
+
+  Memo11.Lines.Add('cd '+ s +'\bin\');
+  Memo11.Lines.Add('python '+ s+'\bin\py1.py');
+
+  Memo11.Lines.SaveToFile(s+'\bin\cmd.bat');
+
+  if ShellExecute(0,Pchar('open'), PChar(s+'\bin\cmd.bat'),nil, nil, 0) = 0 then;
+
+  end;
+
+  ClearWorkSpace;
 end;
 
 Function Find_team_name(name:string):string;
@@ -439,18 +480,24 @@ end;
 
 procedure TForm4.Button2Click(Sender: TObject);
 var
-  i: integer;
+  i, ii, kk: integer;
+  b1, b2, st1, pars: integer;
   s: String;
-  game, score: integer;
+  game, score, epick, epick0, rating: integer;
+  marker: integer;
 begin
     GetDir(0,s);
+    pars := 0;
 
  if combobox1.Text = 'Load Week' then
   begin
   game := 0;
   score := 5;
+  rating:=21;
 
-    for i := 0 to memo12.Lines.Count-1 do begin
+
+    for i := 0 to memo12.Lines.Count-1 do
+    begin
        if memo12.Lines.Strings[i] = 's--' then
         begin
         inc(game);
@@ -467,10 +514,100 @@ begin
           Caption := memo12.Lines.Strings[i+3] + ' : ' + memo12.Lines.Strings[i+7];;
          inc(score);
 
+         with TLabel(Form2.FindComponent('label'+ IntToStr(rating))) do
+          Caption := memo12.Lines.Strings[i+2];
+         inc(rating);
+         with TLabel(Form2.FindComponent('label'+ IntToStr(rating))) do
+          Caption := memo12.Lines.Strings[i+6];
+         inc(rating);
+         with TLabel(Form2.FindComponent('label'+ IntToStr(rating))) do
+          Caption := memo12.Lines.Strings[i+4];
+         inc(rating);
+         with TLabel(Form2.FindComponent('label'+ IntToStr(rating))) do
+          Caption := memo12.Lines.Strings[i+8];
+         inc(rating);
+
         end;
+    end;
+  end;
+
+ if combobox1.Text = 'Load Exp_e' then
+  begin
+  epick := 33;
+  marker:=1;
+
+    for i := 0 to memo12.Lines.Count-1 do
+    begin
+       if ((memo12.Lines.Strings[i] = 'e--') and (length(memo12.Lines.Strings[i+1])>3)) then
+        begin
+
+         for ii:=1 to 12 do
+         begin
+              with TImage(Form2.FindComponent('Image'+ IntToStr(epick))) do
+              if ((((length(memo12.Lines.Strings[i+ii])) > 3) or ((memo12.Lines.Strings[i+ii])<> 'e--'))) and (marker = 1) then
+              begin
+              Hint := memo12.Lines.Strings[i+ii];
+              end
+               else marker:=0;
+               epick:=epick+1;
+         end;
+         marker:=1;
+
+        end;
+
     end;
 
   end;
+
+
+ if combobox1.Text = 'Load Exp_c' then
+  begin
+  epick := 227;
+  marker:=1;
+  b2:=memo12.Lines.Count-1;
+
+  for i := 0 to memo12.Lines.Count-1 do
+  begin
+     if (memo12.Lines.Strings[i] = 'a--') then inc(pars);
+  end;
+
+  for i := 0 to memo12.Lines.Count-1 do
+  begin
+   if ((memo12.Lines.Strings[i] = 'c--')) then b1:=i;
+   if ((memo12.Lines.Strings[i] = 'L--')) then
+    begin
+     b2:=i;
+     break;
+    end;
+  end;
+
+  b1:=((b2-b1) div pars);
+//  ShowMessage(IntToStr(pars)+'_'+IntToStr(b1));
+
+    for i := 0 to memo12.Lines.Count-1 do
+    begin
+     if ((memo12.Lines.Strings[i] = 'c--')) then
+     begin
+     st1:=i;
+        for kk:=1 to pars do
+        begin
+         for ii:=1 to b1 do
+         begin
+          st1:=st1+1;
+              with TImage(Form2.FindComponent('Image'+ IntToStr(epick+ii-1))) do
+              if (memo12.Lines.Strings[st1] <> 'c--') and (memo12.Lines.Strings[st1] <> 'L--') and (marker = 1) then
+              begin
+              Hint := memo12.Lines.Strings[st1];
+              end
+               else marker:=0;
+         end;
+         epick:=epick+b1;
+         marker:=1;
+        end;
+      end;
+     end;
+
+   end;
 
 end;
 
@@ -499,6 +636,24 @@ begin
 
    end;
 
+
+ if combobox1.Text = 'Load Team' then
+  begin        qwe
+   if CreateDir(s+'\bin\data\'+Edit1.Text) then;
+
+    if CreateDir(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text) then
+     begin
+      memo12.Lines.LoadFromFile(s+'\bin\resultroster.out');
+      memo12.Lines.SaveToFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out');
+     end
+      else
+     begin
+      memo12.Lines.LoadFromFile(s+'\bin\resultroster.out');
+      memo12.Lines.SaveToFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out');
+     end;
+
+  end;
+
 end;
 
 procedure TForm4.Button4Click(Sender: TObject);
@@ -508,6 +663,8 @@ var
   game: integer;
 begin
     GetDir(0,s);
+
+ memo12.Lines.Clear;
 
  if combobox1.Text = 'Load Week' then
   begin
@@ -523,9 +680,105 @@ procedure TForm4.Button5Click(Sender: TObject);
 var
   i: integer;
 begin
+ if combobox1.Text = 'Load Week' then
+  begin
+   for i := 1 to 32 do
+   begin
+    with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+    if length(Hint)>0 then Picture := Painter(Hint,2);
+   end;
+  end;
 
- with TImage(Form2.FindComponent('Image'+ IntToStr(game))) do
-  //Form2.Image1.Picture := Painter(Form2.Image1.Hint,2);
+ if combobox1.Text = 'Load Exp_e' then
+  begin
+   for i := 33 to 224 do
+   begin
+    with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+    if length(Hint) > 0 then Picture := Painter(Hint,1);
+   end;
+  end;
+
+  if combobox1.Text = 'Load Exp_c' then
+   begin
+    for i := 227 to 354 do
+    begin
+     with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+     if length(Hint) > 0 then Picture := Painter(Hint,1);
+    end;
+   end;
+
+end;
+
+procedure TForm4.Button6Click(Sender: TObject);
+var
+  i: integer;
+begin
+
+   for i := 33 to 224 do
+   begin
+    with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+    Width :=37;
+   end;
+
+   for i := 69 to 100 do
+   begin
+    with TPanel(Form2.FindComponent('Panel'+ IntToStr(i))) do
+    AutoSize := True;
+   end;
+
+
+end;
+
+procedure TForm4.Button7Click(Sender: TObject);
+var
+  i: integer;
+begin
+
+   for i := 1 to 32 do
+   begin
+    with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+     begin
+     Picture := Form3.Image97.Picture;
+     Hint:= ''
+     end;
+   end;
+
+
+   for i := 33 to 226 do
+   begin
+    with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+     begin
+     Picture := Form3.Image97.Picture;
+     Hint:= ''
+     end;
+   end;
+
+   for i := 227 to 354 do
+   begin
+    with TImage(Form2.FindComponent('Image'+ IntToStr(i))) do
+     begin
+     Picture := Form3.Image97.Picture;
+     Hint:= ''
+     end;
+   end;
+
+
+   for i := 5 to 20 do
+   begin
+    with TLabel(Form2.FindComponent('Label'+ IntToStr(i))) do
+     begin
+     Caption := '--'
+     end;
+   end;
+
+   for i := 21 to 84 do
+   begin
+    with TLabel(Form2.FindComponent('Label'+ IntToStr(i))) do
+     begin
+     Caption := '-'
+     end;
+   end;
+
 
 end;
 

@@ -7,7 +7,7 @@ object Form2: TForm2
   ClientHeight = 838
   ClientWidth = 1091
   OnResize = FormResize
-  LCLVersion = '1.6.2.0'
+  LCLVersion = '1.8.0.6'
   object Panel1: TPanel
     Left = 0
     Height = 838
