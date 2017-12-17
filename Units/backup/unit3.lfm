@@ -105,9 +105,9 @@ object Form3: TForm3
     Height = 387
     Top = 0
     Width = 654
-    ActivePage = TabSheet33
+    ActivePage = TabSheet22
     Align = alClient
-    TabIndex = 32
+    TabIndex = 21
     TabOrder = 1
     OnChange = PageControl1Change
     object TabSheet1: TTabSheet
@@ -4394,13 +4394,14 @@ object Form3: TForm3
       end
       object Memo22: TMemo
         Left = 8
-        Height = 184
+        Height = 224
         Top = 128
         Width = 298
         Lines.Strings = (
           'Rams'
           'L.A. Rams'
           'LA'
+          'LAR'
           'Rams Los Angeles'
           'STL'
           'Los Angeles Rams'
@@ -6517,10 +6518,13 @@ object Form3: TForm3
         Width = 298
         Lines.Strings = (
           'z'
-          ''
-          ''
-          ''
-          ''
+          'z'
+          'z'
+          'z'
+          'z'
+          'z'
+          'z'
+          'z'
           ''
           ''
           ''

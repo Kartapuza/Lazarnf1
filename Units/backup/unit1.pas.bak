@@ -29,7 +29,7 @@ var
 
 implementation
 
-uses form4;
+uses unit4;
 
 {$R *.lfm}
 
@@ -38,6 +38,7 @@ uses form4;
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   Form2.Show;
+  form4.Button7.Click;
 end;
 
 end.

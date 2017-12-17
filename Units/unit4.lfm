@@ -1,7 +1,7 @@
 object Form4: TForm4
-  Left = 214
+  Left = 263
   Height = 627
-  Top = 212
+  Top = 186
   Width = 788
   Caption = 'Parse lab'
   ClientHeight = 627
@@ -72,9 +72,9 @@ object Form4: TForm4
         Height = 232
         Top = 1
         Width = 439
-        ActivePage = TabSheet12
+        ActivePage = TabSheet15
         Align = alClient
-        TabIndex = 0
+        TabIndex = 3
         TabOrder = 0
         object TabSheet12: TTabSheet
           Caption = 'TabSheet12'
@@ -93,11 +93,11 @@ object Form4: TForm4
         end
         object TabSheet13: TTabSheet
           Caption = 'TabSheet13'
-          ClientHeight = 119
+          ClientHeight = 204
           ClientWidth = 431
           object Memo13: TMemo
             Left = 0
-            Height = 119
+            Height = 204
             Top = 0
             Width = 431
             Align = alClient
@@ -108,11 +108,11 @@ object Form4: TForm4
         end
         object TabSheet14: TTabSheet
           Caption = 'TabSheet14'
-          ClientHeight = 119
+          ClientHeight = 204
           ClientWidth = 431
           object Memo14: TMemo
             Left = 0
-            Height = 119
+            Height = 204
             Top = 0
             Width = 431
             Align = alClient
@@ -213,6 +213,8 @@ object Form4: TForm4
             'NoThing'
             'Load Week'
             'Load Exp_e'
+            'Load Exp_c'
+            'Load Team'
           )
           TabOrder = 0
           Text = 'NoThing'
@@ -361,6 +363,7 @@ object Form4: TForm4
           object CheckBox9: TCheckBox
             Left = 6
             Height = 12
+            Hint = 'http://www.nfl.com/teams/statistics?team='
             Top = 6
             Width = 88
             Caption = 'team stat'
@@ -371,6 +374,7 @@ object Form4: TForm4
           object CheckBox10: TCheckBox
             Left = 6
             Height = 13
+            Hint = 'http://www.nfl.com/teams/roster?team='
             Top = 18
             Width = 88
             Caption = 'roster stat'
@@ -385,9 +389,9 @@ object Form4: TForm4
         Height = 197
         Top = 1
         Width = 439
-        ActivePage = TabSheet6
+        ActivePage = TabSheet8
         Align = alClient
-        TabIndex = 0
+        TabIndex = 2
         TabOrder = 1
         object TabSheet6: TTabSheet
           Caption = 'TabSheet1'
@@ -448,6 +452,7 @@ object Form4: TForm4
           object Memo3: TMemo
             Left = 0
             Height = 169
+            Hint = 'http://www.nfl.com/teams/roster?team='
             Top = 0
             Width = 431
             Align = alClient
@@ -551,9 +556,9 @@ object Form4: TForm4
         Height = 190
         Top = 1
         Width = 439
-        ActivePage = TabSheet1
+        ActivePage = TabSheet3
         Align = alClient
-        TabIndex = 0
+        TabIndex = 2
         TabOrder = 1
         object TabSheet1: TTabSheet
           Caption = 'TabSheet1'
@@ -984,11 +989,11 @@ object Form4: TForm4
         end
         object TabSheet3: TTabSheet
           Caption = 'TabSheet3'
-          ClientHeight = 154
+          ClientHeight = 162
           ClientWidth = 431
           object Memo8: TMemo
             Left = 0
-            Height = 154
+            Height = 162
             Top = 0
             Width = 431
             Align = alClient
@@ -1126,11 +1131,11 @@ object Form4: TForm4
         end
         object TabSheet11: TTabSheet
           Caption = 'Run'
-          ClientHeight = 154
+          ClientHeight = 162
           ClientWidth = 431
           object Memo11: TMemo
             Left = 0
-            Height = 154
+            Height = 162
             Top = 0
             Width = 431
             Align = alClient

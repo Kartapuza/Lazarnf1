@@ -1,31 +1,4 @@
 s--
-Broncos
-(4-9-0)
---
-_ _ _ _ 
-Colts
-(3-10-0)
---
-_ _ _ _ 
-s--
-Bears
-(4-9-0)
---
-_ _ _ _ 
-Lions
-(7-6-0)
---
-_ _ _ _ 
-s--
-Chargers
-(7-6-0)
---
-_ _ _ _ 
-Chiefs
-(7-6-0)
---
-_ _ _ _ 
-s--
 Ravens
 (7-6-0)
 --
@@ -142,6 +115,33 @@ Buccaneers
 (4-9-0)
 --
 _ _ _ _ 
+s--
+Broncos
+(5-9-0)
+25
+0 7 15 3 
+Colts
+(3-11-0)
+13
+7 3 3 0 
+s--
+Bears
+
+10
+0 3 0 7 
+Lions
+
+20
+3 10 7 0 
+s--
+Chargers
+
+13
+0 6 7 0 
+Chiefs
+
+30
+3 7 10 10 
 p--
 1
 +1
@@ -206,7 +206,7 @@ p--
 11
 `
 Chargers
-7-6-0
+7-7-0
 They are riding high heading into Arrowhead to play the Chiefs. The winner of that game will likely win the division.
 p--
 12
@@ -236,7 +236,7 @@ p--
 16
 +1
 Lions
-7-6-0
+8-6-0
 Matt Stafford toughed it out to win at Tampa Bay, which kept their season alive. The need to win out to have a chance to get into the playoffs.
 p--
 17
@@ -248,7 +248,7 @@ p--
 18
 +1
 Chiefs
-7-6-0
+8-6-0
 They seemed to get back on track against the Raiders. That was as good as they've looked in a long time.
 p--
 19
@@ -278,7 +278,7 @@ p--
 23
 +7
 Bears
-4-9-0
+4-10-0
 They have to be thrilled with the way some of their younger players are playing, especially Mitchell Trubisky. That was an impressive win at Cincinnati.
 p--
 24
@@ -296,7 +296,7 @@ p--
 26
 +1
 Broncos
-4-9-0
+5-9-0
 Give them credit for breaking the 10-game losing streak. At least they showed up with nothing on the line against the Jets.
 p--
 27
@@ -320,7 +320,7 @@ p--
 30
 -1
 Colts
-3-10-0
+3-11-0
 This season has been over for a while. It looks like it's over for Chuck Pagano as well.
 p--
 31
@@ -338,26 +338,74 @@ e--
 e--
 e--
 e--
+Broncos Denver
 Colts Indianapolis
 Colts Indianapolis
+Broncos Denver
+Colts Indianapolis
+Colts Indianapolis
+Colts Indianapolis
+Colts Indianapolis
+Broncos Denver
+Broncos Denver
 Broncos Denver
 e--
 Lions Detroit
 Lions Detroit
 Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
+Lions Detroit
 e--
 Chargers Los Angeles
+Chargers Los Angeles
+Chargers Los Angeles
+Chargers Los Angeles
+Chiefs Kansas City
+Chargers Los Angeles
+Chargers Los Angeles
+Chiefs Kansas City
+Chiefs Kansas City
 Chargers Los Angeles
 Chargers Los Angeles
 e--
 Bills Buffalo
 Bills Buffalo
 Bills Buffalo
+Bills Buffalo
+Bills Buffalo
+Dolphins Miami
+Bills Buffalo
+Bills Buffalo
+Dolphins Miami
+Bills Buffalo
+Bills Buffalo
 e--
+Packers Green Bay
 Panthers Carolina
 Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Packers Green Bay
+Packers Green Bay
 Panthers Carolina
 e--
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
 Ravens Baltimore
 Ravens Baltimore
 Ravens Baltimore
@@ -365,7 +413,23 @@ e--
 Jaguars Jacksonville
 Jaguars Jacksonville
 Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
+Jaguars Jacksonville
 e--
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
 Vikings Minnesota
 Vikings Minnesota
 Vikings Minnesota
@@ -373,31 +437,95 @@ e--
 Saints New Orleans
 Saints New Orleans
 Saints New Orleans
+Saints New Orleans
+Saints New Orleans
+Saints New Orleans
+Saints New Orleans
+Saints New Orleans
+Saints New Orleans
+Saints New Orleans
+Saints New Orleans
 e--
 Eagles Philadelphia
 Eagles Philadelphia
 Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Giants New York
+Eagles Philadelphia
+Eagles Philadelphia
 e--
+Cardinals Arizona
 Redskins Washington
 Cardinals Arizona
 Redskins Washington
+Redskins Washington
+Redskins Washington
+Cardinals Arizona
+Redskins Washington
+Redskins Washington
+Redskins Washington
+Redskins Washington
 e--
+Seahawks Seattle
 Seahawks Seattle
 Seahawks Seattle
 Rams Los Angeles
+Seahawks Seattle
+Rams Los Angeles
+Rams Los Angeles
+Seahawks Seattle
+Seahawks Seattle
+Rams Los Angeles
+Seahawks Seattle
 e--
 Patriots New England
 Patriots New England
+Patriots New England
+Steelers Pittsburgh
+Patriots New England
+Patriots New England
+Patriots New England
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
 Steelers Pittsburgh
 e--
 49ers San Francisco
 49ers San Francisco
 49ers San Francisco
+49ers San Francisco
+49ers San Francisco
+49ers San Francisco
+49ers San Francisco
+49ers San Francisco
+49ers San Francisco
+49ers San Francisco
+Titans Tennessee
 e--
 Cowboys Dallas
 Cowboys Dallas
 Cowboys Dallas
+Cowboys Dallas
+Raiders Oakland
+Cowboys Dallas
+Cowboys Dallas
+Raiders Oakland
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
 e--
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
+Falcons Atlanta
 Falcons Atlanta
 Falcons Atlanta
 Falcons Atlanta
@@ -410,7 +538,7 @@ IND
 DEN
 IND
 DEN
-spacer
+DEN
 DET
 CHI
 DET
@@ -418,7 +546,7 @@ DET
 CHI
 DET
 DET
-spacer
+DET
 LAC
 LAC
 LAC
@@ -426,7 +554,7 @@ LAC
 LAC
 LAC
 KC
-spacer
+KC
 NO
 NO
 NO
@@ -434,7 +562,7 @@ NO
 NO
 NO
 NO
-spacer
+NO
 WAS
 ARI
 WAS
@@ -442,7 +570,7 @@ WAS
 WAS
 WAS
 ARI
-spacer
+WAS
 PHI
 NYG
 PHI
@@ -450,7 +578,7 @@ PHI
 PHI
 PHI
 PHI
-spacer
+PHI
 CAR
 CAR
 CAR
@@ -458,7 +586,7 @@ GB
 CAR
 CAR
 CAR
-spacer
+GB
 BAL
 CLE
 BAL
@@ -466,7 +594,7 @@ BAL
 BAL
 BAL
 BAL
-spacer
+BAL
 MIN
 MIN
 MIN
@@ -474,7 +602,7 @@ MIN
 MIN
 MIN
 MIN
-spacer
+MIN
 JAC
 JAC
 JAC
@@ -482,7 +610,7 @@ JAC
 JAC
 JAC
 JAC
-spacer
+JAC
 SEA
 SEA
 SEA
@@ -490,7 +618,7 @@ SEA
 LAR
 SEA
 SEA
-spacer
+LAR
 NE
 NE
 NE
@@ -498,7 +626,7 @@ NE
 NE
 PIT
 PIT
-spacer
+NE
 SF
 SF
 SF
@@ -506,7 +634,7 @@ TEN
 SF
 SF
 SF
-spacer
+SF
 OAK
 DAL
 OAK
@@ -514,7 +642,7 @@ DAL
 DAL
 DAL
 OAK
-spacer
+DAL
 ATL
 ATL
 ATL
@@ -522,7 +650,7 @@ ATL
 ATL
 ATL
 ATL
-spacer
+ATL
 L--
 +2.5IND
 a--
@@ -533,7 +661,7 @@ IND
 DEN
 IND
 DEN
-
+DEN
 L--
 -5.5DET
 a--
@@ -544,7 +672,7 @@ DET
 CHI
 CHI
 CHI
-
+CHI
 L--
 +1.5KC
 a--
@@ -555,7 +683,7 @@ LAC
 KC
 LAC
 KC
-
+KC
 L--
 -16NO
 a--
@@ -566,7 +694,7 @@ NO
 NYJ
 NO
 NO
-
+NO
 L--
 -4.5WAS
 a--
@@ -577,7 +705,7 @@ WAS
 ARI
 WAS
 ARI
-
+WAS
 L--
 +7.5NYG
 a--
@@ -588,7 +716,7 @@ PHI
 NYG
 NYG
 PHI
-
+NYG
 L--
 -3CAR
 a--
@@ -599,7 +727,7 @@ GB
 CAR
 CAR
 CAR
-
+GB
 L--
 +7CLE
 a--
@@ -610,7 +738,7 @@ BAL
 BAL
 BAL
 CLE
-
+CLE
 L--
 -10.5MIN
 a--
@@ -621,7 +749,7 @@ MIN
 CIN
 CIN
 MIN
-
+MIN
 L--
 -11JAC
 a--
@@ -632,7 +760,7 @@ JAC
 HOU
 JAC
 HOU
-
+JAC
 L--
 -2SEA
 a--
@@ -643,7 +771,7 @@ SEA
 LAR
 SEA
 SEA
-
+LAR
 L--
 +3PIT
 a--
@@ -654,7 +782,7 @@ NE
 PIT
 PIT
 PIT
-
+NE
 L--
 -2SF
 a--
@@ -665,7 +793,7 @@ TEN
 SF
 SF
 SF
-
+SF
 L--
 +3OAK
 a--
@@ -676,7 +804,7 @@ DAL
 DAL
 DAL
 OAK
-
+DAL
 L--
 +6TB
 a--
@@ -687,4 +815,4 @@ ATL
 ATL
 ATL
 ATL
-
+TB

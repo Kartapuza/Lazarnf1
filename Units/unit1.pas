@@ -39,6 +39,7 @@ procedure TForm1.Button1Click(Sender: TObject);
 begin
   Form2.Show;
   form4.Button7.Click;
+  form4.Button6.Click;
 end;
 
 end.
