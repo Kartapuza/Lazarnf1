@@ -1,0 +1,18 @@
+object Form5: TForm5
+  Left = 214
+  Height = 480
+  Top = 268
+  Width = 778
+  Caption = 'Form5'
+  ClientHeight = 480
+  ClientWidth = 778
+  LCLVersion = '1.8.0.6'
+  object ListBox1: TListBox
+    Left = 88
+    Height = 296
+    Top = 48
+    Width = 576
+    ItemHeight = 0
+    TabOrder = 0
+  end
+end

@@ -581,6 +581,7 @@ begin
     end;
   end;
 
+  if pars=0 then pars:=1;
   b1:=((b2-b1) div pars);
 //  ShowMessage(IntToStr(pars)+'_'+IntToStr(b1));
 

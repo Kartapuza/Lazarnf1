@@ -2657,21 +2657,21 @@ object Form2: TForm2
         Left = 224
         Height = 676
         Top = 24
-        Width = 778
+        Width = 448
         Align = alClient
         Caption = 'Panel49'
         ClientHeight = 676
-        ClientWidth = 778
+        ClientWidth = 448
         TabOrder = 3
         OnClick = Panel49Click
         object Panel52: TPanel
           Left = 1
           Height = 38
           Top = 1
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 0
           object Panel69: TPanel
             Left = 1
@@ -3602,11 +3602,11 @@ object Form2: TForm2
             Left = 385
             Height = 36
             Top = 1
-            Width = 390
+            Width = 60
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 390
+            ClientWidth = 60
             TabOrder = 1
             object Panel117: TPanel
               Left = 0
@@ -4241,10 +4241,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 39
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 1
           object Panel70: TPanel
             Left = 1
@@ -5186,11 +5186,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel118: TPanel
               Left = 0
@@ -5202,7 +5202,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel138: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -5825,10 +5825,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 77
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 2
           object Panel71: TPanel
             Left = 1
@@ -6770,11 +6770,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel119: TPanel
               Left = 0
@@ -6786,7 +6786,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel139: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -7409,10 +7409,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 115
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 3
           object Panel72: TPanel
             Left = 1
@@ -8354,11 +8354,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel120: TPanel
               Left = 0
@@ -8370,7 +8370,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel140: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -8993,10 +8993,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 153
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 4
           object Panel73: TPanel
             Left = 1
@@ -9938,11 +9938,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel121: TPanel
               Left = 0
@@ -9954,7 +9954,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel141: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -10577,10 +10577,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 191
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 5
           object Panel74: TPanel
             Left = 1
@@ -11522,11 +11522,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel122: TPanel
               Left = 0
@@ -11538,7 +11538,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel142: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -12161,10 +12161,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 229
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 6
           object Panel75: TPanel
             Left = 1
@@ -13106,11 +13106,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel123: TPanel
               Left = 0
@@ -13122,7 +13122,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel143: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -13745,10 +13745,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 267
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 7
           object Panel76: TPanel
             Left = 1
@@ -14690,11 +14690,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel124: TPanel
               Left = 0
@@ -14706,7 +14706,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel144: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -15329,10 +15329,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 305
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 8
           object Panel77: TPanel
             Left = 1
@@ -16274,11 +16274,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel125: TPanel
               Left = 0
@@ -16290,7 +16290,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel145: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -16913,10 +16913,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 343
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 9
           object Panel78: TPanel
             Left = 1
@@ -17858,11 +17858,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel126: TPanel
               Left = 0
@@ -17874,7 +17874,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel146: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -18497,10 +18497,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 381
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 10
           object Panel79: TPanel
             Left = 1
@@ -19442,11 +19442,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel127: TPanel
               Left = 0
@@ -19458,7 +19458,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel147: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -20081,10 +20081,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 419
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 11
           object Panel80: TPanel
             Left = 1
@@ -21026,11 +21026,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel128: TPanel
               Left = 0
@@ -21042,7 +21042,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel148: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -21665,10 +21665,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 457
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 12
           object Panel81: TPanel
             Left = 1
@@ -22610,11 +22610,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel129: TPanel
               Left = 0
@@ -22626,7 +22626,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel149: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -23249,10 +23249,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 495
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 13
           object Panel82: TPanel
             Left = 1
@@ -24194,11 +24194,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel130: TPanel
               Left = 0
@@ -24210,7 +24210,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel150: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -24833,10 +24833,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 533
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 14
           object Panel83: TPanel
             Left = 1
@@ -25778,11 +25778,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel131: TPanel
               Left = 0
@@ -25794,7 +25794,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel151: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -26417,10 +26417,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 571
-          Width = 776
+          Width = 446
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 15
           object Panel84: TPanel
             Left = 1
@@ -27362,11 +27362,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 380
+            Width = 50
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 380
+            ClientWidth = 50
             TabOrder = 1
             object Panel132: TPanel
               Left = 0
@@ -27378,7 +27378,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel152: TPanel
-              Left = 58
+              Left = 50
               Height = 36
               Top = 0
               Width = 298
@@ -28001,25 +28001,190 @@ object Form2: TForm2
           Left = 1
           Height = 66
           Top = 609
-          Width = 776
+          Width = 446
           Align = alClient
           ClientHeight = 66
-          ClientWidth = 776
+          ClientWidth = 446
           TabOrder = 16
           object Panel85: TPanel
             Left = 1
             Height = 64
             Top = 1
-            Width = 774
+            Width = 444
             Align = alClient
             TabOrder = 0
+          end
+        end
+      end
+      object Panel153: TPanel
+        Left = 672
+        Height = 676
+        Top = 24
+        Width = 330
+        Align = alRight
+        ClientHeight = 676
+        ClientWidth = 330
+        TabOrder = 4
+        object Panel154: TPanel
+          Cursor = crHandPoint
+          Left = 1
+          Height = 674
+          Top = 1
+          Width = 12
+          Align = alLeft
+          Caption = '>>'
+          DragCursor = crHandPoint
+          TabOrder = 0
+          OnClick = Panel154Click
+        end
+        object Panel155: TPanel
+          Left = 13
+          Height = 674
+          Top = 1
+          Width = 316
+          Align = alClient
+          ClientHeight = 674
+          ClientWidth = 316
+          TabOrder = 1
+          object Panel156: TPanel
+            Left = 1
+            Height = 672
+            Top = 1
+            Width = 158
+            Align = alLeft
+            ClientHeight = 672
+            ClientWidth = 158
+            TabOrder = 0
+            object Panel157: TPanel
+              Left = 1
+              Height = 66
+              Top = 1
+              Width = 156
+              Align = alTop
+              BevelOuter = bvNone
+              ClientHeight = 66
+              ClientWidth = 156
+              TabOrder = 0
+              object Image355: TImage
+                Left = 0
+                Height = 66
+                Top = 0
+                Width = 90
+                Align = alLeft
+                OnClick = Image225Click
+                ParentShowHint = False
+                ShowHint = True
+                Stretch = True
+              end
+              object Label87: TLabel
+                Left = 97
+                Height = 15
+                Hint = 'Phi'
+                Top = 4
+                Width = 33
+                Caption = 'Roster'
+                Font.Color = clNavy
+                Font.Style = [fsUnderline]
+                ParentColor = False
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = True
+                OnClick = Label87Click
+              end
+            end
+            object Panel160: TPanel
+              Left = 1
+              Height = 317
+              Top = 67
+              Width = 156
+              Align = alTop
+              BevelOuter = bvNone
+              ClientHeight = 317
+              ClientWidth = 156
+              TabOrder = 1
+              object Memo1: TMemo
+                Left = 0
+                Height = 317
+                Top = 0
+                Width = 156
+                Align = alClient
+                BorderStyle = bsNone
+                Font.CharSet = RUSSIAN_CHARSET
+                Font.Height = -11
+                Font.Name = 'Arial Narrow'
+                Font.Pitch = fpVariable
+                Font.Quality = fqDraft
+                ParentFont = False
+                TabOrder = 0
+              end
+            end
+          end
+          object Panel158: TPanel
+            Left = 159
+            Height = 672
+            Top = 1
+            Width = 156
+            Align = alClient
+            ClientHeight = 672
+            ClientWidth = 156
+            TabOrder = 1
+            object Panel159: TPanel
+              Left = 1
+              Height = 66
+              Top = 1
+              Width = 154
+              Align = alTop
+              BevelOuter = bvNone
+              ClientHeight = 66
+              ClientWidth = 154
+              TabOrder = 0
+              object Image356: TImage
+                Left = 0
+                Height = 66
+                Top = 0
+                Width = 90
+                Align = alLeft
+                ParentShowHint = False
+                ShowHint = True
+                Stretch = True
+              end
+              object Label88: TLabel
+                Left = 100
+                Height = 15
+                Hint = 'Phi'
+                Top = 3
+                Width = 40
+                Caption = 'Label86'
+                ParentColor = False
+              end
+            end
+            object Panel161: TPanel
+              Left = 1
+              Height = 317
+              Top = 67
+              Width = 154
+              Align = alTop
+              BevelOuter = bvNone
+              ClientHeight = 317
+              ClientWidth = 154
+              TabOrder = 1
+              object Memo2: TMemo
+                Left = 0
+                Height = 317
+                Top = 0
+                Width = 154
+                Align = alClient
+                BorderStyle = bsNone
+                TabOrder = 0
+              end
+            end
           end
         end
       end
     end
   end
   object PopupMenu1: TPopupMenu
-    left = 80
+    left = 64
     top = 16
     object MenuItem1: TMenuItem
       Caption = 'Load Week'

@@ -638,7 +638,7 @@ begin
 
 
  if combobox1.Text = 'Load Team' then
-  begin        qwe
+  begin
    if CreateDir(s+'\bin\data\'+Edit1.Text) then;
 
     if CreateDir(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text) then
@@ -673,6 +673,16 @@ begin
         memo12.Lines.LoadFromFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\result.out');
     end;
   end;
+
+
+  if combobox1.Text = 'Load Team' then
+   begin
+    if FileExists(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out') then
+     begin
+         memo12.Lines.LoadFromFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out');
+     end;
+   end;
+
 
 end;
 

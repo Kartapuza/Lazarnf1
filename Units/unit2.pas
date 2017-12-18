@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  StdCtrls, Menus, Unit3, Unit4;
+  StdCtrls, Menus, Unit3, Unit4, Unit5;
 
 type
 
@@ -297,6 +297,8 @@ type
     Image352: TImage;
     Image353: TImage;
     Image354: TImage;
+    Image355: TImage;
+    Image356: TImage;
     Image36: TImage;
     Image37: TImage;
     Image38: TImage;
@@ -452,7 +454,11 @@ type
     Label84: TLabel;
     Label85: TLabel;
     Label86: TLabel;
+    Label87: TLabel;
+    Label88: TLabel;
     Label9: TLabel;
+    Memo1: TMemo;
+    Memo2: TMemo;
     MenuItem1: TMenuItem;
     Panel1: TPanel;
     Panel10: TPanel;
@@ -514,7 +520,16 @@ type
     Panel150: TPanel;
     Panel151: TPanel;
     Panel152: TPanel;
+    Panel153: TPanel;
+    Panel154: TPanel;
+    Panel155: TPanel;
+    Panel156: TPanel;
+    Panel157: TPanel;
+    Panel158: TPanel;
+    Panel159: TPanel;
     Panel16: TPanel;
+    Panel160: TPanel;
+    Panel161: TPanel;
     Panel17: TPanel;
     Panel18: TPanel;
     Panel19: TPanel;
@@ -616,7 +631,9 @@ type
     procedure Label3DblClick(Sender: TObject);
     procedure Label4DblClick(Sender: TObject);
     procedure Label6Click(Sender: TObject);
+    procedure Label87Click(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
+    procedure Panel154Click(Sender: TObject);
     procedure Panel15Click(Sender: TObject);
     procedure Panel34Click(Sender: TObject);
     procedure Panel49Click(Sender: TObject);
@@ -985,6 +1002,7 @@ begin
    If length(Image225.Hint)>0 then
    begin
        Image225.Picture := Painter(Image225.Hint,2);
+       Image355.Picture := Painter(Image225.Hint,2);
    end;
 end;
 
@@ -1012,6 +1030,7 @@ begin
  If length(Image226.Hint)>0 then
  begin
      Image226.Picture := Painter(Image226.Hint,2);
+     Image356.Picture := Painter(Image226.Hint,2);
 
  end;
 end;
@@ -1031,10 +1050,28 @@ begin
 
 end;
 
+procedure TForm2.Label87Click(Sender: TObject);
+var
+s: String;
+begin
+  GetDir(0,s);
+
+   if FileExists(s+'\bin\data\'+Form4.Edit1.Text+'\'+ Form4.Edit2.Text+'\resultroster'+label87.Hint+'.out') then
+    begin
+        Form5.Show;
+        Form5.ListBox1.Items.LoadFromFile(s+'\bin\data\'+ Form4.Edit1.Text+'\'+ Form4.Edit2.Text+'\resultroster'+label87.Hint+'.out');
+//        Form5.memo1.Lines.LoadFromFile(s+'\bin\data\'+ Form4.Edit1.Text+'\'+ Form4.Edit2.Text+'\resultroster'+label87.Hint+'.out');
+    end;
+
+end;
+
 procedure TForm2.MenuItem1Click(Sender: TObject);
 var
  jj: integer;
 begin
+  Form4.Show;
+  Form4.Close;
+
  for jj:=15 to 31 do begin
   with  TPanel(Form2.FindComponent('Panel'+ IntToStr(jj))) do
    if Color=clYellow then
@@ -1052,6 +1089,33 @@ begin
 
                      end;
 
+
+end;
+
+procedure TForm2.Panel154Click(Sender: TObject);
+begin
+  if panel154.Caption = '>>' then
+                        begin
+                           panel154.Caption:='<<';
+                           panel155.Visible:=False;
+                           panel153.AutoSize:=True;
+                           panel156.Visible:=False;
+                           panel158.Visible:=False;
+
+                           panel153.AutoSize:=False;
+
+                        end
+                         else
+                        begin
+                         panel153.AutoSize:=False;
+                         panel153.Width:=330;
+                           panel155.Visible:=True;
+
+                           panel156.Visible:=True;
+                           panel158.Visible:=True;
+                           panel154.Caption:='>>';
+
+                        end;
 
 end;
 
