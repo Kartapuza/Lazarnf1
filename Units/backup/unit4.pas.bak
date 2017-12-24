@@ -415,7 +415,7 @@ begin
    if Form4.CheckBox10.Checked = True then
     begin
       Form4.Memo3.Lines.Strings[2]:= '1';
-      Form4.Memo3.Lines.Strings[3]:= Form4.CheckBox9.Hint + Form2.Label85.Hint;
+      Form4.Memo3.Lines.Strings[3]:= Form4.CheckBox10.Hint + Form2.Label85.Hint;
     end;
 
 
@@ -581,6 +581,7 @@ begin
     end;
   end;
 
+  if pars=0 then pars:=1;
   b1:=((b2-b1) div pars);
 //  ShowMessage(IntToStr(pars)+'_'+IntToStr(b1));
 
@@ -636,6 +637,24 @@ begin
 
    end;
 
+
+ if combobox1.Text = 'Load Team' then
+  begin
+   if CreateDir(s+'\bin\data\'+Edit1.Text) then;
+
+    if CreateDir(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text) then
+     begin
+      memo12.Lines.LoadFromFile(s+'\bin\resultroster.out');
+      memo12.Lines.SaveToFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out');
+     end
+      else
+     begin
+      memo12.Lines.LoadFromFile(s+'\bin\resultroster.out');
+      memo12.Lines.SaveToFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out');
+     end;
+
+  end;
+
 end;
 
 procedure TForm4.Button4Click(Sender: TObject);
@@ -655,6 +674,16 @@ begin
         memo12.Lines.LoadFromFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\result.out');
     end;
   end;
+
+
+  if combobox1.Text = 'Load Team' then
+   begin
+    if FileExists(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out') then
+     begin
+         memo12.Lines.LoadFromFile(s+'\bin\data\'+Edit1.Text+'\'+ Edit2.Text+'\resultroster'+Form4.Button3.Hint+'.out');
+     end;
+   end;
+
 
 end;
 

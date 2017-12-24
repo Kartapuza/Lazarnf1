@@ -105,9 +105,9 @@ object Form3: TForm3
     Height = 387
     Top = 0
     Width = 654
-    ActivePage = TabSheet33
+    ActivePage = TabSheet1
     Align = alClient
-    TabIndex = 32
+    TabIndex = 0
     TabOrder = 1
     OnChange = PageControl1Change
     object TabSheet1: TTabSheet
@@ -3088,8 +3088,8 @@ object Form3: TForm3
         Lines.Strings = (
           '49ers'
           'San Francisco'
-          'SFO'
           'SF'
+          'SFO'
           'SF"'
           '49ers San Francisco'
           'Сан-Франциско Найнэрс'
@@ -3801,8 +3801,8 @@ object Form3: TForm3
         Lines.Strings = (
           'Chiefs'
           'Kansas City'
-          'KAN'
           'KC'
+          'KAN'
           'KC"'
           'Chiefs Kansas City'
           'Канзас Сити Чифс'
@@ -4569,8 +4569,8 @@ object Form3: TForm3
         Lines.Strings = (
           'Packers'
           'Green Bay'
-          'GNB'
           'GB'
+          'GNB'
           'GB"'
           'Packers Green Bay'
           'Грин Бэй Пэкерз'
@@ -5529,8 +5529,8 @@ object Form3: TForm3
         Lines.Strings = (
           'Buccaneers'
           'Tampa Bay'
-          'TAM'
           'TB'
+          'TAM'
           'TB"'
           'Buccaneers Tampa Bay'
           'Тампа-Бэй Букканиэрз'

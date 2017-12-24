@@ -456,7 +456,9 @@ type
     Label86: TLabel;
     Label87: TLabel;
     Label88: TLabel;
+    Label89: TLabel;
     Label9: TLabel;
+    Label90: TLabel;
     Memo1: TMemo;
     Memo2: TMemo;
     MenuItem1: TMenuItem;
@@ -530,6 +532,9 @@ type
     Panel16: TPanel;
     Panel160: TPanel;
     Panel161: TPanel;
+    Panel162: TPanel;
+    Panel163: TPanel;
+    Panel164: TPanel;
     Panel17: TPanel;
     Panel18: TPanel;
     Panel19: TPanel;
@@ -635,6 +640,7 @@ type
     procedure MenuItem1Click(Sender: TObject);
     procedure Panel154Click(Sender: TObject);
     procedure Panel15Click(Sender: TObject);
+    procedure Panel162Click(Sender: TObject);
     procedure Panel34Click(Sender: TObject);
     procedure Panel49Click(Sender: TObject);
     procedure Panel5Click(Sender: TObject);
@@ -659,6 +665,21 @@ implementation
 
 { TForm2 }
 
+Function HintPrint (sHint:string; iNik:integer): String;
+var
+m, i: integer;
+begin
+  for m:=1 to 32 do begin
+    with  TMemo(Form3.FindComponent('Memo'+ IntToStr(m))) do
+     for i:=0 to Lines.count-1 do
+      begin
+      if Lines.Strings[i] = sHint then Result:= Lines.Strings[iNik];
+      break;
+      end;
+                    end;
+
+
+end;
 
 Function Painter(sPic:string; iPic:integer): TPicture;
 var
@@ -1004,6 +1025,9 @@ begin
        Image225.Picture := Painter(Image225.Hint,2);
        Image355.Picture := Painter(Image225.Hint,2);
    end;
+   Label87.Hint:= HintPrint(Image225.Hint,2);
+
+
 end;
 
 procedure TForm2.Image225Click(Sender: TObject);
@@ -1033,6 +1057,7 @@ begin
      Image356.Picture := Painter(Image226.Hint,2);
 
  end;
+   Label88.Hint:= HintPrint(Image226.Hint,2);
 end;
 
 procedure TForm2.Image44Click(Sender: TObject);
@@ -1179,6 +1204,34 @@ form4.Button4.Click;
     end;
 
 
+end;
+
+procedure TForm2.Panel162Click(Sender: TObject);
+begin
+    if panel162.Caption = 'V' then
+                        begin
+                           panel162.Caption:='^';
+{                           panel155.Visible:=False;
+                           panel153.AutoSize:=True;
+                           panel156.Visible:=False;
+                           panel158.Visible:=False;}
+                           panel12.Height:=137;
+                           Form2.OnResize(Form2);
+                           panel153.AutoSize:=False;
+
+                        end
+                         else
+                        begin
+{                         panel153.AutoSize:=False;}
+                         panel12.Height:=337;
+{                           panel155.Visible:=True;
+
+                           panel156.Visible:=True;
+                           panel158.Visible:=True;}
+                           panel162.Caption:='V';
+                           Form2.OnResize(Form2);
+
+                        end;
 end;
 
 procedure TForm2.Panel34Click(Sender: TObject);

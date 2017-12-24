@@ -6,7 +6,7 @@ object Form4: TForm4
   Caption = 'Parse lab'
   ClientHeight = 627
   ClientWidth = 788
-  LCLVersion = '1.6.2.0'
+  LCLVersion = '1.8.0.6'
   object Panel1: TPanel
     Left = 0
     Height = 627
@@ -452,6 +452,7 @@ object Form4: TForm4
           object Memo3: TMemo
             Left = 0
             Height = 169
+            Hint = 'http://www.nfl.com/teams/roster?team='
             Top = 0
             Width = 431
             Align = alClient
@@ -538,6 +539,8 @@ object Form4: TForm4
           Width = 75
           Caption = 'Save Result '
           OnClick = Button3Click
+          ParentShowHint = False
+          ShowHint = True
           TabOrder = 1
         end
         object Button4: TButton

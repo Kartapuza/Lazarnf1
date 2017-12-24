@@ -1,102 +1,84 @@
 s--
-Colts
-(3-11-0)
---
-_ _ _ _ 
-Ravens
-(8-6-0)
---
-_ _ _ _ 
-s--
-Vikings
-(11-3-0)
---
-_ _ _ _ 
-Packers
-(7-7-0)
---
-_ _ _ _ 
-s--
 Lions
 (8-6-0)
---
-_ _ _ _ 
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
 Bengals
 (5-9-0)
---
-_ _ _ _ 
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
 s--
 Dolphins
 (6-8-0)
---
-_ _ _ _ 
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
 Chiefs
 (8-6-0)
---
-_ _ _ _ 
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
 s--
 Bills
 (8-6-0)
---
-_ _ _ _ 
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
 Patriots
 (11-3-0)
---
-_ _ _ _ 
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
 s--
 Browns
 (0-14-0)
---
-_ _ _ _ 
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
 Bears
 (4-10-0)
---
-_ _ _ _ 
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
 s--
 Buccaneers
-(4-9-0)
---
-_ _ _ _ 
+(4-10-0)
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
 Panthers
 (10-4-0)
---
-_ _ _ _ 
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
 s--
 Falcons
-(8-5-0)
---
-_ _ _ _ 
+(9-5-0)
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
 Saints
 (10-4-0)
---
-_ _ _ _ 
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
 s--
 Broncos
 (5-9-0)
---
-_ _ _ _ 
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
 Redskins
 (6-8-0)
---
-_ _ _ _ 
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
 s--
 Rams
 (10-4-0)
---
-_ _ _ _ 
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
 Titans
 (8-6-0)
---
-_ _ _ _ 
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
 s--
 Chargers
 (7-7-0)
---
-_ _ _ _ 
+#{away.score.T}
+#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
 Jets
 (5-9-0)
---
-_ _ _ _ 
+#{home.score.T}
+#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
 s--
 Jaguars
 (10-4-0)
@@ -142,213 +124,267 @@ Eagles
 (12-2-0)
 --
 _ _ _ _ 
+s--
+Colts
+(3-12-0)
+16
+0 7 6 3 
+Ravens
+(9-6-0)
+23
+3 10 3 7 
+s--
+Vikings
+(12-3-0)
+16
+10 0 3 3 
+Packers
+(7-8-0)
+0
+0 0 0 0 
 p--
 1
 +1
-Steelers
-Steelers
-They found a way late against the Ravens, but the defense has been bad against the pass the past three games. That won't be a good look against Tom Brady.
+Patriots
+11-3-0
+By beating the Steelers, the NFL playoffs will likely go through Foxborough. Beating the Patriots will be tough to do in their building come January.
 p--
 2
 -1
-Patriots
-Patriots
-The lack of a pass rush showed up against the Dolphins. That can't happen against Ben Roethlisberger.
+Steelers
+11-3-0
+The health of receiver Antonio Brown is the important thing. They will still likely be the No. 2 seed in the AFC, but he has to be back for the playoffs.
 p--
 3
-+1
+`
 Eagles
-Eagles
-I will keep them here, even with the news of Carson Wentz going down for the season. But can they win with Nick Foles?
+12-2-0
+Nick Foles did a nice job against the Giants, but Eli Manning shredded that defense. That's two weeks in a row that unit has struggled.
 p--
 4
-+2
+`
 Saints
-Saints
-That was a tough one last week at Atlanta, with some questionable officiating calls, and now they have to re-group but are still in first place in the division.
+10-4-0
+It wasn't pretty against the Jets, and they will have to be better against the Falcons this week. But you have to win those types of games.
 p--
 5
-+2
+`
 Panthers
-Panthers
-Cam Newton came up big in the big moment in a big game against Minnesota. That's what's going to carry this team the rest of the way.
+10-4-0
+They are getting it going at the right time. Cam Newton looked like the Newton of 2015 against the Packers.
 p--
 6
-+3
+`
 Jaguars
-Jaguars
-Don't look now, but Blake Bortles is playing good football. If he can continue that, watch out for this team come playoff time.
+10-4-0
+They are a playoff team as of right now, but they want a lot more than that. That defense is special.
 p--
 7
--4
+`
 Vikings
-Vikings
-Playing three consecutive road games was tough, but going 2-1 in that stretch is impressive.
+12-3-0
+The Vikings are playing for the No. 1 seed the next two weeks. If they get it, Mike Zimmer might be the coach of the year.
 p--
 8
--3
+`
 Rams
-Rams
-They have to find a way to win the games against the best of the NFC. Now comes a big division game with Seattle.
+10-4-0
+That was a statement victory at Seattle. The message was sent: They will be a factor in the playoffs.
 p--
 9
-+1
+`
 Falcons
-Falcons
-That might have been a season-saving interception by Deion Jones of Drew Brees late last week. If they win out, they win the division.
+9-5-0
+That wasn't pretty in Tampa on Monday night, but now they have to regroup quickly for the big one at New Orleans. Where is Julio Jones in their offense?
 p--
 10
--2
-Seahawks
-Seahawks
-If they beat the Rams this week at home, they are in first place. But they just don't have the same feel about them as they did in recent years.
++2
+Cowboys
+8-6-0
+They held on against the Raiders and still have playoff hopes. Ezekiel Elliott will be back this week to help make it happen.
 p--
 11
-`
-Chargers
-Chargers
-They are riding high heading into Arrowhead to play the Chiefs. The winner of that game will likely win the division.
++3
+Ravens
+9-6-0
+Their task is simple: Win their final two and they are in the playoffs. That means beating the Colts and Bengals at home. They are getting in.
 p--
 12
-+2
-Cowboys
-Cowboys
-They got a big game from Dak Prescott against the Giants to stay alive. They need more of that down the stretch.
++6
+Chiefs
+8-6-0
+They impressed in dominating the Chargers last week. If they win out, they are the division champs.
 p--
 13
--1
-Titans
-Titans
-Playing close games finally caught up to them at Arizona. They are now in second place in the AFC South playing the chase game.
+-3
+Seahawks
+8-6-0
+Did the Seattle dynasty die in the blowout loss to the Rams? It sure looked like it, but they aren't done yet this season.
 p--
 14
--1
-Ravens
-Ravens
-That loss to the Steelers will sting. But they still control their road to a playoff spot and they have a soft schedule to close out the season.
++3
+Bills
+8-6-0
+They dominated the Dolphins and kept their playoff hopes alive. Can they beat New England this week in Foxborough?
 p--
 15
-`
-Packers
-Packers
-They had to get that comeback victory against the Browns to stay alive. Now they might have Aaron Rodgers back.
+-4
+Chargers
+7-7-0
+They need to win the final two and hope for help to get into the playoffs. They were awful at Kansas City.
 p--
 16
-+1
-Lions
-Lions
-Matt Stafford toughed it out to win at Tampa Bay, which kept their season alive. The need to win out to have a chance to get into the playoffs.
+-3
+Titans
+8-6-0
+They've lost two straight on the road and now face the Rams and Jaguars at home in successive weeks. They could miss the playoffs.
 p--
 17
-+1
-Bills
-Bills
-They are alive after that snowy victory over the Colts. Now they have a winnable game against Miami.
+-1
+Lions
+8-6-0
+They kept their hopes alive by beating the Bears last Saturday and face two must-win games to close against Cincinnati and Green Bay.
 p--
 18
-+1
-Chiefs
-Chiefs
-They seemed to get back on track against the Raiders. That was as good as they've looked in a long time.
+-3
+Packers
+7-8-0
+They are eliminated from playoff contention, which means they will likely shut down Aaron Rodgers -- and they should.
 p--
 19
--3
+`
 Raiders
-Raiders
-That loss at Kansas City should be the dagger in their season. Derek Carr hasn't been good enough.
+6-8-0
+Derek Carr fumbled their playoff chances out of the end zone late against Dallas. They have to be one of the biggest disappointments this season.
 p--
 20
-+4
-Dolphins
-Dolphins
-They looked like a different team against the Patriots. Jay Cutler was really good, keeping their slim playoff hopes alive.
++2
+Redskins
+6-8-0
+Their biggest issue now is whether to give Kirk Cousins a long-term deal. They almost have to give him one.
 p--
 21
-+2
-Cardinals
-Cardinals
-The defense has done some really good things the past month. That has to give them hope for next season.
++5
+Broncos
+5-9-0
+They had to be happy with the way Brock Osweiler played against the Colts. Then again, it was the Colts.
 p--
 22
 -2
-Redskins
-Redskins
-That was a horror show against the Chargers. They are toast and now have to decide what to do with Kirk Cousins.
+Dolphins
+6-8-0
+That was a pathetic showing in Buffalo. They are done now when it comes to playoff talk.
 p--
 23
-+7
-Bears
-Bears
-They have to be thrilled with the way some of their younger players are playing, especially Mitchell Trubisky. That was an impressive win at Cincinnati.
+-2
+Cardinals
+6-8-0
+Blaine Gabbert cooled after his early success and is being replaced by Drew Stanton. They are officially done after losing to the Redskins.
 p--
 24
--3
+`
 Bengals
-Bengals
-Their season went bad after the loss to the Steelers last Monday night. That showed up in the terrible showing against the Bears.
+5-9-0
+The big question is who will be the next head coach with Marvin Lewis reportedly leaving. Will it come from within?
 p--
 25
--3
-Jets
-Jets
-They looked awful losing at Denver and now will be without Josh McCown. Should they play Christian Hackenberg?
++2
+49ers
+4-10-0
+They are 3-0 with Jimmy Garoppolo playing quarterback. He is their future.
 p--
 26
-+1
-Broncos
-Broncos
-Give them credit for breaking the 10-game losing streak. At least they showed up with nothing on the line against the Jets.
+-3
+Bears
+4-10-0
+Mitchell Trubisky is growing up as a passer, which is a good thing for the future, but it probably will be with a new coach.
 p--
 27
-+1
-49ers
-49ers
-Jimmy Garoppolo has been special since taking over. They have their guy.
+-2
+Jets
+5-9-0
+The season is done as they play Bryce Petty at quarterback for the injured Josh McCown. At least they competed at New Orleans.
 p--
 28
--3
+`
 Buccaneers
-Buccaneers
-Will the losing cost coach Dirk Koetter his job? If so, who takes over next season? Jon Gruden?
+4-10-0
+The hope from early in the season is long gone. Are changes coming?
 p--
 29
--3
+`
 Texans
-Texans
-The injuries have simply caught up with them this season. It was too much to overcome.
+4-10-0
+The injuries have turned this team into a mess. The question now is whether Bill O'Brien comes back.
 p--
 30
--1
+`
 Colts
-Colts
-This season has been over for a while. It looks like it's over for Chuck Pagano as well.
+3-12-0
+Not only did the Broncos blow them out, but now comes word that Andrew Luck might need more surgery. It was a bad week.
 p--
 31
 `
 Giants
-Giants
-Even getting Eli Manning back as the starter didn't matter. They just aren't a very good team - no matter what.
+2-12-0
+At least the offense showed some life against the Eagles. Eli Manning can still sling it.
 p--
 32
 `
 Browns
-Browns
-They had their chance to get their first victory, but blew a 14-point lead to the Packers. That was so Browns-like.
+0-14-0
+It's looking more and more like it's 0-16 for this team. Their best chance to win might be this week at Chicago.
 e--
 e--
 e--
 e--
-Broncos Denver
+Ravens Baltimore
+Ravens Baltimore
 Colts Indianapolis
-Colts Indianapolis
-Broncos Denver
-Colts Indianapolis
-Colts Indianapolis
-Colts Indianapolis
-Colts Indianapolis
-Broncos Denver
-Broncos Denver
-Broncos Denver
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+Ravens Baltimore
+e--
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+Vikings Minnesota
+e--
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+Panthers Carolina
+e--
+Browns Cleveland
+Bears Chicago
+Bears Chicago
+Bears Chicago
+Bears Chicago
+Bears Chicago
+Bears Chicago
+Bears Chicago
+Bears Chicago
+Browns Cleveland
+Bears Chicago
 e--
 Lions Detroit
 Lions Detroit
@@ -358,62 +394,86 @@ Lions Detroit
 Lions Detroit
 Lions Detroit
 Lions Detroit
-Lions Detroit
+Bengals Cincinnati
 Lions Detroit
 Lions Detroit
 e--
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
-Chargers Los Angeles
 Chiefs Kansas City
-Chargers Los Angeles
-Chargers Los Angeles
 Chiefs Kansas City
 Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+Chiefs Kansas City
+e--
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+Patriots New England
+e--
+Saints New Orleans
+Saints New Orleans
+Saints New Orleans
+Falcons Atlanta
+Saints New Orleans
+Saints New Orleans
+Falcons Atlanta
+Saints New Orleans
+Saints New Orleans
+Saints New Orleans
+Saints New Orleans
+e--
+Chargers Los Angeles
+Chargers Los Angeles
+Chargers Los Angeles
+Chargers Los Angeles
+Chargers Los Angeles
+Chargers Los Angeles
+Jets New York
+Chargers Los Angeles
+Chargers Los Angeles
 Chargers Los Angeles
 Chargers Los Angeles
 e--
-Bills Buffalo
-Bills Buffalo
-Bills Buffalo
-Bills Buffalo
-Bills Buffalo
-Dolphins Miami
-Bills Buffalo
-Bills Buffalo
-Dolphins Miami
-Bills Buffalo
-Bills Buffalo
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
+Rams Los Angeles
 e--
-Packers Green Bay
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Panthers Carolina
-Packers Green Bay
-Packers Green Bay
-Panthers Carolina
-e--
-Ravens Baltimore
-Ravens Baltimore
-Ravens Baltimore
-Ravens Baltimore
-Ravens Baltimore
-Ravens Baltimore
-Ravens Baltimore
-Ravens Baltimore
-Ravens Baltimore
-Ravens Baltimore
-Ravens Baltimore
+Broncos Denver
+Redskins Washington
+Redskins Washington
+Broncos Denver
+Redskins Washington
+Redskins Washington
+Redskins Washington
+Redskins Washington
+Redskins Washington
+Broncos Denver
+Redskins Washington
 e--
 Jaguars Jacksonville
 Jaguars Jacksonville
 Jaguars Jacksonville
-Jaguars Jacksonville
+49ers San Francisco
 Jaguars Jacksonville
 Jaguars Jacksonville
 Jaguars Jacksonville
@@ -422,112 +482,356 @@ Jaguars Jacksonville
 Jaguars Jacksonville
 Jaguars Jacksonville
 e--
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-Vikings Minnesota
-e--
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-Saints New Orleans
-e--
-Eagles Philadelphia
-Eagles Philadelphia
-Eagles Philadelphia
-Eagles Philadelphia
-Eagles Philadelphia
-Eagles Philadelphia
-Eagles Philadelphia
-Eagles Philadelphia
+Cardinals Arizona
+Cardinals Arizona
+Cardinals Arizona
+Cardinals Arizona
+Cardinals Arizona
 Giants New York
+Giants New York
+Cardinals Arizona
+Giants New York
+Cardinals Arizona
+Cardinals Arizona
+e--
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+Cowboys Dallas
+e--
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+Steelers Pittsburgh
+e--
 Eagles Philadelphia
 Eagles Philadelphia
-e--
-Cardinals Arizona
-Redskins Washington
-Cardinals Arizona
-Redskins Washington
-Redskins Washington
-Redskins Washington
-Cardinals Arizona
-Redskins Washington
-Redskins Washington
-Redskins Washington
-Redskins Washington
-e--
-Seahawks Seattle
-Seahawks Seattle
-Seahawks Seattle
-Rams Los Angeles
-Seahawks Seattle
-Rams Los Angeles
-Rams Los Angeles
-Seahawks Seattle
-Seahawks Seattle
-Rams Los Angeles
-Seahawks Seattle
-e--
-Patriots New England
-Patriots New England
-Patriots New England
-Steelers Pittsburgh
-Patriots New England
-Patriots New England
-Patriots New England
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-Steelers Pittsburgh
-e--
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-49ers San Francisco
-Titans Tennessee
-e--
-Cowboys Dallas
-Cowboys Dallas
-Cowboys Dallas
-Cowboys Dallas
-Raiders Oakland
-Cowboys Dallas
-Cowboys Dallas
-Raiders Oakland
-Cowboys Dallas
-Cowboys Dallas
-Cowboys Dallas
-e--
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
-Falcons Atlanta
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
+Eagles Philadelphia
 e--
 c--
+BAL
+BAL
+BAL
+BAL
+BAL
+BAL
+BAL
+BAL
+MIN
+MIN
+MIN
+MIN
+MIN
+MIN
+MIN
+MIN
+KC
+KC
+KC
+KC
+KC
+KC
+KC
+KC
+DET
+DET
+DET
+DET
+DET
+DET
+CIN
+DET
+LAR
+LAR
+LAR
+LAR
+LAR
+LAR
+LAR
+LAR
+WAS
+WAS
+DEN
+WAS
+WAS
+WAS
+WAS
+DEN
+ATL
+NO
+NO
+NO
+NO
+NO
+NO
+NO
+CHI
+CLE
+CHI
+CLE
+CHI
+CLE
+CHI
+CHI
+LAC
+LAC
+LAC
+LAC
+LAC
+LAC
+LAC
+LAC
+CAR
+TB
+CAR
+CAR
+CAR
+CAR
+CAR
+CAR
+NE
+NE
+NE
+NE
+BUF
+NE
+NE
+NE
+JAC
+JAC
+JAC
+JAC
+SF
+JAC
+JAC
+JAC
+DAL
+SEA
+SEA
+DAL
+DAL
+DAL
+DAL
+DAL
+NYG
+ARI
+ARI
+ARI
+ARI
+NYG
+ARI
+ARI
+PIT
+PIT
+PIT
+PIT
+PIT
+PIT
+PIT
+PIT
+PHI
+PHI
+PHI
+PHI
+PHI
+PHI
+PHI
+PHI
+L--
+-13.5BAL
+a--
+BAL
+BAL
+BAL
+BAL
+IND
+IND
+BAL
+BAL
+L--
++9GB
+a--
+MIN
+MIN
+GB
+MIN
+MIN
+MIN
+GB
+MIN
+L--
+-10.5KC
+a--
+MIA
+KC
+KC
+KC
+MIA
+KC
+MIA
+KC
+L--
++5CIN
+a--
+DET
+DET
+DET
+DET
+DET
+DET
+CIN
+DET
+L--
++6.5TEN
+a--
+TEN
+LAR
+LAR
+LAR
+LAR
+LAR
+TEN
+TEN
+L--
+-3.5WAS
+a--
+WAS
+WAS
+DEN
+WAS
+WAS
+WAS
+WAS
+DEN
+L--
+-5.5NO
+a--
+ATL
+NO
+ATL
+NO
+NO
+ATL
+NO
+NO
+L--
+-6.5CHI
+a--
+CHI
+CLE
+CHI
+CLE
+CLE
+CLE
+CHI
+CLE
+L--
++6.5NYJ
+a--
+LAC
+LAC
+NYJ
+LAC
+NYJ
+NYJ
+LAC
+NYJ
+L--
+-10CAR
+a--
+CAR
+TB
+CAR
+CAR
+TB
+CAR
+TB
+CAR
+L--
+-11.5NE
+a--
+NE
+NE
+BUF
+NE
+BUF
+NE
+BUF
+NE
+L--
++4SF
+a--
+JAC
+JAC
+SF
+JAC
+SF
+JAC
+JAC
+JAC
+L--
+-5DAL
+a--
+DAL
+SEA
+SEA
+DAL
+SEA
+SEA
+DAL
+DAL
+L--
+-3.5ARI
+a--
+NYG
+ARI
+ARI
+ARI
+NYG
+NYG
+ARI
+ARI
+L--
++9.5HOU
+a--
+PIT
+PIT
+HOU
+PIT
+HOU
+PIT
+PIT
+HOU
+L--
+-9PHI
+a--
+PHI
+PHI
+OAK
+OAK
+PHI
+PHI
+PHI
+PHI

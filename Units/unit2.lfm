@@ -7,7 +7,7 @@ object Form2: TForm2
   ClientHeight = 838
   ClientWidth = 1091
   OnResize = FormResize
-  LCLVersion = '1.8.0.6'
+  LCLVersion = '1.6.2.0'
   object Panel1: TPanel
     Left = 0
     Height = 838
@@ -180,20 +180,20 @@ object Form2: TForm2
       TabOrder = 0
       object Panel12: TPanel
         Left = 1
-        Height = 137
-        Top = 700
+        Height = 337
+        Top = 500
         Width = 1001
         Align = alBottom
-        ClientHeight = 137
+        ClientHeight = 337
         ClientWidth = 1001
         TabOrder = 0
         object Panel133: TPanel
           Left = 1
-          Height = 135
-          Top = 1
+          Height = 325
+          Top = 11
           Width = 519
           Align = alLeft
-          ClientHeight = 135
+          ClientHeight = 325
           ClientWidth = 519
           TabOrder = 0
           object Panel135: TPanel
@@ -218,25 +218,55 @@ object Form2: TForm2
               Stretch = True
             end
             object Label85: TLabel
+              Cursor = crHandPoint
               Left = 97
               Height = 15
               Hint = 'Phi'
               Top = 4
-              Width = 40
-              Caption = 'Label85'
+              Width = 33
+              Caption = 'Roster'
+              Font.Color = clNavy
+              Font.Style = [fsUnderline]
               ParentColor = False
+              ParentFont = False
+              ParentShowHint = False
+              ShowHint = True
+            end
+            object Label89: TLabel
+              Cursor = crHandPoint
+              Left = 97
+              Height = 15
+              Hint = 'Phi'
+              Top = 16
+              Width = 25
+              Caption = 'Stats'
+              Font.Color = clNavy
+              Font.Style = [fsUnderline]
+              ParentColor = False
+              ParentFont = False
               ParentShowHint = False
               ShowHint = True
             end
           end
+          object Panel163: TPanel
+            AnchorSideTop.Control = Panel135
+            AnchorSideTop.Side = asrBottom
+            Left = 1
+            Height = 57
+            Top = 67
+            Width = 517
+            Align = alTop
+            BorderStyle = bsSingle
+            TabOrder = 1
+          end
         end
         object Panel134: TPanel
           Left = 520
-          Height = 135
-          Top = 1
+          Height = 325
+          Top = 11
           Width = 480
           Align = alClient
-          ClientHeight = 135
+          ClientHeight = 325
           ClientWidth = 480
           TabOrder = 1
           object Panel136: TPanel
@@ -260,15 +290,57 @@ object Form2: TForm2
               Stretch = True
             end
             object Label86: TLabel
-              Left = 100
+              Cursor = crHandPoint
+              Left = 97
               Height = 15
               Hint = 'Phi'
-              Top = 3
-              Width = 40
-              Caption = 'Label86'
+              Top = 4
+              Width = 33
+              Caption = 'Roster'
+              Font.Color = clNavy
+              Font.Style = [fsUnderline]
               ParentColor = False
+              ParentFont = False
+              ParentShowHint = False
+              ShowHint = True
+            end
+            object Label90: TLabel
+              Cursor = crHandPoint
+              Left = 97
+              Height = 15
+              Hint = 'Phi'
+              Top = 16
+              Width = 25
+              Caption = 'Stats'
+              Font.Color = clNavy
+              Font.Style = [fsUnderline]
+              ParentColor = False
+              ParentFont = False
+              ParentShowHint = False
+              ShowHint = True
             end
           end
+          object Panel164: TPanel
+            Left = 1
+            Height = 57
+            Top = 67
+            Width = 478
+            Align = alTop
+            BorderStyle = bsSingle
+            TabOrder = 1
+          end
+        end
+        object Panel162: TPanel
+          Cursor = crHandPoint
+          Left = 1
+          Height = 10
+          Top = 1
+          Width = 999
+          Align = alTop
+          Caption = 'V'
+          DragCursor = crHandPoint
+          TabOrder = 2
+          OnClick = Panel162Click
         end
       end
       object Panel14: TPanel
@@ -516,11 +588,11 @@ object Form2: TForm2
       end
       object Panel32: TPanel
         Left = 1
-        Height = 676
+        Height = 476
         Top = 24
         Width = 223
         Align = alLeft
-        ClientHeight = 676
+        ClientHeight = 476
         ClientWidth = 223
         TabOrder = 2
         object Panel33: TPanel
@@ -2365,7 +2437,7 @@ object Form2: TForm2
         object Panel46: TPanel
           Left = 1
           Height = 38
-          Top = 495
+          Top = 475
           Width = 221
           Align = alTop
           ClientHeight = 38
@@ -2459,7 +2531,7 @@ object Form2: TForm2
         object Panel47: TPanel
           Left = 1
           Height = 38
-          Top = 533
+          Top = 475
           Width = 221
           Align = alTop
           ClientHeight = 38
@@ -2553,7 +2625,7 @@ object Form2: TForm2
         object Panel48: TPanel
           Left = 1
           Height = 38
-          Top = 571
+          Top = 475
           Width = 221
           Align = alTop
           ClientHeight = 38
@@ -2646,8 +2718,8 @@ object Form2: TForm2
         end
         object Panel51: TPanel
           Left = 1
-          Height = 66
-          Top = 609
+          Height = 0
+          Top = 475
           Width = 221
           Align = alClient
           TabOrder = 16
@@ -2655,12 +2727,12 @@ object Form2: TForm2
       end
       object Panel49: TPanel
         Left = 224
-        Height = 676
+        Height = 476
         Top = 24
         Width = 448
         Align = alClient
         Caption = 'Panel49'
-        ClientHeight = 676
+        ClientHeight = 476
         ClientWidth = 448
         TabOrder = 3
         OnClick = Panel49Click
@@ -23248,7 +23320,7 @@ object Form2: TForm2
         object Panel65: TPanel
           Left = 1
           Height = 38
-          Top = 495
+          Top = 475
           Width = 446
           Align = alTop
           ClientHeight = 38
@@ -24832,7 +24904,7 @@ object Form2: TForm2
         object Panel66: TPanel
           Left = 1
           Height = 38
-          Top = 533
+          Top = 475
           Width = 446
           Align = alTop
           ClientHeight = 38
@@ -26416,7 +26488,7 @@ object Form2: TForm2
         object Panel67: TPanel
           Left = 1
           Height = 38
-          Top = 571
+          Top = 475
           Width = 446
           Align = alTop
           ClientHeight = 38
@@ -27999,17 +28071,17 @@ object Form2: TForm2
         end
         object Panel68: TPanel
           Left = 1
-          Height = 66
-          Top = 609
+          Height = 0
+          Top = 475
           Width = 446
           Align = alClient
-          ClientHeight = 66
+          ClientHeight = 0
           ClientWidth = 446
           TabOrder = 16
           object Panel85: TPanel
             Left = 1
-            Height = 64
-            Top = 1
+            Height = 0
+            Top = 0
             Width = 444
             Align = alClient
             TabOrder = 0
@@ -28018,17 +28090,17 @@ object Form2: TForm2
       end
       object Panel153: TPanel
         Left = 672
-        Height = 676
+        Height = 476
         Top = 24
         Width = 330
         Align = alRight
-        ClientHeight = 676
+        ClientHeight = 476
         ClientWidth = 330
         TabOrder = 4
         object Panel154: TPanel
           Cursor = crHandPoint
           Left = 1
-          Height = 674
+          Height = 474
           Top = 1
           Width = 12
           Align = alLeft
@@ -28039,20 +28111,20 @@ object Form2: TForm2
         end
         object Panel155: TPanel
           Left = 13
-          Height = 674
+          Height = 474
           Top = 1
           Width = 316
           Align = alClient
-          ClientHeight = 674
+          ClientHeight = 474
           ClientWidth = 316
           TabOrder = 1
           object Panel156: TPanel
             Left = 1
-            Height = 672
+            Height = 472
             Top = 1
             Width = 158
             Align = alLeft
-            ClientHeight = 672
+            ClientHeight = 472
             ClientWidth = 158
             TabOrder = 0
             object Panel157: TPanel
@@ -28121,11 +28193,11 @@ object Form2: TForm2
           end
           object Panel158: TPanel
             Left = 159
-            Height = 672
+            Height = 472
             Top = 1
             Width = 156
             Align = alClient
-            ClientHeight = 672
+            ClientHeight = 472
             ClientWidth = 156
             TabOrder = 1
             object Panel159: TPanel
@@ -28156,6 +28228,8 @@ object Form2: TForm2
                 Width = 40
                 Caption = 'Label86'
                 ParentColor = False
+                ParentShowHint = False
+                ShowHint = True
               end
             end
             object Panel161: TPanel
