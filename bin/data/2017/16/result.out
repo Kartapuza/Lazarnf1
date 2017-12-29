@@ -1,130 +1,4 @@
 s--
-Lions
-(8-6-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Bengals
-(5-9-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Dolphins
-(6-8-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Chiefs
-(8-6-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Bills
-(8-6-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Patriots
-(11-3-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Browns
-(0-14-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Bears
-(4-10-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Buccaneers
-(4-10-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Panthers
-(10-4-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Falcons
-(9-5-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Saints
-(10-4-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Broncos
-(5-9-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Redskins
-(6-8-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Rams
-(10-4-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Titans
-(8-6-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Chargers
-(7-7-0)
-#{away.score.T}
-#{away.score.1} #{away.score.2} #{away.score.3} #{away.score.4} #{away.score.5}
-Jets
-(5-9-0)
-#{home.score.T}
-#{home.score.1} #{home.score.2} #{home.score.3} #{home.score.4} #{home.score.5}
-s--
-Jaguars
-(10-4-0)
---
-_ _ _ _ 
-49ers
-(4-10-0)
---
-_ _ _ _ 
-s--
-Seahawks
-(8-6-0)
---
-_ _ _ _ 
-Cowboys
-(8-6-0)
---
-_ _ _ _ 
-s--
-Giants
-(2-12-0)
---
-_ _ _ _ 
-Cardinals
-(6-8-0)
---
-_ _ _ _ 
-s--
-Steelers
-(11-3-0)
---
-_ _ _ _ 
-Texans
-(4-10-0)
---
-_ _ _ _ 
-s--
-Raiders
-(6-8-0)
---
-_ _ _ _ 
-Eagles
-(12-2-0)
---
-_ _ _ _ 
-s--
 Colts
 (3-12-0)
 16
@@ -142,41 +16,167 @@ Packers
 (7-8-0)
 0
 0 0 0 0 
+s--
+Lions
+(8-7-0)
+17
+7 0 3 7 
+Bengals
+(6-9-0)
+26
+0 6 7 13 
+s--
+Dolphins
+(6-9-0)
+13
+3 10 0 0 
+Chiefs
+(9-6-0)
+29
+3 17 3 6 
+s--
+Bills
+(8-7-0)
+16
+3 10 3 0 
+Patriots
+(12-3-0)
+37
+0 13 10 14 
+s--
+Browns
+(0-15-0)
+3
+0 3 0 0 
+Bears
+(5-10-0)
+20
+6 0 14 0 
+s--
+Buccaneers
+(4-11-0)
+19
+3 6 7 3 
+Panthers
+(11-4-0)
+22
+3 9 3 7 
+s--
+Falcons
+(9-6-0)
+13
+0 0 3 10 
+Saints
+(11-4-0)
+23
+3 10 7 3 
+s--
+Broncos
+(5-10-0)
+11
+3 0 0 8 
+Redskins
+(7-8-0)
+27
+0 10 3 14 
+s--
+Rams
+(11-4-0)
+27
+6 7 7 7 
+Titans
+(8-7-0)
+23
+3 10 7 3 
+s--
+Chargers
+(8-7-0)
+14
+0 7 7 0 
+Jets
+(5-10-0)
+7
+0 0 7 0 
+s--
+Jaguars
+(10-5-0)
+33
+0 16 3 14 
+49ers
+(5-10-0)
+44
+10 6 7 21 
+s--
+Seahawks
+(9-6-0)
+21
+0 7 7 7 
+Cowboys
+(8-7-0)
+12
+0 9 3 0 
+s--
+Giants
+(2-13-0)
+0
+0 0 0 0 
+Cardinals
+(7-8-0)
+23
+3 7 6 7 
+s--
+Steelers
+(12-3-0)
+34
+10 10 7 7 
+Texans
+(4-11-0)
+6
+0 0 0 6 
+s--
+Raiders
+(6-9-0)
+10
+0 7 3 0 
+Eagles
+(13-2-0)
+19
+7 0 3 9 
 p--
 1
 +1
 Patriots
-11-3-0
+12-3-0
 By beating the Steelers, the NFL playoffs will likely go through Foxborough. Beating the Patriots will be tough to do in their building come January.
 p--
 2
 -1
 Steelers
-11-3-0
+12-3-0
 The health of receiver Antonio Brown is the important thing. They will still likely be the No. 2 seed in the AFC, but he has to be back for the playoffs.
 p--
 3
 `
 Eagles
-12-2-0
+13-2-0
 Nick Foles did a nice job against the Giants, but Eli Manning shredded that defense. That's two weeks in a row that unit has struggled.
 p--
 4
 `
 Saints
-10-4-0
+11-4-0
 It wasn't pretty against the Jets, and they will have to be better against the Falcons this week. But you have to win those types of games.
 p--
 5
 `
 Panthers
-10-4-0
+11-4-0
 They are getting it going at the right time. Cam Newton looked like the Newton of 2015 against the Packers.
 p--
 6
 `
 Jaguars
-10-4-0
+10-5-0
 They are a playoff team as of right now, but they want a lot more than that. That defense is special.
 p--
 7
@@ -188,19 +188,19 @@ p--
 8
 `
 Rams
-10-4-0
+11-4-0
 That was a statement victory at Seattle. The message was sent: They will be a factor in the playoffs.
 p--
 9
 `
 Falcons
-9-5-0
+9-6-0
 That wasn't pretty in Tampa on Monday night, but now they have to regroup quickly for the big one at New Orleans. Where is Julio Jones in their offense?
 p--
 10
 +2
 Cowboys
-8-6-0
+8-7-0
 They held on against the Raiders and still have playoff hopes. Ezekiel Elliott will be back this week to help make it happen.
 p--
 11
@@ -212,37 +212,37 @@ p--
 12
 +6
 Chiefs
-8-6-0
+9-6-0
 They impressed in dominating the Chargers last week. If they win out, they are the division champs.
 p--
 13
 -3
 Seahawks
-8-6-0
+9-6-0
 Did the Seattle dynasty die in the blowout loss to the Rams? It sure looked like it, but they aren't done yet this season.
 p--
 14
 +3
 Bills
-8-6-0
+8-7-0
 They dominated the Dolphins and kept their playoff hopes alive. Can they beat New England this week in Foxborough?
 p--
 15
 -4
 Chargers
-7-7-0
+8-7-0
 They need to win the final two and hope for help to get into the playoffs. They were awful at Kansas City.
 p--
 16
 -3
 Titans
-8-6-0
+8-7-0
 They've lost two straight on the road and now face the Rams and Jaguars at home in successive weeks. They could miss the playoffs.
 p--
 17
 -1
 Lions
-8-6-0
+8-7-0
 They kept their hopes alive by beating the Bears last Saturday and face two must-win games to close against Cincinnati and Green Bay.
 p--
 18
@@ -254,67 +254,67 @@ p--
 19
 `
 Raiders
-6-8-0
+6-9-0
 Derek Carr fumbled their playoff chances out of the end zone late against Dallas. They have to be one of the biggest disappointments this season.
 p--
 20
 +2
 Redskins
-6-8-0
+7-8-0
 Their biggest issue now is whether to give Kirk Cousins a long-term deal. They almost have to give him one.
 p--
 21
 +5
 Broncos
-5-9-0
+5-10-0
 They had to be happy with the way Brock Osweiler played against the Colts. Then again, it was the Colts.
 p--
 22
 -2
 Dolphins
-6-8-0
+6-9-0
 That was a pathetic showing in Buffalo. They are done now when it comes to playoff talk.
 p--
 23
 -2
 Cardinals
-6-8-0
+7-8-0
 Blaine Gabbert cooled after his early success and is being replaced by Drew Stanton. They are officially done after losing to the Redskins.
 p--
 24
 `
 Bengals
-5-9-0
+6-9-0
 The big question is who will be the next head coach with Marvin Lewis reportedly leaving. Will it come from within?
 p--
 25
 +2
 49ers
-4-10-0
+5-10-0
 They are 3-0 with Jimmy Garoppolo playing quarterback. He is their future.
 p--
 26
 -3
 Bears
-4-10-0
+5-10-0
 Mitchell Trubisky is growing up as a passer, which is a good thing for the future, but it probably will be with a new coach.
 p--
 27
 -2
 Jets
-5-9-0
+5-10-0
 The season is done as they play Bryce Petty at quarterback for the injured Josh McCown. At least they competed at New Orleans.
 p--
 28
 `
 Buccaneers
-4-10-0
+4-11-0
 The hope from early in the season is long gone. Are changes coming?
 p--
 29
 `
 Texans
-4-10-0
+4-11-0
 The injuries have turned this team into a mess. The question now is whether Bill O'Brien comes back.
 p--
 30
@@ -326,13 +326,13 @@ p--
 31
 `
 Giants
-2-12-0
+2-13-0
 At least the offense showed some life against the Eagles. Eli Manning can still sling it.
 p--
 32
 `
 Browns
-0-14-0
+0-15-0
 It's looking more and more like it's 0-16 for this team. Their best chance to win might be this week at Chicago.
 e--
 e--
@@ -529,6 +529,7 @@ Eagles Philadelphia
 Eagles Philadelphia
 Eagles Philadelphia
 Eagles Philadelphia
+e--
 e--
 c--
 BAL
