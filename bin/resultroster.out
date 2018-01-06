@@ -6,7 +6,7 @@
 66 ;  Beatty, Will ; OT ; ACT ;  6'6" ; 319 ; 3/2/1985 ; 9 ; Connecticut ; 
 29 ;  Blount, LeGarrette ; RB ; ACT ;  6'0" ; 250 ; 12/5/1986 ; 8 ; Oregon ; 
 53 ;  Bradham, Nigel ; OLB ; ACT ;  6'2" ; 241 ; 9/4/1989 ; 6 ; Florida State ; 
-42 ;  Braman, Bryan ; LB ; ACT ;  6'5" ; 241 ; 5/4/1987 ; 7 ; West Texas A&M ; 
+42 ;  Braman, Bryan ; LB ; ACT ;  6'5" ; 241 ; 5/4/1987 ; 7 ; West Texas A&M; ; 
 79 ;  Brooks, Brandon ; OG ; ACT ;  6'5" ; 335 ; 8/19/1989 ; 6 ; Miami (Ohio) ; 
 88 ;  Burton, Trey ; TE ; ACT ;  6'3" ; 235 ; 10/29/1991 ; 4 ; Florida ; 
 87 ;  Celek, Brent ; TE ; ACT ;  6'4" ; 255 ; 1/25/1985 ; 11 ; Cincinnati ; 
@@ -33,6 +33,7 @@
 93 ;  Jernigan, Timmy ; DT ; ACT ;  6'2" ; 295 ; 9/24/1992 ; 4 ; Florida State ; 
 65 ;  Johnson, Lane ; OT ; ACT ;  6'6" ; 317 ; 5/8/1990 ; 5 ; Oklahoma ; 
 14 ;  Johnson, Marcus ; WR ; ACT ;  6'1" ; 204 ; 8/5/1994 ; 1 ; Texas ; 
+22 ;  Jones, Sidney ; CB ; ACT ;  6'0" ; 181 ; 5/21/1996 ; 0 ; Washington ; 
 8 ;  Jones, Donnie ; P ; ACT ;  6'2" ; 221 ; 7/5/1980 ; 14 ; LSU ; 
 62 ;  Kelce, Jason ; C ; ACT ;  6'3" ; 295 ; 11/5/1987 ; 7 ; Cincinnati ; 
 95 ;  Kendricks, Mychal ; OLB ; ACT ;  6'0" ; 240 ; 9/28/1990 ; 6 ; California ; 
@@ -55,9 +56,9 @@
 2 ;  Sudfeld, Nate ; QB ; ACT ;  6'6" ; 227 ; 10/7/1993 ; 2 ; Indiana ; 
 97 ;  Vaeao, Destiny ; DT ; ACT ;  6'4" ; 299 ; 1/15/1994 ; 2 ; Washington State ; 
 72 ;  Vaitai, Halapoulivaati ; OT ; ACT ;  6'6" ; 320 ; 6/16/1993 ; 2 ; Texas Christian ; 
-59 ;  Walker, Joe ; ILB ; ACT ;  6'2" ; 236 ; 12/11/1992 ; 2 ; Oregon ; 
+59 ;  Walker, Joe ; ILB ; RES ;  6'2" ; 236 ; 12/11/1992 ; 2 ; Oregon ; 
 67 ;  Warmack, Chance ; OG ; ACT ;  6'2" ; 323 ; 9/14/1991 ; 5 ; Alabama ; 
 26 ;  Watkins, Jaylen ; CB ; ACT ;  5'11" ; 194 ; 11/27/1991 ; 3 ; Florida ; 
 11 ;  Wentz, Carson ; QB ; RES ;  6'5" ; 237 ; 12/30/1992 ; 2 ; North Dakota State ; 
 7 ;  Williams, Dom ; WR ; RES ;  6'2" ; 200 ; 12/11/1992 ; 1 ; Washington State ; 
-61 ; Wisniewski, Stefen ; OG ; ACT ; 6'3" ; 305 ; 3/22/1989 ; 7 ; Penn State ; 
+61 ;  Wisniewski, Stefen ; OG ; ACT ;  6'3" ; 305 ; 3/22/1989 ; 7 ; Penn State ; 

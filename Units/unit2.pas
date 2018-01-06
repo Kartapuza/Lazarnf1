@@ -535,6 +535,7 @@ type
     Panel162: TPanel;
     Panel163: TPanel;
     Panel164: TPanel;
+    Panel165: TPanel;
     Panel17: TPanel;
     Panel18: TPanel;
     Panel19: TPanel;
@@ -965,7 +966,7 @@ begin
 
    globalheig:= Panel49.Height div 16;
 
-   globalheigTop:= Panel12.Width div 18;
+   globalheigTop:= Panel12.Width div 19;
 
    Panel33.Height:= globalheig;
    Panel34.Height:= globalheig;
@@ -1011,6 +1012,7 @@ begin
    Panel29.Width:= globalheigTop;
    Panel30.Width:= globalheigTop;
    Panel31.Width:= globalheigTop;
+   Panel165.Width:= globalheigTop;
    Panel50.Width:= globalheigTop;
 
 
@@ -1114,6 +1116,19 @@ begin
 
                      end;
 
+    if Panel165.Color=clYellow then
+                         begin
+                          form4.Button7.Click;
+                         Form4.ComboBox1.Text:='Load Week';
+                          Form4.CheckBox1.Checked:=True;
+                          Form4.CheckBox2.Checked:=True;
+                          Form4.CheckBox3.Checked:=True;
+                          Form4.CheckBox4.Checked:=True;
+                          Form4.CheckBox5.Checked:=True;
+                         form4.Button1.Click;
+                           Timer1.Enabled:=True;
+                         end;
+
 
 end;
 
@@ -1163,9 +1178,9 @@ for jj:=15 to 31 do begin
  with  TPanel(Form2.FindComponent('Panel'+ IntToStr(jj))) do
  Color:=clWhite;
                     end;
+panel165.Color:=clWhite;
 
 (Sender as TPanel).Color:=clYellow;
-
 
 //загрузка     form3.Button1.Click;
 
@@ -1202,7 +1217,6 @@ form4.Button4.Click;
     form4.Button2.Click;
     form4.Button5.Click;
     end;
-
 
 end;
 
