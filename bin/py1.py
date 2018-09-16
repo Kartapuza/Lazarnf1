@@ -9,248 +9,81 @@ import sys
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-#Создание структуры каталогов
-current_dir = os.getcwd()
-directory_data = (current_dir + '\data')
-
-def ensure_dir(directory):
- if not os.path.exists(directory):
-    os.makedirs(directory)
-
-def save_file(name_file, lines):
- save_changes = open(name_file, 'w')
- save_changes.writelines(lines)
- save_changes.close()
-
 def Load_Settings():
-    global url_nfl, url_powerrankings, url_espn, url_cbs, url_cbs_aganist, url_bwin
-    url_nfl = url_powerrankings = url_espn = url_cbs = url_bwin = url_cbs_aganist = 'none'
-    settings_1 = open('settings.txt', 'r')
+    global url_player_stat, url_team_roster
+    url_player_stat = url_team_roster = 'none'
+    settings_1 = open('settingsplayer.txt', 'r')
     my_string = settings_1.readlines()
     if my_string[0].strip() == '1':
-       url_nfl = my_string[1].strip()
-    else: url_nfl = 'none'
+        url_player_stat = my_string[1].strip()
+    else: url_player_stat = 'none'
 
-    if my_string[2].strip() =='1':
-       url_powerrankings = my_string[3].strip()
-    else: url_powerrankings = 'none'
-
-    if my_string[4].strip() == '1':
-       url_espn = my_string[5].strip()
-    else: url_espn = 'none'
-
-    if my_string[6].strip() =='1':
-       url_cbs = my_string[7].strip()
-    else: url_cbs = 'none'
-
-    if my_string[8].strip() =='1':
-        url_cbs_aganist = my_string[9].strip()
-    else: url_cbs_aganist = 'none'
-
-    if my_string[10].strip() =='1':
-       url_bwin = my_string[10].strip()
-    else: url_bwin = 'none'
+    if my_string[2].strip() == '1':
+        url_team_roster = my_string[3].strip()
+    else:
+        url_team_roster = 'none'
 
 def GetUrl():
  headers = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
  }
- if len(url_nfl) > 5:
-    r = requests.get(url_nfl, headers=headers)
-    with open('scores.html', 'w', encoding='utf-8') as output_file:
+ if len(url_team_roster) > 5:
+    r = requests.get(url_team_roster, headers=headers)
+    with open('teamroster.html', 'w', encoding='utf-8') as output_file:
         output_file.write(r.text)
 
- if len(url_powerrankings) > 5:
-    r = requests.get(url_powerrankings , headers=headers)
-    with open('power.html', 'w', encoding='utf-8') as output_file:
-        output_file.write(r.text)
+ if len(url_player_stat) > 5:
+     r = requests.get(url_player_stat, headers=headers)
+     with open('statsplayer.html', 'w', encoding='utf-8') as output_file:
+         output_file.write(r.text)
 
- if len(url_espn) > 5:
-    r = requests.get(url_espn, headers=headers)
-    with open('espn.html', 'w', encoding='utf-8') as output_file:
-        output_file.write(r.text)
+def Read_Roster():
+    team_roster = open('teamroster.html', 'r')
+    my_string2 = team_roster.read()
+    soup = BeautifulSoup(my_string2, 'html.parser')
+    team_rosters1 = soup.find_all('tr', attrs={"class": "odd"})
+    team_rosters2 = soup.find_all('tr', attrs={"class": "even"})
+    for i in range(0, len(team_rosters2)):
+        team_rosters1_td = team_rosters1[i].find_all('td')
+        team_rosters2_td = team_rosters2[i].find_all('td')
+        str_tr1 = ''
+        for j in range(0, len(team_rosters1_td)):
+            str_tr1 = str_tr1 + team_rosters1_td[j].text + ' ; '
+        print(str_tr1)
 
- if len(url_cbs) > 5:
-    try:
-     r = requests.get(url_cbs, headers=headers,  verify=False, timeout=(10, 1))
-    except requests.exceptions.ReadTimeout:
-     print('Oops. Read timeout occured')
-    except requests.exceptions.ConnectTimeout:
-     print('Oops. Connection timeout occured!')
-    with open('cbs.html', 'w', encoding='utf-8') as output_file:
-        output_file.write(r.text)
+        str_tr2 = ''
+        for j in range(0, len(team_rosters2_td)):
+            str_tr2 = str_tr2 + team_rosters2_td[j].text + ' ; '
+        print(str_tr2)
 
- if len(url_cbs_aganist) > 5:
-    try:
-     r = requests.get(url_cbs_aganist, headers=headers,  verify=False, timeout=(10, 1))
-    except requests.exceptions.ReadTimeout:
-     print('Oops. Read timeout occured')
-    except requests.exceptions.ConnectTimeout:
-     print('Oops. Connection timeout occured!')
-    with open('cbsagn.html', 'w', encoding='utf-8') as output_file:
-        output_file.write(r.text)
+    if len(team_rosters1)>len(team_rosters2):
+        team_rosters1_td = team_rosters1[len(team_rosters1)-1].find_all('td')
+        str_tr1 = ''
+        for j in range(0, len(team_rosters1_td)):
+            str_tr1 = str_tr1 + team_rosters1_td[j].text.strip() + ' ; '
+        print(str_tr1)
 
-def find_week_games():
-    nflsite_1 = open('scores.html', 'r')
-    my_string = nflsite_1.read()
+def Read_Stats_Player():
+    team_player = open('statsplayer.html', 'r')
+    my_string2 = team_player.read()
+    soup = BeautifulSoup(my_string2, 'html.parser')
+    team_stats_player = soup.find_all('tr')
+    for i in range(0,len(team_stats_player)):
+        team_stats_player_hr = team_stats_player[i].find_all('td')
+        str_tr1 = ''
+        for j in range(0, len(team_stats_player_hr)):
+            str_tr1 = str_tr1 + team_stats_player_hr[j].text.strip() + ' ; '
+        print(str_tr1)
+    print('ps-')
 
-    save_file(directory_data + 'nf1.txt', my_string)
-
-    soup = BeautifulSoup(my_string, 'html.parser')
-    week_scores = soup.find(id="score-boxes")
-    game_team = week_scores.find_all('div', attrs={"class":"new-score-box"})
-
-    for i in range(0, len(game_team)):
-        tonight = game_team[i]
-
-        away_team = tonight.find('div', attrs={"class":"away-team"})
-        away_name = away_team.find('p', attrs={"class":"team-name"}).get_text()
-        away_score = away_team.find('p', attrs={"class":"total-score"}).get_text()
-        away_record = away_team.find('p', attrs={"class":"team-record"}).get_text()
-
-        if away_team.find('p', attrs={"class": "quarters-score"}) is None:
-            quarters_score = 0
-        else:
-            quarters_score = 1
-            score_first_qt = away_team.find('span', attrs={"class": "first-qt"}).get_text()
-            score_second_qt = away_team.find('span', attrs={"class": "second-qt"}).get_text()
-            score_third_qt = away_team.find('span', attrs={"class": "third-qt"}).get_text()
-            score_fourth_qt = away_team.find('span', attrs={"class": "fourth-qt"}).get_text()
-            score_ot_qt = away_team.find('span', attrs={"class": "ot-qt"}).get_text()
-        print('s--')
-        print(away_name)
-        print(away_record.strip())
-        print(away_score.strip())
-        if int(quarters_score) > 0:
-          print(score_first_qt + ' ' + score_second_qt + ' ' + score_third_qt + ' ' + score_fourth_qt + ' ' + score_ot_qt )
-        else:
-          print('_ ' + '_ ' + '_ ' + '_ ')
-
-        home_team = tonight.find('div', attrs={"class":"home-team"})
-        home_name =  home_team.find('p', attrs={"class":"team-name"}).get_text()
-        home_score =  home_team.find('p', attrs={"class":"total-score"}).get_text()
-        home_record = home_team.find('p', attrs={"class":"team-record"}).get_text()
-
-        if home_team.find('p', attrs={"class": "quarters-score"}) is None:
-            quarters_score = 0
-        else:
-            quarters_score = 1
-            score_first_qt = home_team.find('span', attrs={"class": "first-qt"}).get_text()
-            score_second_qt = home_team.find('span', attrs={"class": "second-qt"}).get_text()
-            score_third_qt = home_team.find('span', attrs={"class": "third-qt"}).get_text()
-            score_fourth_qt = home_team.find('span', attrs={"class": "fourth-qt"}).get_text()
-            score_ot_qt = home_team.find('span', attrs={"class": "ot-qt"}).get_text()
-
-        print(home_name)
-        print(home_record.strip())
-        print(home_score.strip())
-        if int(quarters_score) > 0:
-          print(score_first_qt + ' ' + score_second_qt + ' ' + score_third_qt + ' ' + score_fourth_qt + ' ' + score_ot_qt )
-        else:
-          print('_ ' + '_ ' + '_ ' + '_ ')
-
-def power_rankings():
-    nflsite_1 = open('power.html', 'r')
-    my_string = nflsite_1.read()
-
-    soup = BeautifulSoup(my_string, 'html.parser')
-    week_power = soup.find("div", attrs={"class":"table-wrapper"})
-    game_team = week_power.find_all('tr', attrs={"class":"player-rankings-stats"})
-
-    for i in range(0, len(game_team)):
-        tonight = game_team[i]
-
-        team_rank = tonight.find('span', attrs={"class":"rank"}).get_text()
-
-        if tonight.find('td', attrs={"class": "cell-left change-up"}) is None:
-             team_rank_up = 0
-        else:
-             team_rank_up = tonight.find('td', attrs={"class": "cell-left change-up"}).get_text()
-
-        if tonight.find('td', attrs={"class": "cell-left change-down"})  is None:
-             team_rank_down = 0
-        else:
-             team_rank_down = tonight.find('td', attrs={"class": "cell-left change-down"}).get_text()
-
-        team_stats = tonight.find_all('td', attrs={"class": "cell-left"})
-        team_stat = team_stats[1].get_text()
-
-        team_name = tonight.find('td', attrs={"class":"cell-left team"}).get_text()
-        team_comment = tonight.find('td', attrs={"class":"cell-left dek"}).get_text()
-        print('p--')
-        print(team_rank.strip())
-
-        if int(team_rank_up) > 0:
-            print('+' + team_rank_up.strip())
-        elif int(team_rank_down) > 0:
-            print('-' + team_rank_down.strip())
-        else:
-            print('`')
-        print(team_name.strip())
-        print(team_stat.strip())
-        print(team_comment.strip())
-
-def espn_read():
-    espn_1 = open('espn.html', 'r')
-    my_string = espn_1.read()
-
-    soup = BeautifulSoup(my_string, 'html.parser')
-    week_pick_espn = soup.find("table", attrs={"class": "tablehead"})
-    game_pick = week_pick_espn.find_all('tr', attrs={"class": re.compile(r'[a-z]||row team||r''[a-z]')})
-    for i in range(0, len(game_pick)):
-        tonight = game_pick[i]
-        game_day_pick = tonight.find_all('div', attrs={"class": re.compile(r'[a-z]||teampick logo||r''[a-z]')})
-        print('e--')
-        for j in range(0, len(game_day_pick)):
-            topick = game_day_pick[j]
-            print(game_day_pick[j].get_text())
-
-def cbs_read():
-    cbs_1 = open('cbs.html', 'r')
-    my_string = cbs_1.read()
-    soup = BeautifulSoup(my_string, 'html.parser')
-    week_pick_cbs = soup.find("table", attrs={"id": "oddsTable"})
-    game_day_pick = week_pick_cbs.find_all('div', attrs={"class": "writerPicksCtr"})
-    print('c--')
-    for j in range(0, len(game_day_pick)):
-            team_img_name = game_day_pick[j].find_all('img')
-            p_url = team_img_name[0].get('src')
-            p_name = p_url.split('/')[-1]
-            print(p_name.split('.')[0])
-
-
-def cbs_read_aganist():
-    cbs_2 = open('cbsagn.html', 'r')
-    my_string = cbs_2.read()
-    soup = BeautifulSoup(my_string, 'html.parser')
-    week_pick_cbs_a = soup.find("table", attrs={"id": "oddsTable"})
-    game_day_pick = week_pick_cbs_a.find_all('div', attrs={"class": "writerPicksCtr"})
-    gameLine = week_pick_cbs_a.find_all('div', attrs={"class": "gameLineCtr"})
-    k = int(((len(game_day_pick) / len(gameLine))))
-    p = k
-    for j in range(0, len(gameLine)):
-            print('L--')
-            team_Line = gameLine[j]
-            print(team_Line.text)
-            print('a--')
-            for q in range(p-k, p):
-                team_img_name = game_day_pick[q]
-                print(team_img_name.text)
-            p = p + k
 
 
 if __name__ == '__main__':
-    sys.stdout = open('result.out', 'w')
-    ensure_dir(directory_data)
     Load_Settings()
     GetUrl()
-    if len(url_nfl) > 5:
-        find_week_games()
-    if len(url_powerrankings) > 5:
-        power_rankings()
-    if len(url_espn) > 5:
-        espn_read()
-    if len(url_cbs) > 5:
-        cbs_read()
-    if len(url_cbs_aganist) > 5:
-        cbs_read_aganist()
+    if len(url_team_roster) > 5:
+        sys.stdout = open('resultroster.out', 'w')
+        Read_Roster()
+    if len(url_player_stat) > 5:
+        sys.stdout = open('resultstatplayer.out', 'w')
+        Read_Stats_Player()

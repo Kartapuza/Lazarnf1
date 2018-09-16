@@ -1028,6 +1028,8 @@ begin
        Image355.Picture := Painter(Image225.Hint,2);
    end;
    Label87.Hint:= HintPrint(Image225.Hint,2);
+   Label85.Hint:= HintPrint(Image225.Hint,2);
+   Label89.Hint:= HintPrint(Image225.Hint,2);
 
 
 end;
@@ -1060,6 +1062,8 @@ begin
 
  end;
    Label88.Hint:= HintPrint(Image226.Hint,2);
+   Label86.Hint:= HintPrint(Image226.Hint,2);
+   Label90.Hint:= HintPrint(Image226.Hint,2);
 end;
 
 procedure TForm2.Image44Click(Sender: TObject);

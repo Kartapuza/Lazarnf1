@@ -1,7 +1,7 @@
 object Form4: TForm4
-  Left = 263
+  Left = 343
   Height = 627
-  Top = 186
+  Top = 254
   Width = 788
   Caption = 'Parse lab'
   ClientHeight = 627
@@ -837,11 +837,11 @@ object Form4: TForm4
         end
         object TabSheet2: TTabSheet
           Caption = 'TabSheet2'
-          ClientHeight = 154
+          ClientHeight = 162
           ClientWidth = 431
           object Memo7: TMemo
             Left = 0
-            Height = 154
+            Height = 162
             Top = 0
             Width = 431
             Align = alClient

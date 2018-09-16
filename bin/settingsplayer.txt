@@ -1,5 +1,5 @@
 1
-http://www.nfl.com/teams/statistics?team=Phi
+http://www.nfl.com/teams/statistics?team=WAS
 1
-http://www.nfl.com/teams/roster?team=Phi
+http://www.nfl.com/teams/roster?team=WAS
 0

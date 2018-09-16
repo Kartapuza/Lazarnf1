@@ -1,18 +1,163 @@
 object Form5: TForm5
-  Left = 214
-  Height = 480
-  Top = 268
+  Left = 216
+  Height = 544
+  Top = 256
   Width = 778
-  Caption = 'Form5'
-  ClientHeight = 480
+  Caption = 'Roster'
+  ClientHeight = 544
   ClientWidth = 778
   LCLVersion = '1.8.0.6'
-  object ListBox1: TListBox
-    Left = 88
-    Height = 296
-    Top = 48
-    Width = 576
-    ItemHeight = 0
+  object Panel1: TPanel
+    Left = 0
+    Height = 104
+    Top = 0
+    Width = 778
+    Align = alTop
+    ClientHeight = 104
+    ClientWidth = 778
     TabOrder = 0
+    object Memo1: TMemo
+      Left = 568
+      Height = 102
+      Top = 1
+      Width = 209
+      Align = alRight
+      BorderStyle = bsNone
+      Font.Height = -9
+      Lines.Strings = (
+        'ACT = Active '
+        'RES = Injured reserve '
+        'NON = Non football related injured reserve '
+        'SUS = Suspended '
+        'PUP = Physically unable to perform '
+        'UDF = Unsigned draft pick '
+        'EXE = Exempt '
+      )
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Label1: TLabel
+      Left = 10
+      Height = 15
+      Top = 5
+      Width = 21
+      Caption = 'Sort'
+      DragCursor = crHandPoint
+      Font.Color = clNavy
+      Font.Style = [fsUnderline]
+      ParentColor = False
+      ParentFont = False
+      OnClick = Label1Click
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 440
+    Top = 104
+    Width = 778
+    Align = alClient
+    ClientHeight = 440
+    ClientWidth = 778
+    TabOrder = 1
+    object PageControl1: TPageControl
+      Left = 1
+      Height = 438
+      Top = 1
+      Width = 776
+      ActivePage = TabSheet6
+      Align = alClient
+      TabIndex = 5
+      TabOrder = 0
+      object TabSheet1: TTabSheet
+        Caption = 'Roster'
+        ClientHeight = 410
+        ClientWidth = 768
+        object ListBox1: TListBox
+          Left = 0
+          Height = 410
+          Top = 0
+          Width = 768
+          Align = alClient
+          ItemHeight = 0
+          OnClick = ListBox1Click
+          TabOrder = 0
+        end
+      end
+      object TabSheet2: TTabSheet
+        Caption = 'Injured'
+        ClientHeight = 410
+        ClientWidth = 768
+        object ListBox2: TListBox
+          Left = 0
+          Height = 410
+          Top = 0
+          Width = 768
+          Align = alClient
+          ItemHeight = 0
+          OnClick = ListBox1Click
+          TabOrder = 0
+        end
+      end
+      object TabSheet3: TTabSheet
+        Caption = 'OL'
+        ClientHeight = 410
+        ClientWidth = 768
+        object ListBox3: TListBox
+          Left = 0
+          Height = 410
+          Top = 0
+          Width = 768
+          Align = alClient
+          ItemHeight = 0
+          OnClick = ListBox1Click
+          TabOrder = 0
+        end
+      end
+      object TabSheet4: TTabSheet
+        Caption = 'DL'
+        ClientHeight = 410
+        ClientWidth = 768
+        object ListBox4: TListBox
+          Left = 0
+          Height = 410
+          Top = 0
+          Width = 768
+          Align = alClient
+          ItemHeight = 0
+          OnClick = ListBox1Click
+          TabOrder = 0
+        end
+      end
+      object TabSheet5: TTabSheet
+        Caption = 'DEFENSE'
+        ClientHeight = 410
+        ClientWidth = 768
+        object ListBox5: TListBox
+          Left = 0
+          Height = 410
+          Top = 0
+          Width = 768
+          Align = alClient
+          ItemHeight = 0
+          OnClick = ListBox1Click
+          TabOrder = 0
+        end
+      end
+      object TabSheet6: TTabSheet
+        Caption = 'OFFENSE'
+        ClientHeight = 410
+        ClientWidth = 768
+        object ListBox6: TListBox
+          Left = 0
+          Height = 410
+          Top = 0
+          Width = 768
+          Align = alClient
+          ItemHeight = 0
+          OnClick = ListBox1Click
+          TabOrder = 0
+        end
+      end
+    end
   end
 end

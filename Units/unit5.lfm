@@ -6,7 +6,7 @@ object Form5: TForm5
   Caption = 'Roster'
   ClientHeight = 544
   ClientWidth = 778
-  LCLVersion = '1.6.2.0'
+  LCLVersion = '1.8.0.6'
   object Panel1: TPanel
     Left = 0
     Height = 104
@@ -64,9 +64,9 @@ object Form5: TForm5
       Height = 438
       Top = 1
       Width = 776
-      ActivePage = TabSheet5
+      ActivePage = TabSheet1
       Align = alClient
-      TabIndex = 4
+      TabIndex = 0
       TabOrder = 0
       object TabSheet1: TTabSheet
         Caption = 'Roster'
@@ -85,11 +85,11 @@ object Form5: TForm5
       end
       object TabSheet2: TTabSheet
         Caption = 'Injured'
-        ClientHeight = 394
+        ClientHeight = 410
         ClientWidth = 768
         object ListBox2: TListBox
           Left = 0
-          Height = 394
+          Height = 410
           Top = 0
           Width = 768
           Align = alClient

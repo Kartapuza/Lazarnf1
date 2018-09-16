@@ -1,12 +1,12 @@
 1
-http://www.nfl.com/scores/2017/REG
+http://www.nfl.com/scores/2018/REG4
 1
 https://www.cbssports.com/nfl/powerrankings
 1
-http://www.espn.com/nfl/picks/_/week/
+http://www.espn.com/nfl/picks/_/week/4
 1
-https://www.cbssports.com/nfl/features/writers/expert/picks/straight-up/
+https://www.cbssports.com/nfl/features/writers/expert/picks/straight-up/4
 1
-https://www.cbssports.com/nfl/features/writers/expert/picks/against-the-spread/
+https://www.cbssports.com/nfl/features/writers/expert/picks/against-the-spread/4
 0
 http://stats.bet365.chalkpartners.com/stats/schedule/football/nfl

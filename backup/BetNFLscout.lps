@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="133"/>
+        <UsageCount Value="136"/>
       </Unit0>
       <Unit1>
         <Filename Value="Units\unit1.pas"/>
@@ -21,10 +21,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="2"/>
         <TopLine Value="4"/>
         <CursorPos X="27" Y="13"/>
-        <UsageCount Value="133"/>
+        <UsageCount Value="136"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="Units\unit2.pas"/>
@@ -34,9 +36,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit2"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="1158"/>
-        <CursorPos X="25" Y="1167"/>
-        <UsageCount Value="133"/>
+        <TopLine Value="1099"/>
+        <CursorPos X="64" Y="1109"/>
+        <UsageCount Value="136"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -47,11 +49,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit3"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
+        <EditorIndex Value="1"/>
         <TopLine Value="195"/>
         <CursorPos X="119" Y="223"/>
-        <UsageCount Value="133"/>
+        <UsageCount Value="136"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="Units\unit4.pas"/>
@@ -60,10 +63,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit4"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="497"/>
         <CursorPos X="7" Y="524"/>
-        <UsageCount Value="132"/>
+        <UsageCount Value="135"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit4>
@@ -74,10 +77,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit5"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="4"/>
         <TopLine Value="55"/>
-        <CursorPos X="48" Y="66"/>
-        <UsageCount Value="28"/>
+        <CursorPos X="121" Y="74"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="C:\SOFT\Lazarus\lcl\include\control.inc"/>
@@ -102,7 +107,7 @@
         <UsageCount Value="7"/>
       </Unit8>
     </Units>
-    <JumpHistory Count="6" HistoryIndex="5">
+    <JumpHistory Count="11" HistoryIndex="10">
       <Position1>
         <Filename Value="Units\unit2.pas"/>
         <Caret Line="1062" Column="48" TopLine="1051"/>
@@ -117,16 +122,36 @@
       </Position3>
       <Position4>
         <Filename Value="Units\unit2.pas"/>
-        <Caret Line="1151" Column="2" TopLine="1158"/>
+        <Caret Line="1152" Column="2" TopLine="1152"/>
       </Position4>
       <Position5>
         <Filename Value="Units\unit2.pas"/>
-        <Caret Line="1152" Column="2" TopLine="1152"/>
+        <Caret Line="1151" Column="2" TopLine="1151"/>
       </Position5>
       <Position6>
         <Filename Value="Units\unit2.pas"/>
-        <Caret Line="1151" Column="2" TopLine="1151"/>
+        <Caret Line="1204" Column="43" TopLine="1148"/>
       </Position6>
+      <Position7>
+        <Filename Value="Units\unit2.pas"/>
+        <Caret Line="1121" Column="17" TopLine="1110"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Units\unit2.pas"/>
+        <Caret Line="1032" Column="48" TopLine="1009"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Units\unit2.pas"/>
+        <Caret Line="1049" Column="4" TopLine="1032"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Units\unit2.pas"/>
+        <Caret Line="1032" Column="46" TopLine="1016"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Units\unit2.pas"/>
+        <Caret Line="1068" Column="52" TopLine="1055"/>
+      </Position11>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
