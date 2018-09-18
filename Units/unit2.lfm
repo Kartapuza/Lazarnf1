@@ -1,13 +1,13 @@
 object Form2: TForm2
-  Left = 76
+  Left = 495
   Height = 838
-  Top = 65
+  Top = 224
   Width = 1146
   Caption = 'Work-table'
   ClientHeight = 838
   ClientWidth = 1146
   OnResize = FormResize
-  LCLVersion = '1.8.0.6'
+  LCLVersion = '1.6.2.0'
   object Panel1: TPanel
     Left = 0
     Height = 838
@@ -95,7 +95,6 @@ object Form2: TForm2
         Align = alTop
         BevelOuter = bvNone
         TabOrder = 0
-        OnClick = Panel6Click
       end
       object Panel7: TPanel
         Left = 0
@@ -107,7 +106,6 @@ object Form2: TForm2
         ClientHeight = 213
         ClientWidth = 88
         TabOrder = 1
-        OnClick = Panel7Click
         object Panel8: TPanel
           Left = 0
           Height = 50
@@ -138,7 +136,6 @@ object Form2: TForm2
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 2
-      OnClick = Panel5Click
     end
   end
   object Panel2: TPanel
@@ -1018,7 +1015,6 @@ object Form2: TForm2
           ClientHeight = 38
           ClientWidth = 221
           TabOrder = 1
-          OnClick = Panel34Click
           object Image3: TImage
             Left = 1
             Height = 36
@@ -1048,7 +1044,6 @@ object Form2: TForm2
             Width = 10
             Caption = '--'
             ParentColor = False
-            OnClick = Label6Click
           end
           object Label25: TLabel
             AnchorSideLeft.Control = Image1
@@ -2748,7 +2743,6 @@ object Form2: TForm2
         ClientHeight = 476
         ClientWidth = 503
         TabOrder = 3
-        OnClick = Panel49Click
         object Panel52: TPanel
           Left = 1
           Height = 38
@@ -2768,7 +2762,6 @@ object Form2: TForm2
             ClientHeight = 36
             ClientWidth = 384
             TabOrder = 0
-            OnClick = Panel69Click
             object Image33: TImage
               Left = 0
               Height = 36
@@ -3611,7 +3604,6 @@ object Form2: TForm2
               Top = 0
               Width = 32
               Align = alLeft
-              OnClick = Image44Click
               ParentShowHint = False
               Picture.Data = {
                 0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -5194,7 +5186,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -6778,7 +6769,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -8362,7 +8352,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -9946,7 +9935,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -11530,7 +11518,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -13114,7 +13101,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -14698,7 +14684,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -16282,7 +16267,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -17866,7 +17850,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -19450,7 +19433,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -21034,7 +21016,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -22618,7 +22599,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -24202,7 +24182,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -25786,7 +25765,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -27370,7 +27348,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -28284,5 +28261,12 @@ object Form2: TForm2
     OnTimer = Timer1Timer
     left = 296
     top = 8
+  end
+  object Timer2: TTimer
+    Enabled = False
+    Interval = 5000
+    OnTimer = Timer2Timer
+    left = 232
+    top = 514
   end
 end

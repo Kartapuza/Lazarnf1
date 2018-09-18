@@ -1,7 +1,7 @@
 object Form4: TForm4
-  Left = 263
+  Left = 343
   Height = 627
-  Top = 186
+  Top = 254
   Width = 788
   Caption = 'Parse lab'
   ClientHeight = 627
@@ -22,7 +22,7 @@ object Form4: TForm4
       Top = 24
       Width = 80
       TabOrder = 0
-      Text = '2017'
+      Text = '2018'
     end
     object Label1: TLabel
       Left = 13

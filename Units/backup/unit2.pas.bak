@@ -535,6 +535,7 @@ type
     Panel162: TPanel;
     Panel163: TPanel;
     Panel164: TPanel;
+    Panel165: TPanel;
     Panel17: TPanel;
     Panel18: TPanel;
     Panel19: TPanel;
@@ -628,28 +629,23 @@ type
     Panel99: TPanel;
     PopupMenu1: TPopupMenu;
     Timer1: TTimer;
+    Timer2: TTimer;
     procedure FormResize(Sender: TObject);
     procedure Image1Click(Sender: TObject);
     procedure Image225Click(Sender: TObject);
     procedure Image2Click(Sender: TObject);
-    procedure Image44Click(Sender: TObject);
     procedure Label3DblClick(Sender: TObject);
     procedure Label4DblClick(Sender: TObject);
-    procedure Label6Click(Sender: TObject);
     procedure Label87Click(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
     procedure Panel154Click(Sender: TObject);
+    procedure Panel157Click(Sender: TObject);
     procedure Panel15Click(Sender: TObject);
     procedure Panel162Click(Sender: TObject);
-    procedure Panel34Click(Sender: TObject);
-    procedure Panel49Click(Sender: TObject);
-    procedure Panel5Click(Sender: TObject);
-    procedure Panel69Click(Sender: TObject);
-    procedure Panel6Click(Sender: TObject);
-    procedure Panel7Click(Sender: TObject);
     procedure Panel8Click(Sender: TObject);
     procedure Panel9Click(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
+    procedure Timer2Timer(Sender: TObject);
   private
     { private declarations }
   public
@@ -965,7 +961,7 @@ begin
 
    globalheig:= Panel49.Height div 16;
 
-   globalheigTop:= Panel12.Width div 18;
+   globalheigTop:= Panel12.Width div 19;
 
    Panel33.Height:= globalheig;
    Panel34.Height:= globalheig;
@@ -1011,6 +1007,7 @@ begin
    Panel29.Width:= globalheigTop;
    Panel30.Width:= globalheigTop;
    Panel31.Width:= globalheigTop;
+   Panel165.Width:= globalheigTop;
    Panel50.Width:= globalheigTop;
 
 
@@ -1026,6 +1023,8 @@ begin
        Image355.Picture := Painter(Image225.Hint,2);
    end;
    Label87.Hint:= HintPrint(Image225.Hint,2);
+   Label85.Hint:= HintPrint(Image225.Hint,2);
+   Label89.Hint:= HintPrint(Image225.Hint,2);
 
 
 end;
@@ -1043,6 +1042,7 @@ begin
       Form4.ComboBox1.Text:='Load Team';
        form4.Button1.Click;
        Form4.Button3.Hint:=Label85.Hint;
+        Timer2.Enabled:=True;
    end;
 
 
@@ -1058,21 +1058,13 @@ begin
 
  end;
    Label88.Hint:= HintPrint(Image226.Hint,2);
-end;
-
-procedure TForm2.Image44Click(Sender: TObject);
-begin
-
+   Label86.Hint:= HintPrint(Image226.Hint,2);
+   Label90.Hint:= HintPrint(Image226.Hint,2);
 end;
 
 procedure TForm2.Label4DblClick(Sender: TObject);
 begin
   Form4.Show;
-end;
-
-procedure TForm2.Label6Click(Sender: TObject);
-begin
-
 end;
 
 procedure TForm2.Label87Click(Sender: TObject);
@@ -1114,6 +1106,19 @@ begin
 
                      end;
 
+    if Panel165.Color=clYellow then
+                         begin
+                          form4.Button7.Click;
+                         Form4.ComboBox1.Text:='Load Week';
+                          Form4.CheckBox1.Checked:=True;
+                          Form4.CheckBox2.Checked:=True;
+                          Form4.CheckBox3.Checked:=True;
+                          Form4.CheckBox4.Checked:=True;
+                          Form4.CheckBox5.Checked:=True;
+                         form4.Button1.Click;
+                           Timer1.Enabled:=True;
+                         end;
+
 
 end;
 
@@ -1144,6 +1149,11 @@ begin
 
 end;
 
+procedure TForm2.Panel157Click(Sender: TObject);
+begin
+
+end;
+
 procedure TForm2.Panel15Click(Sender: TObject);
 var
 jj, i, ch1, ch2, ch3: integer;
@@ -1163,9 +1173,9 @@ for jj:=15 to 31 do begin
  with  TPanel(Form2.FindComponent('Panel'+ IntToStr(jj))) do
  Color:=clWhite;
                     end;
+panel165.Color:=clWhite;
 
 (Sender as TPanel).Color:=clYellow;
-
 
 //загрузка     form3.Button1.Click;
 
@@ -1203,7 +1213,6 @@ form4.Button4.Click;
     form4.Button5.Click;
     end;
 
-
 end;
 
 procedure TForm2.Panel162Click(Sender: TObject);
@@ -1234,36 +1243,6 @@ begin
                         end;
 end;
 
-procedure TForm2.Panel34Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm2.Panel49Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm2.Panel5Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm2.Panel69Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm2.Panel6Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm2.Panel7Click(Sender: TObject);
-begin
-
-end;
-
 procedure TForm2.Panel9Click(Sender: TObject);
 begin
   NewsNflShow;
@@ -1275,6 +1254,14 @@ begin
   form4.Button3.Click;
   form4.Button4.Click;
   Timer1.Enabled:=False;
+end;
+
+procedure TForm2.Timer2Timer(Sender: TObject);
+begin
+     Form4.ComboBox1.Text:='Load Team';
+  form4.Button3.Click;
+  form4.Button4.Click;
+  Timer2.Enabled:=False;
 end;
 
 

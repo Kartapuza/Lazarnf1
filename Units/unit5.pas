@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  ExtCtrls, ComCtrls;
+  ExtCtrls, ComCtrls, Types;
 
 type
 
@@ -31,7 +31,8 @@ type
     TabSheet5: TTabSheet;
     TabSheet6: TTabSheet;
     procedure Label1Click(Sender: TObject);
-    procedure ListBox1Click(Sender: TObject);
+    procedure ListBox3DrawItem(Control: TWinControl; Index: Integer;
+      ARect: TRect; State: TOwnerDrawState);
   private
 
   public
@@ -46,11 +47,6 @@ implementation
 {$R *.lfm}
 
 { TForm5 }
-
-procedure TForm5.ListBox1Click(Sender: TObject);
-begin
-
-end;
 
 procedure TForm5.Label1Click(Sender: TObject);
 var
@@ -68,7 +64,7 @@ begin
      posi := ListBox1.Items.Strings[i];
       if Pos('; RES ;', ListBox1.Items.Strings[i]) > 0 then
          begin
-                posi := 'ТРАВМА ' +  posi;
+                // posi := 'ТРАВМА ' +  posi;
                 ListBox2.Items.Add(posi);
          end;
 
@@ -78,8 +74,17 @@ begin
       if Pos('; RB ;', posi) > 0 then ListBox6.Items.Add(posi);
       if Pos('; TE ;', posi) > 0 then ListBox6.Items.Add(posi);
 
+      if Pos('; C ;', posi) > 0 then ListBox3.Items.Add(posi);
+      if Pos('; OG ;', posi) > 0 then ListBox3.Items.Add(posi);
+      if Pos('; OT ;', posi) > 0 then ListBox3.Items.Add(posi);
+
+
       if Pos('; DT ;', posi) > 0 then ListBox5.Items.Add(posi);
+      if Pos('; DT ;', posi) > 0 then ListBox4.Items.Add(posi);
+
       if Pos('; DE ;', posi) > 0 then ListBox5.Items.Add(posi);
+      if Pos('; DE ;', posi) > 0 then ListBox4.Items.Add(posi);
+
       if Pos('; OLB ;', posi) > 0 then ListBox5.Items.Add(posi);
       if Pos('; LB ;', posi) > 0 then ListBox5.Items.Add(posi);
       if Pos('; CB ;', posi) > 0 then ListBox5.Items.Add(posi);
@@ -92,6 +97,27 @@ begin
 
     end;
 end;
+
+procedure TForm5.ListBox3DrawItem(Control: TWinControl; Index: Integer;
+  ARect: TRect; State: TOwnerDrawState);
+begin
+  with (Control as TListBox).Canvas do // draw on control canvas, not on the form
+  begin
+    Brush.Style := bsSolid;
+    if Index = 2 then
+   // if MyColor = 'Red' then
+      Font.Color := clRed
+    else
+      Font.Color := clBlack;
+
+    Rectangle(ARect);
+
+    Brush.Style := bsClear;
+    // display the text
+    TextOut(ARect.Left, ARect.Top, (Control as TListBox).Items[Index]);
+  end;
+end;
+
 
 end.
 

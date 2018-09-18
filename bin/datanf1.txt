@@ -21,7 +21,7 @@
     }
 </script>
 	<!-- nfl_combo_enabled: true -->
-	<title>Real-time NFL Scores: 2018 - Week 4 | NFL.com</title>
+	<title>Real-time NFL Scores: 2018 - Week 3 | NFL.com</title>
 	
 	<!-- BEGIN DECORATOR yui/global -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -670,7 +670,7 @@ nfl.constants.SS_CONF.sponMobileClickThrough = '';
 	<link rel="stylesheet" href="http://s.nflcdn.com/static/site/7.5/styles/scores/skins.css" type="text/css"></link>
 	
 	<meta id='season' content='2018' />
-	<meta id='week' content='Week 4' />
+	<meta id='week' content='Week 3' />
 	<script type="text/javascript">
 		if(nfl.global.scores.currentWeek){
 			nfl.global.scores.engine	= new nfl.scores.Engine();
@@ -703,7 +703,7 @@ nfl.constants.SS_CONF.sponMobileClickThrough = '';
   
   
     
-    <!-- DEFAULT BROWSER PANEL  com.nfl.site.domain.browserpanel.BrowserPanel@571798a9 -->
+    <!-- DEFAULT BROWSER PANEL  com.nfl.site.domain.browserpanel.BrowserPanel@35953bc6 -->
   
 
 
@@ -1044,7 +1044,7 @@ justify-content: flex-start;
 -ms-flex-pack: start;}</style></div></div>
 
         <script>
-            __INITIAL_DATA_867952da__ = {"uiState":{"hasFetchedScoreStripGames":true,"leagueInitiative":"default","mobileHotButton":{"metrics":null,"target":null,"text":"Highlights","url":"https://www.nfl.com/videos/highlights"},"pageFooterId":"26261d4e-27e1-461e-bf42-55a6b5a07254","pageFooterState":"visible","pageHeaderState":"visible","pageScoreStripState":"visible","pageNavigationData":{"globalNavigation":{"primaryLinks":[{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"News","linkType":"global nav","linkUrl":"https://www.nfl.com/news"},"target":null,"text":"News","url":"https://www.nfl.com/news"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Scores","linkType":"global nav","linkUrl":"https://www.nfl.com/scores"},"target":null,"text":"Scores","url":"https://www.nfl.com/scores"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Schedule","linkType":"global nav","linkUrl":"https://www.nfl.com/schedules"},"target":null,"text":"Schedule","url":"https://www.nfl.com/schedules"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Standings","linkType":"global nav","linkUrl":"https://www.nfl.com/standings"},"target":null,"text":"Standings","url":"https://www.nfl.com/standings"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Highlights","linkType":"global nav","linkUrl":"https://www.nfl.com/videos/highlights"},"target":null,"text":"Highlights","url":"/videos/highlights"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"KICKOFF","linkType":"global nav","linkUrl":"https://www.nfl.com/kickoff"},"target":null,"text":"KICKOFF","url":"/kickoff"}],"secondaryLinks":[{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Free Agency","linkType":"global nav","linkUrl":"https://www.nfl.com/freeagency"},"target":null,"text":"Free Agency","url":"https://www.nfl.com/freeagency"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Game Pass","linkType":"global nav","linkUrl":"https://www.nfl.com/gamepass?icampaign=nfl-nav-gamepass"},"target":null,"text":"Game Pass","url":"https://www.nfl.com/gamepass?icampaign=nfl-nav-gamepass"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Stats","linkType":"global nav","linkUrl":"https://www.nfl.com/stats/player"},"target":null,"text":"Stats","url":"https://www.nfl.com/stats/player"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Ways to Watch","linkType":"global nav","linkUrl":"https://www.nfl.com/ways-to-watch"},"target":null,"text":"Ways to Watch","url":"https://www.nfl.com/ways-to-watch"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"NFL Network","linkType":"global nav","linkUrl":"https://www.nfl.com/network?icampaign=network_nfl_nav"},"target":null,"text":"NFL Network","url":"https://www.nfl.com/network?icampaign=network_nfl_nav"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Photos","linkType":"global nav","linkUrl":"https://www.nfl.com/photoessays"},"target":null,"text":"Photos","url":"https://www.nfl.com/photoessays"}],"globalNavigationStyle":{"headerBackgroundColor":"#013369","headerColor":"#ffffff","linkActiveColor":"#ffffff","linkColor":"#eeeeee","pageNavigationBackgroundColor":"#fcfcfc","searchBoxBackgroundColor":"#01468F","searchBoxTypeAheadTextColor":"#44C0FF"}},"secondaryNavigation":null,"leagueInitiative":{"value":"default"},"pageFooterState":{"value":"visible"},"pageHeaderState":{"value":"visible"},"pageScoreStripState":{"value":"visible"},"persistentVideoPlayerState":null,"rooftopAdBling":null,"rooftopAdBlingInternational":null,"footer":null,"mobileHotButton":{"metrics":null,"target":null,"text":"Highlights","url":"https://www.nfl.com/videos/highlights"},"scoreStripType":{"value":"score"}},"persistentVideoPlayerState":null,"rooftopAdBling":null,"rooftopAdBlingInternational":null,"scoreStripGames":[{"id":2018091600,"awayTeam":{"abbr":"CAR","hasPosession":false,"identifier":"Panthers","teamId":"0750","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"CAR","wins":1,"losses":0,"ties":0}},"homeTeam":{"abbr":"ATL","hasPosession":false,"identifier":"Falcons","teamId":"0200","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"ATL","wins":0,"losses":1,"ties":0}},"status":{"currentGameTime":"PREGAME","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091600/2018/REG2/Panthers@Falcons","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":false,"isOverOvertime":false,"isPregame":true,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"PREGAME","time":"15:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091601,"awayTeam":{"abbr":"LAC","hasPosession":false,"identifier":"Chargers","teamId":"4400","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"LAC","wins":0,"losses":1,"ties":0}},"homeTeam":{"abbr":"BUF","hasPosession":false,"identifier":"Bills","teamId":"0610","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"BUF","wins":0,"losses":1,"ties":0}},"status":{"currentGameTime":"PREGAME","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091601/2018/REG2/Chargers@Bills","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":false,"isOverOvertime":false,"isPregame":true,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"PREGAME","time":"15:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091602,"awayTeam":{"abbr":"MIN","hasPosession":false,"identifier":"Vikings","teamId":"3000","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"MIN","wins":1,"losses":0,"ties":0}},"homeTeam":{"abbr":"GB","hasPosession":false,"identifier":"Packers","teamId":"1800","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"GB","wins":1,"losses":0,"ties":0}},"status":{"currentGameTime":"PREGAME","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091602/2018/REG2/Vikings@Packers","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":false,"isOverOvertime":false,"isPregame":true,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"PREGAME","time":"15:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091603,"awayTeam":{"abbr":"CLE","hasPosession":false,"identifier":"Browns","teamId":"1050","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"CLE","wins":0,"losses":0,"ties":1}},"homeTeam":{"abbr":"NO","hasPosession":false,"identifier":"Saints","teamId":"3300","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"NO","wins":0,"losses":1,"ties":0}},"status":{"currentGameTime":"PREGAME","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091603/2018/REG2/Browns@Saints","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":false,"isOverOvertime":false,"isPregame":true,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"PREGAME","time":"15:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091604,"awayTeam":{"abbr":"MIA","hasPosession":false,"identifier":"Dolphins","teamId":"2700","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"MIA","wins":1,"losses":0,"ties":0}},"homeTeam":{"abbr":"NYJ","hasPosession":false,"identifier":"Jets","teamId":"3430","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"NYJ","wins":1,"losses":0,"ties":0}},"status":{"currentGameTime":"PREGAME","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091604/2018/REG2/Dolphins@Jets","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":false,"isOverOvertime":false,"isPregame":true,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"PREGAME","time":"15:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091605,"awayTeam":{"abbr":"KC","hasPosession":false,"identifier":"Chiefs","teamId":"2310","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"KC","wins":1,"losses":0,"ties":0}},"homeTeam":{"abbr":"PIT","hasPosession":false,"identifier":"Steelers","teamId":"3900","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"PIT","wins":0,"losses":0,"ties":1}},"status":{"currentGameTime":"PREGAME","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091605/2018/REG2/Chiefs@Steelers","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":false,"isOverOvertime":false,"isPregame":true,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"PREGAME","time":"15:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091606,"awayTeam":{"abbr":"PHI","hasPosession":false,"identifier":"Eagles","teamId":"3700","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"PHI","wins":1,"losses":0,"ties":0}},"homeTeam":{"abbr":"TB","hasPosession":false,"identifier":"Buccaneers","teamId":"4900","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"TB","wins":1,"losses":0,"ties":0}},"status":{"currentGameTime":"PREGAME","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091606/2018/REG2/Eagles@Buccaneers","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":false,"isOverOvertime":false,"isPregame":true,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"PREGAME","time":"15:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091607,"awayTeam":{"abbr":"HOU","hasPosession":false,"identifier":"Texans","teamId":"2120","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"HOU","wins":0,"losses":1,"ties":0}},"homeTeam":{"abbr":"TEN","hasPosession":false,"identifier":"Titans","teamId":"2100","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"TEN","wins":0,"losses":1,"ties":0}},"status":{"currentGameTime":"PREGAME","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091607/2018/REG2/Texans@Titans","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":false,"isOverOvertime":false,"isPregame":true,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"PREGAME","time":"15:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091608,"awayTeam":{"abbr":"IND","hasPosession":false,"identifier":"Colts","teamId":"2200","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"IND","wins":0,"losses":1,"ties":0}},"homeTeam":{"abbr":"WAS","hasPosession":false,"identifier":"Redskins","teamId":"5110","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"WAS","wins":1,"losses":0,"ties":0}},"status":{"currentGameTime":"PREGAME","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091608/2018/REG2/Colts@Redskins","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":false,"isOverOvertime":false,"isPregame":true,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"PREGAME","time":"15:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091609,"awayTeam":{"abbr":"ARI","identifier":"Cardinals","teamId":"3800","record":{"abbr":"ARI","wins":0,"losses":1,"ties":0}},"homeTeam":{"abbr":"LA","identifier":"Rams","teamId":"2510","record":{"abbr":"LA","wins":1,"losses":0,"ties":0}},"status":{"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091609/2018/REG2/Cardinals@Rams","upcomingGameTimeEastern":"Sun, 4:05 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 4:05 pm ET","week":2,"gameType":"REG","gameTimeEastern":"16:05:00","isUpcoming":true}},{"id":2018091610,"awayTeam":{"abbr":"DET","identifier":"Lions","teamId":"1540","record":{"abbr":"DET","wins":0,"losses":1,"ties":0}},"homeTeam":{"abbr":"SF","identifier":"49ers","teamId":"4500","record":{"abbr":"SF","wins":0,"losses":1,"ties":0}},"status":{"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091610/2018/REG2/Lions@49ers","upcomingGameTimeEastern":"Sun, 4:05 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 4:05 pm ET","week":2,"gameType":"REG","gameTimeEastern":"16:05:00","isUpcoming":true}},{"id":2018091611,"awayTeam":{"abbr":"OAK","identifier":"Raiders","teamId":"2520","record":{"abbr":"OAK","wins":0,"losses":1,"ties":0}},"homeTeam":{"abbr":"DEN","identifier":"Broncos","teamId":"1400","record":{"abbr":"DEN","wins":1,"losses":0,"ties":0}},"status":{"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091611/2018/REG2/Raiders@Broncos","upcomingGameTimeEastern":"Sun, 4:25 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 4:25 pm ET","week":2,"gameType":"REG","gameTimeEastern":"16:25:00","isUpcoming":true}},{"id":2018091612,"awayTeam":{"abbr":"NE","identifier":"Patriots","teamId":"3200","record":{"abbr":"NE","wins":1,"losses":0,"ties":0}},"homeTeam":{"abbr":"JAX","identifier":"Jaguars","teamId":"2250","record":{"abbr":"JAX","wins":1,"losses":0,"ties":0}},"status":{"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091612/2018/REG2/Patriots@Jaguars","upcomingGameTimeEastern":"Sun, 4:25 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 4:25 pm ET","week":2,"gameType":"REG","gameTimeEastern":"16:25:00","isUpcoming":true}},{"id":2018091613,"awayTeam":{"abbr":"NYG","identifier":"Giants","teamId":"3410","record":{"abbr":"NYG","wins":0,"losses":1,"ties":0}},"homeTeam":{"abbr":"DAL","identifier":"Cowboys","teamId":"1200","record":{"abbr":"DAL","wins":0,"losses":1,"ties":0}},"status":{"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091613/2018/REG2/Giants@Cowboys","upcomingGameTimeEastern":"Sun, 8:20 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 8:20 pm ET","week":2,"gameType":"REG","gameTimeEastern":"20:20:00","isUpcoming":true}},{"id":2018091700,"awayTeam":{"abbr":"SEA","identifier":"Seahawks","teamId":"4600","record":{"abbr":"SEA","wins":0,"losses":1,"ties":0}},"homeTeam":{"abbr":"CHI","identifier":"Bears","teamId":"0810","record":{"abbr":"CHI","wins":0,"losses":1,"ties":0}},"status":{"gameDate":"09/17/2018","gameLink":"http://www.nfl.com/gamecenter/2018091700/2018/REG2/Seahawks@Bears","upcomingGameTimeEastern":"Mon, 8:15 pm ET","upcomingGameFullTimeEastern":"Mon, 9/17, 8:15 pm ET","week":2,"gameType":"REG","gameTimeEastern":"20:15:00","isUpcoming":true}},{"id":2018091300,"awayTeam":{"abbr":"BAL","hasPosession":false,"identifier":"Ravens","teamId":"0325","points":23,"scores":{"pointTotal":23,"pointQ1":0,"pointQ2":14,"pointQ3":3,"pointQ4":6,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"BAL","wins":1,"losses":1,"ties":0}},"homeTeam":{"abbr":"CIN","hasPosession":false,"identifier":"Bengals","teamId":"0920","points":34,"scores":{"pointTotal":34,"pointQ1":14,"pointQ2":14,"pointQ3":0,"pointQ4":6,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"CIN","wins":2,"losses":0,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/13/2018","gameLink":"http://www.nfl.com/gamecenter/2018091300/2018/REG2/Ravens@Bengals","gameTimeEastern":"20:20:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:08","upcomingGameTimeEastern":"Thu, 8:20 pm ET","upcomingGameFullTimeEastern":"Thu, 9/13, 8:20 pm ET","week":2,"gameType":"REG","yardsToGo":0}}],"scoreStripType":{"value":"score"},"schema":"b03b1c24-0e95-482b-a4d4-564b593ee1a4"}};
+            __INITIAL_DATA_867952da__ = {"uiState":{"hasFetchedScoreStripGames":true,"leagueInitiative":"default","mobileHotButton":{"metrics":null,"target":null,"text":"Highlights","url":"https://www.nfl.com/videos/highlights"},"pageFooterId":"26261d4e-27e1-461e-bf42-55a6b5a07254","pageFooterState":"visible","pageHeaderState":"visible","pageScoreStripState":"visible","pageNavigationData":{"globalNavigation":{"primaryLinks":[{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"News","linkType":"global nav","linkUrl":"https://www.nfl.com/news"},"target":null,"text":"News","url":"https://www.nfl.com/news"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Scores","linkType":"global nav","linkUrl":"https://www.nfl.com/scores"},"target":null,"text":"Scores","url":"https://www.nfl.com/scores"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Schedule","linkType":"global nav","linkUrl":"https://www.nfl.com/schedules"},"target":null,"text":"Schedule","url":"https://www.nfl.com/schedules"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Standings","linkType":"global nav","linkUrl":"https://www.nfl.com/standings"},"target":null,"text":"Standings","url":"https://www.nfl.com/standings"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Highlights","linkType":"global nav","linkUrl":"https://www.nfl.com/videos/highlights"},"target":null,"text":"Highlights","url":"/videos/highlights"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"KICKOFF","linkType":"global nav","linkUrl":"https://www.nfl.com/kickoff"},"target":null,"text":"KICKOFF","url":"/kickoff"}],"secondaryLinks":[{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Free Agency","linkType":"global nav","linkUrl":"https://www.nfl.com/freeagency"},"target":null,"text":"Free Agency","url":"https://www.nfl.com/freeagency"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Game Pass","linkType":"global nav","linkUrl":"https://www.nfl.com/gamepass?icampaign=nfl-nav-gamepass"},"target":null,"text":"Game Pass","url":"https://www.nfl.com/gamepass?icampaign=nfl-nav-gamepass"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Stats","linkType":"global nav","linkUrl":"https://www.nfl.com/stats/player"},"target":null,"text":"Stats","url":"https://www.nfl.com/stats/player"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Ways to Watch","linkType":"global nav","linkUrl":"https://www.nfl.com/ways-to-watch"},"target":null,"text":"Ways to Watch","url":"https://www.nfl.com/ways-to-watch"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"NFL Network","linkType":"global nav","linkUrl":"https://www.nfl.com/network?icampaign=network_nfl_nav"},"target":null,"text":"NFL Network","url":"https://www.nfl.com/network?icampaign=network_nfl_nav"},{"metrics":{"eventName":"clickAction","linkModule":"navigation","linkName":"Photos","linkType":"global nav","linkUrl":"https://www.nfl.com/photoessays"},"target":null,"text":"Photos","url":"https://www.nfl.com/photoessays"}],"globalNavigationStyle":{"headerBackgroundColor":"#013369","headerColor":"#ffffff","linkActiveColor":"#ffffff","linkColor":"#eeeeee","pageNavigationBackgroundColor":"#fcfcfc","searchBoxBackgroundColor":"#01468F","searchBoxTypeAheadTextColor":"#44C0FF"}},"secondaryNavigation":null,"leagueInitiative":{"value":"default"},"pageFooterState":{"value":"visible"},"pageHeaderState":{"value":"visible"},"pageScoreStripState":{"value":"visible"},"persistentVideoPlayerState":null,"rooftopAdBling":null,"rooftopAdBlingInternational":null,"footer":null,"mobileHotButton":{"metrics":null,"target":null,"text":"Highlights","url":"https://www.nfl.com/videos/highlights"},"scoreStripType":{"value":"score"}},"persistentVideoPlayerState":null,"rooftopAdBling":null,"rooftopAdBlingInternational":null,"scoreStripGames":[{"id":2018091700,"awayTeam":{"abbr":"SEA","hasPosession":false,"identifier":"Seahawks","teamId":"4600","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"SEA","wins":0,"losses":1,"ties":0}},"homeTeam":{"abbr":"CHI","hasPosession":false,"identifier":"Bears","teamId":"0810","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"CHI","wins":0,"losses":1,"ties":0}},"status":{"currentGameTime":"PREGAME","down":0,"gameDate":"09/17/2018","gameLink":"http://www.nfl.com/gamecenter/2018091700/2018/REG2/Seahawks@Bears","gameTimeEastern":"20:15:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":false,"isOverOvertime":false,"isPregame":true,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"PREGAME","time":"15:00","upcomingGameTimeEastern":"Mon, 8:15 pm ET","upcomingGameFullTimeEastern":"Mon, 9/17, 8:15 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091300,"awayTeam":{"abbr":"BAL","hasPosession":false,"identifier":"Ravens","teamId":"0325","points":23,"scores":{"pointTotal":23,"pointQ1":0,"pointQ2":14,"pointQ3":3,"pointQ4":6,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"BAL","wins":1,"losses":1,"ties":0}},"homeTeam":{"abbr":"CIN","hasPosession":false,"identifier":"Bengals","teamId":"0920","points":34,"scores":{"pointTotal":34,"pointQ1":14,"pointQ2":14,"pointQ3":0,"pointQ4":6,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"CIN","wins":2,"losses":0,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/13/2018","gameLink":"http://www.nfl.com/gamecenter/2018091300/2018/REG2/Ravens@Bengals","gameTimeEastern":"20:20:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:08","upcomingGameTimeEastern":"Thu, 8:20 pm ET","upcomingGameFullTimeEastern":"Thu, 9/13, 8:20 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091600,"awayTeam":{"abbr":"CAR","hasPosession":false,"identifier":"Panthers","teamId":"0750","points":24,"scores":{"pointTotal":24,"pointQ1":3,"pointQ2":7,"pointQ3":0,"pointQ4":14,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"CAR","wins":1,"losses":1,"ties":0}},"homeTeam":{"abbr":"ATL","hasPosession":false,"identifier":"Falcons","teamId":"0200","points":31,"scores":{"pointTotal":31,"pointQ1":3,"pointQ2":14,"pointQ3":7,"pointQ4":7,"pointOT":0,"timeoutsRemaining":2},"record":{"abbr":"ATL","wins":1,"losses":1,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091600/2018/REG2/Panthers@Falcons","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091601,"awayTeam":{"abbr":"LAC","hasPosession":false,"identifier":"Chargers","teamId":"4400","points":31,"scores":{"pointTotal":31,"pointQ1":14,"pointQ2":14,"pointQ3":0,"pointQ4":3,"pointOT":0,"timeoutsRemaining":1},"record":{"abbr":"LAC","wins":1,"losses":1,"ties":0}},"homeTeam":{"abbr":"BUF","hasPosession":false,"identifier":"Bills","teamId":"0610","points":20,"scores":{"pointTotal":20,"pointQ1":0,"pointQ2":6,"pointQ3":7,"pointQ4":7,"pointOT":0,"timeoutsRemaining":2},"record":{"abbr":"BUF","wins":0,"losses":2,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091601/2018/REG2/Chargers@Bills","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:32","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091602,"awayTeam":{"abbr":"MIN","hasPosession":false,"identifier":"Vikings","teamId":"3000","points":29,"scores":{"pointTotal":29,"pointQ1":7,"pointQ2":0,"pointQ3":0,"pointQ4":22,"pointOT":0,"timeoutsRemaining":1},"record":{"abbr":"MIN","wins":1,"losses":0,"ties":1}},"homeTeam":{"abbr":"GB","hasPosession":false,"identifier":"Packers","teamId":"1800","points":29,"scores":{"pointTotal":29,"pointQ1":7,"pointQ2":10,"pointQ3":3,"pointQ4":9,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"GB","wins":1,"losses":0,"ties":1}},"status":{"currentGameTime":"FINAL_OVERTIME","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091602/2018/REG2/Vikings@Packers","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":false,"isOverOvertime":true,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091603,"awayTeam":{"abbr":"CLE","hasPosession":false,"identifier":"Browns","teamId":"1050","points":18,"scores":{"pointTotal":18,"pointQ1":3,"pointQ2":3,"pointQ3":6,"pointQ4":6,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"CLE","wins":0,"losses":1,"ties":1}},"homeTeam":{"abbr":"NO","hasPosession":false,"identifier":"Saints","teamId":"3300","points":21,"scores":{"pointTotal":21,"pointQ1":3,"pointQ2":0,"pointQ3":0,"pointQ4":18,"pointOT":0,"timeoutsRemaining":1},"record":{"abbr":"NO","wins":1,"losses":1,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091603/2018/REG2/Browns@Saints","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:03","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091604,"awayTeam":{"abbr":"MIA","hasPosession":false,"identifier":"Dolphins","teamId":"2700","points":20,"scores":{"pointTotal":20,"pointQ1":7,"pointQ2":13,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":2},"record":{"abbr":"MIA","wins":2,"losses":0,"ties":0}},"homeTeam":{"abbr":"NYJ","hasPosession":false,"identifier":"Jets","teamId":"3430","points":12,"scores":{"pointTotal":12,"pointQ1":0,"pointQ2":0,"pointQ3":6,"pointQ4":6,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"NYJ","wins":1,"losses":1,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091604/2018/REG2/Dolphins@Jets","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:39","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091605,"awayTeam":{"abbr":"KC","hasPosession":false,"identifier":"Chiefs","teamId":"2310","points":42,"scores":{"pointTotal":42,"pointQ1":21,"pointQ2":0,"pointQ3":14,"pointQ4":7,"pointOT":0,"timeoutsRemaining":1},"record":{"abbr":"KC","wins":2,"losses":0,"ties":0}},"homeTeam":{"abbr":"PIT","hasPosession":false,"identifier":"Steelers","teamId":"3900","points":37,"scores":{"pointTotal":37,"pointQ1":0,"pointQ2":21,"pointQ3":7,"pointQ4":9,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"PIT","wins":0,"losses":1,"ties":1}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091605/2018/REG2/Chiefs@Steelers","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:05","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091606,"awayTeam":{"abbr":"PHI","hasPosession":false,"identifier":"Eagles","teamId":"3700","points":21,"scores":{"pointTotal":21,"pointQ1":0,"pointQ2":7,"pointQ3":7,"pointQ4":7,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"PHI","wins":1,"losses":1,"ties":0}},"homeTeam":{"abbr":"TB","hasPosession":false,"identifier":"Buccaneers","teamId":"4900","points":27,"scores":{"pointTotal":27,"pointQ1":7,"pointQ2":13,"pointQ3":7,"pointQ4":0,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"TB","wins":2,"losses":0,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091606/2018/REG2/Eagles@Buccaneers","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091607,"awayTeam":{"abbr":"HOU","hasPosession":false,"identifier":"Texans","teamId":"2120","points":17,"scores":{"pointTotal":17,"pointQ1":0,"pointQ2":7,"pointQ3":3,"pointQ4":7,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"HOU","wins":0,"losses":2,"ties":0}},"homeTeam":{"abbr":"TEN","hasPosession":false,"identifier":"Titans","teamId":"2100","points":20,"scores":{"pointTotal":20,"pointQ1":14,"pointQ2":0,"pointQ3":0,"pointQ4":6,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"TEN","wins":1,"losses":1,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091607/2018/REG2/Texans@Titans","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:17","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091608,"awayTeam":{"abbr":"IND","hasPosession":false,"identifier":"Colts","teamId":"2200","points":21,"scores":{"pointTotal":21,"pointQ1":7,"pointQ2":7,"pointQ3":0,"pointQ4":7,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"IND","wins":1,"losses":1,"ties":0}},"homeTeam":{"abbr":"WAS","hasPosession":false,"identifier":"Redskins","teamId":"5110","points":9,"scores":{"pointTotal":9,"pointQ1":0,"pointQ2":3,"pointQ3":3,"pointQ4":3,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"WAS","wins":1,"losses":1,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091608/2018/REG2/Colts@Redskins","gameTimeEastern":"13:00:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:00","upcomingGameTimeEastern":"Sun, 1:00 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 1:00 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091609,"awayTeam":{"abbr":"ARI","hasPosession":false,"identifier":"Cardinals","teamId":"3800","points":0,"scores":{"pointTotal":0,"pointQ1":0,"pointQ2":0,"pointQ3":0,"pointQ4":0,"pointOT":0,"timeoutsRemaining":3},"record":{"abbr":"ARI","wins":0,"losses":2,"ties":0}},"homeTeam":{"abbr":"LA","hasPosession":false,"identifier":"Rams","teamId":"2510","points":34,"scores":{"pointTotal":34,"pointQ1":0,"pointQ2":19,"pointQ3":8,"pointQ4":7,"pointOT":0,"timeoutsRemaining":1},"record":{"abbr":"LA","wins":2,"losses":0,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091609/2018/REG2/Cardinals@Rams","gameTimeEastern":"16:05:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:00","upcomingGameTimeEastern":"Sun, 4:05 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 4:05 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091610,"awayTeam":{"abbr":"DET","hasPosession":false,"identifier":"Lions","teamId":"1540","points":27,"scores":{"pointTotal":27,"pointQ1":7,"pointQ2":3,"pointQ3":3,"pointQ4":14,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"DET","wins":0,"losses":2,"ties":0}},"homeTeam":{"abbr":"SF","hasPosession":false,"identifier":"49ers","teamId":"4500","points":30,"scores":{"pointTotal":30,"pointQ1":3,"pointQ2":10,"pointQ3":14,"pointQ4":3,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"SF","wins":1,"losses":1,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091610/2018/REG2/Lions@49ers","gameTimeEastern":"16:05:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:00","upcomingGameTimeEastern":"Sun, 4:05 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 4:05 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091611,"awayTeam":{"abbr":"OAK","hasPosession":false,"identifier":"Raiders","teamId":"2520","points":19,"scores":{"pointTotal":19,"pointQ1":3,"pointQ2":9,"pointQ3":7,"pointQ4":0,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"OAK","wins":0,"losses":2,"ties":0}},"homeTeam":{"abbr":"DEN","hasPosession":false,"identifier":"Broncos","teamId":"1400","points":20,"scores":{"pointTotal":20,"pointQ1":0,"pointQ2":0,"pointQ3":10,"pointQ4":10,"pointOT":0,"timeoutsRemaining":0},"record":{"abbr":"DEN","wins":2,"losses":0,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091611/2018/REG2/Raiders@Broncos","gameTimeEastern":"16:25:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:06","upcomingGameTimeEastern":"Sun, 4:25 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 4:25 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091612,"awayTeam":{"abbr":"NE","hasPosession":false,"identifier":"Patriots","teamId":"3200","points":20,"scores":{"pointTotal":20,"pointQ1":0,"pointQ2":3,"pointQ3":7,"pointQ4":10,"pointOT":0,"timeoutsRemaining":1},"record":{"abbr":"NE","wins":1,"losses":1,"ties":0}},"homeTeam":{"abbr":"JAX","hasPosession":false,"identifier":"Jaguars","teamId":"2250","points":31,"scores":{"pointTotal":31,"pointQ1":14,"pointQ2":7,"pointQ3":3,"pointQ4":7,"pointOT":0,"timeoutsRemaining":1},"record":{"abbr":"JAX","wins":2,"losses":0,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091612/2018/REG2/Patriots@Jaguars","gameTimeEastern":"16:25:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:26","upcomingGameTimeEastern":"Sun, 4:25 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 4:25 pm ET","week":2,"gameType":"REG","yardsToGo":0}},{"id":2018091613,"awayTeam":{"abbr":"NYG","hasPosession":false,"identifier":"Giants","teamId":"3410","points":13,"scores":{"pointTotal":13,"pointQ1":0,"pointQ2":0,"pointQ3":3,"pointQ4":10,"pointOT":0,"timeoutsRemaining":1},"record":{"abbr":"NYG","wins":0,"losses":2,"ties":0}},"homeTeam":{"abbr":"DAL","hasPosession":false,"identifier":"Cowboys","teamId":"1200","points":20,"scores":{"pointTotal":20,"pointQ1":10,"pointQ2":0,"pointQ3":3,"pointQ4":7,"pointOT":0,"timeoutsRemaining":1},"record":{"abbr":"DAL","wins":1,"losses":1,"ties":0}},"status":{"currentGameTime":"FINAL","down":0,"gameDate":"09/16/2018","gameLink":"http://www.nfl.com/gamecenter/2018091613/2018/REG2/Giants@Cowboys","gameTimeEastern":"20:20:00","isHalf":false,"isInProgress":false,"isInProgressOvertime":false,"isOver":true,"isOverOvertime":false,"isPregame":false,"isRedZone":false,"isSuspended":false,"isUpcoming":false,"phaseDescription":"FINAL","time":"00:11","upcomingGameTimeEastern":"Sun, 8:20 pm ET","upcomingGameFullTimeEastern":"Sun, 9/16, 8:20 pm ET","week":2,"gameType":"REG","yardsToGo":0}}],"scoreStripType":{"value":"score"},"schema":"b03b1c24-0e95-482b-a4d4-564b593ee1a4"}};
             __REACT_ROOT_ID_867952da__ = "content-867952da";
         </script>
 
@@ -1172,7 +1172,7 @@ justify-content: flex-start;
 
                 wcBoot.render({
                     id: "867952da",
-                    url: "/ndc/header?contextPath=%2fscores%2f2018%2fREG4&pageSchemaId=&wildcatnav="
+                    url: "/ndc/header?contextPath=%2fscores%2f2018%2fREG3&pageSchemaId=&wildcatnav="
                 });
             });
         </script>
@@ -1201,7 +1201,7 @@ justify-content: flex-start;
 
 	
 
-		<div class="adcontainer" id="ad1537108544434top-container">
+		<div class="adcontainer" id="ad1537217610303top-container">
 
 			
 
@@ -1281,7 +1281,7 @@ justify-content: flex-start;
 
 						adConf = {
 
-							id: 'ad1537108544434top',
+							id: 'ad1537217610303top',
 
 							path: 'http://pubads.g.doubleclick.net/gampad/ads?sz=728x90&iu=/4595/nfl.scores/scores&t=slot%3Dtop%26url%3Dscores%26s1%3Dscores&c={correlator}',
 
@@ -1291,7 +1291,7 @@ justify-content: flex-start;
 
 							sizes: sizes,
 
-							render: '#ad1537108544434top-container',
+							render: '#ad1537217610303top-container',
 
 							isSticky: 'false',
 
@@ -1395,7 +1395,7 @@ justify-content: flex-start;
 
 	
 
-		<div class="adcontainer" id="ad1537108544361spon-container">
+		<div class="adcontainer" id="ad1537217610228spon-container">
 
 			
 
@@ -1475,7 +1475,7 @@ justify-content: flex-start;
 
 						adConf = {
 
-							id: 'ad1537108544361spon',
+							id: 'ad1537217610228spon',
 
 							path: 'http://pubads.g.doubleclick.net/gampad/ads?sz=985x50&iu=/4595/nfl.scores/scores&t=slot%3Dspon%26url%3Dscores%26s1%3Dscores&c={correlator}',
 
@@ -1485,7 +1485,7 @@ justify-content: flex-start;
 
 							sizes: sizes,
 
-							render: '#ad1537108544361spon-container',
+							render: '#ad1537217610228spon-container',
 
 							isSticky: '',
 
@@ -1661,23 +1661,23 @@ justify-content: flex-start;
 					
 					
 						
-						
-						
-						
-					
-
-					<li class=""><a href="/scores/2018/REG3" class="week-item">3</a></li>
-
-				
-					
-					
-						
 							
 						
 						
 					
 
-					<li class="active-week"><a href="/scores/2018/REG4" class="week-item">4</a></li>
+					<li class="active-week"><a href="/scores/2018/REG3" class="week-item">3</a></li>
+
+				
+					
+					
+						
+						
+						
+						
+					
+
+					<li class=""><a href="/scores/2018/REG4" class="week-item">4</a></li>
 
 				
 					
@@ -1932,7 +1932,7 @@ justify-content: flex-start;
 	
 	
 	<ul class="scores-page-title with-big-plays">
-		<li><h2 class="week-title">Week 4</h2></li>
+		<li><h2 class="week-title">Week 3</h2></li>
 		
 	</ul>
 <div style="clear: both"></div>
@@ -1949,7 +1949,7 @@ justify-content: flex-start;
 			urlVars = {
 				season: "2018",
 				seasonType: "REG",
-				week: "4",
+				week: "3",
 				context: "video"
 			};
 					
@@ -2028,21 +2028,10 @@ justify-content: flex-start;
 	<ul class="scores-page-title with-big-plays bye">
 		
 			
-				<li>
-					<p>Teams with Byes:
-						
-						
-							<a href='/teams/profile?team=WAS'>Redskins</a>
-							, 
-							
-						
-							<a href='/teams/profile?team=CAR'>Panthers</a>
-							
-							
-						
-					</p>
-				</li>
 			
+				
+					<li><p>Teams with Byes: None</p></li>
+				
 			
 		
 		
@@ -2070,7 +2059,7 @@ justify-content: flex-start;
 
 	
 
-		<div class="adcontainer" id="ad1537108544362center-container">
+		<div class="adcontainer" id="ad1537217610229center-container">
 
 			
 
@@ -2150,7 +2139,7 @@ justify-content: flex-start;
 
 						adConf = {
 
-							id: 'ad1537108544362center',
+							id: 'ad1537217610229center',
 
 							path: 'http://pubads.g.doubleclick.net/gampad/ads?sz=300x250&iu=/4595/nfl.scores/scores&t=slot%3Dcenter%26url%3Dscores%26s1%3Dscores&c={correlator}',
 
@@ -2160,7 +2149,7 @@ justify-content: flex-start;
 
 							sizes: sizes,
 
-							render: '#ad1537108544362center-container',
+							render: '#ad1537217610229center-container',
 
 							isSticky: '',
 
@@ -2216,7 +2205,7 @@ justify-content: flex-start;
 		</div>
 	</div>
 	
-	<div id="sb-wrapper-2018092700"	>
+	<div id="sb-wrapper-2018092000"	>
 	
 		
 		
@@ -2237,24 +2226,24 @@ justify-content: flex-start;
 
 
 <div class="scorebox-wrapper pre">
-	<div id="scorebox-2018092700">
+	<div id="scorebox-2018092000">
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">Thu, Sep 27</span>
+				<span class="date" title="Date Airing">Thu, Sep 20</span>
 				
-				<span class="network" title="Airing on Network Channel">fox, NFLN</span>
-				<span class="tickets-link"><a href="/tickets/los-angeles-rams?icampaign=Scores_Tickets">GET TICKETS</a></span>
+				<span class="network" title="Airing on Network Channel">NFLN</span>
+				<span class="tickets-link"><a href="/tickets/cleveland-browns?icampaign=Scores_Tickets">GET TICKETS</a></span>
 			</p>
 		</div>
 		<div class="new-score-box">
 			<div class="team-wrapper">
 				<div class="away-team">
-					<a href="/teams/profile?team=MIN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/MIN.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=NYJ"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NYJ.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(1-0-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=MIN">Vikings</a></p>
+							<p class="team-record">(1-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=NYJ">Jets</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -2262,11 +2251,11 @@ justify-content: flex-start;
 			</div>
 			<div class="team-wrapper">
 				<div class="home-team">
-					<a href="/teams/profile?team=LA"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/LA.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=CLE"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/CLE.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(1-0-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=LA">Rams</a></p>
+							<p class="team-record">(0-1-1)</p>
+							<p class="team-name"><a href="/teams/profile?team=CLE">Browns</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -2274,7 +2263,7 @@ justify-content: flex-start;
 			</div>
 			<div class="game-center-area">
 				
-				<a href="/gamecenter/2018092700/2018/REG4/vikings@rams" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<a href="/gamecenter/2018092000/2018/REG3/jets@browns" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
 				<p><span class="time-left" >8:20 PM  ET</span></p>
 			</div>
 			<div class="products-social">
@@ -2286,7 +2275,7 @@ justify-content: flex-start;
 	</div>
 	</div>
 	
-	<div id="share-2018092700" class="share">
+	<div id="share-2018092000" class="share">
 
 
 
@@ -2304,7 +2293,7 @@ justify-content: flex-start;
 
 
 
-<div id="sbc_b3jn7673"></div>
+<div id="sbc_m287gu62"></div>
 
 
 
@@ -2340,9 +2329,9 @@ justify-content: flex-start;
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_b3jn7673',
+				srcNode: '#sbc_m287gu62',
 
-				barId: 'sbb_b3jn7673',
+				barId: 'sbb_m287gu62',
 
 				skinName: 'default',
 
@@ -2360,9 +2349,9 @@ justify-content: flex-start;
 
 				
 
-				title: 'Check out the Vikings vs Rams match-up on NFL.com\&#039;s GameCenter.',
+				title: 'Check out the Jets vs Browns match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2018092700/2018/REG4/vikings@rams',
+				linkBack: 'http://www.nfl.com/gamecenter/2018092000/2018/REG3/jets@browns',
 
 				
 
@@ -2417,7 +2406,7 @@ justify-content: flex-start;
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2018093005"	>
+	<div id="sb-wrapper-2018092300"	>
 	
 		
 		
@@ -2438,24 +2427,24 @@ justify-content: flex-start;
 
 
 <div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093005">
+	<div id="scorebox-2018092300">
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
 				
 				<span class="network" title="Airing on Network Channel">fox</span>
-				<span class="tickets-link"><a href="/tickets/jacksonville-jaguars?icampaign=Scores_Tickets">GET TICKETS</a></span>
+				<span class="tickets-link"><a href="/tickets/atlanta-falcons?icampaign=Scores_Tickets">GET TICKETS</a></span>
 			</p>
 		</div>
 		<div class="new-score-box">
 			<div class="team-wrapper">
 				<div class="away-team">
-					<a href="/teams/profile?team=NYJ"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NYJ.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=NO"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NO.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(1-0-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=NYJ">Jets</a></p>
+							<p class="team-record">(1-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=NO">Saints</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -2463,11 +2452,11 @@ justify-content: flex-start;
 			</div>
 			<div class="team-wrapper">
 				<div class="home-team">
-					<a href="/teams/profile?team=JAX"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/JAX.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=ATL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/ATL.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(1-0-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=JAX">Jaguars</a></p>
+							<p class="team-record">(1-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=ATL">Falcons</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -2475,7 +2464,7 @@ justify-content: flex-start;
 			</div>
 			<div class="game-center-area">
 				
-				<a href="/gamecenter/2018093005/2018/REG4/jets@jaguars" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<a href="/gamecenter/2018092300/2018/REG3/saints@falcons" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
 				<p><span class="time-left" >1:00 PM  ET</span></p>
 			</div>
 			<div class="products-social">
@@ -2487,7 +2476,7 @@ justify-content: flex-start;
 	</div>
 	</div>
 	
-	<div id="share-2018093005" class="share">
+	<div id="share-2018092300" class="share">
 
 
 
@@ -2505,7 +2494,7 @@ justify-content: flex-start;
 
 
 
-<div id="sbc_mxhm208m"></div>
+<div id="sbc_c0uieq64"></div>
 
 
 
@@ -2541,9 +2530,9 @@ justify-content: flex-start;
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_mxhm208m',
+				srcNode: '#sbc_c0uieq64',
 
-				barId: 'sbb_mxhm208m',
+				barId: 'sbb_c0uieq64',
 
 				skinName: 'default',
 
@@ -2561,9 +2550,9 @@ justify-content: flex-start;
 
 				
 
-				title: 'Check out the Jets vs Jaguars match-up on NFL.com\&#039;s GameCenter.',
+				title: 'Check out the Saints vs Falcons match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2018093005/2018/REG4/jets@jaguars',
+				linkBack: 'http://www.nfl.com/gamecenter/2018092300/2018/REG3/saints@falcons',
 
 				
 
@@ -2618,7 +2607,7 @@ justify-content: flex-start;
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2018093006"	>
+	<div id="sb-wrapper-2018092309"	>
 	
 		
 		
@@ -2639,225 +2628,24 @@ justify-content: flex-start;
 
 
 <div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093006">
+	<div id="scorebox-2018092309">
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
-				
-				<span class="network" title="Airing on Network Channel">cbs</span>
-				<span class="tickets-link"><a href="/tickets/new-england-patriots?icampaign=Scores_Tickets">GET TICKETS</a></span>
-			</p>
-		</div>
-		<div class="new-score-box">
-			<div class="team-wrapper">
-				<div class="away-team">
-					<a href="/teams/profile?team=MIA"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/MIA.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(1-0-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=MIA">Dolphins</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="team-wrapper">
-				<div class="home-team">
-					<a href="/teams/profile?team=NE"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NE.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(1-0-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=NE">Patriots</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="game-center-area">
-				
-				<a href="/gamecenter/2018093006/2018/REG4/dolphins@patriots" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
-				<p><span class="time-left" >1:00 PM  ET</span></p>
-			</div>
-			<div class="products-social">
-				<p>
-					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
-				</p>
-			</div>
-		</div>
-	</div>
-	</div>
-	
-	<div id="share-2018093006" class="share">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="sbc_77g7c2to"></div>
-
-
-
-<script>
-
-	nfl.use('share-bar', function (Y) {
-
-
-
-		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
-
-			setTimeout(init, 1000);
-
-		}else{
-
-			init();
-
-		}
-
-
-
-		function init(){
-
-			
-
-			var mediaItem = [], actionLink = {}, qs, i;
-
-			
-
-			
-
-			
-
-			new Y.NFL.ShareBar({
-
-				srcNode: '#sbc_77g7c2to',
-
-				barId: 'sbb_77g7c2to',
-
-				skinName: 'default',
-
-				register: false,
-
-				lazyLoad: true,
-
-				scope: 'both',
-
-				
-
-				
-
-				
-
-				
-
-				title: 'Check out the Dolphins vs Patriots match-up on NFL.com\&#039;s GameCenter.',
-
-				linkBack: 'http://www.nfl.com/gamecenter/2018093006/2018/REG4/dolphins@patriots',
-
-				
-
-				
-
-				actionLink: actionLink,
-
-				mediaItem: mediaItem,
-
-				
-
-				
-
-				
-
-				
-
-				enableBuzz: false,
-
-				render: true
-
-			});
-
-			
-
-		};
-
-		
-
-	});
-
-	
-
-</script>
-
-
-
-</div>
-</div>
-<!-- END INCLUDE scoresbox/pre -->
-
-		
-		
-	</div>
-	<!-- isCurrentWeek = false -->
-	
-
-		
-		
-		
-		<!-- state: PRE -->
-		<script>console.log('');</script>
-		
-	
-	<div id="sb-wrapper-2018093007"	>
-	
-		
-		
-			<!-- BEGIN INCLUDE scoresbox/pre -->
-
-
-
-
-
-<!-- currentWeather? false -->
-<!-- forecastWeather? false -->
-<!-- isCurrentWeek? false -->
-
-
-
-
-
-
-
-<div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093007">
-	<div class="new-score-box-wrapper">
-		<div class="new-score-box-heading">
-			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
 				
 				<span class="network" title="Airing on Network Channel">fox</span>
-				<span class="tickets-link"><a href="/tickets/tennessee-titans?icampaign=Scores_Tickets">GET TICKETS</a></span>
+				<span class="tickets-link"><a href="/tickets/washington-redskins?icampaign=Scores_Tickets">GET TICKETS</a></span>
 			</p>
 		</div>
 		<div class="new-score-box">
 			<div class="team-wrapper">
 				<div class="away-team">
-					<a href="/teams/profile?team=PHI"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/PHI.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=GB"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/GB.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(1-0-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=PHI">Eagles</a></p>
+							<p class="team-record">(1-0-1)</p>
+							<p class="team-name"><a href="/teams/profile?team=GB">Packers</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -2865,11 +2653,11 @@ justify-content: flex-start;
 			</div>
 			<div class="team-wrapper">
 				<div class="home-team">
-					<a href="/teams/profile?team=TEN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/TEN.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=WAS"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/WAS.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=TEN">Titans</a></p>
+							<p class="team-record">(1-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=WAS">Redskins</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -2877,7 +2665,7 @@ justify-content: flex-start;
 			</div>
 			<div class="game-center-area">
 				
-				<a href="/gamecenter/2018093007/2018/REG4/eagles@titans" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<a href="/gamecenter/2018092309/2018/REG3/packers@redskins" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
 				<p><span class="time-left" >1:00 PM  ET</span></p>
 			</div>
 			<div class="products-social">
@@ -2889,7 +2677,7 @@ justify-content: flex-start;
 	</div>
 	</div>
 	
-	<div id="share-2018093007" class="share">
+	<div id="share-2018092309" class="share">
 
 
 
@@ -2907,7 +2695,7 @@ justify-content: flex-start;
 
 
 
-<div id="sbc_wu0s738l"></div>
+<div id="sbc_0dl71hvy"></div>
 
 
 
@@ -2943,9 +2731,9 @@ justify-content: flex-start;
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_wu0s738l',
+				srcNode: '#sbc_0dl71hvy',
 
-				barId: 'sbb_wu0s738l',
+				barId: 'sbb_0dl71hvy',
 
 				skinName: 'default',
 
@@ -2963,9 +2751,9 @@ justify-content: flex-start;
 
 				
 
-				title: 'Check out the Eagles vs Titans match-up on NFL.com\&#039;s GameCenter.',
+				title: 'Check out the Packers vs Redskins match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2018093007/2018/REG4/eagles@titans',
+				linkBack: 'http://www.nfl.com/gamecenter/2018092309/2018/REG3/packers@redskins',
 
 				
 
@@ -3020,7 +2808,7 @@ justify-content: flex-start;
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2018093004"	>
+	<div id="sb-wrapper-2018092308"	>
 	
 		
 		
@@ -3041,44 +2829,44 @@ justify-content: flex-start;
 
 
 <div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093004">
+	<div id="scorebox-2018092308">
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
 				
-				<span class="network" title="Airing on Network Channel">cbs</span>
-				<span class="tickets-link"><a href="/tickets/indianapolis-colts?icampaign=Scores_Tickets">GET TICKETS</a></span>
+				<span class="network" title="Airing on Network Channel">fox</span>
+				<span class="tickets-link"><a href="/tickets/philadelphia-eagles?icampaign=Scores_Tickets">GET TICKETS</a></span>
 			</p>
 		</div>
 		<div class="new-score-box">
 			<div class="team-wrapper">
 				<div class="away-team">
-					<a href="/teams/profile?team=HOU"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/HOU.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=HOU">Texans</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="team-wrapper">
-				<div class="home-team">
 					<a href="/teams/profile?team=IND"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/IND.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
+							<p class="team-record">(1-1-0)</p>
 							<p class="team-name"><a href="/teams/profile?team=IND">Colts</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
 				</div>
 			</div>
+			<div class="team-wrapper">
+				<div class="home-team">
+					<a href="/teams/profile?team=PHI"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/PHI.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(1-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=PHI">Eagles</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
 			<div class="game-center-area">
 				
-				<a href="/gamecenter/2018093004/2018/REG4/texans@colts" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<a href="/gamecenter/2018092308/2018/REG3/colts@eagles" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
 				<p><span class="time-left" >1:00 PM  ET</span></p>
 			</div>
 			<div class="products-social">
@@ -3090,7 +2878,7 @@ justify-content: flex-start;
 	</div>
 	</div>
 	
-	<div id="share-2018093004" class="share">
+	<div id="share-2018092308" class="share">
 
 
 
@@ -3108,7 +2896,7 @@ justify-content: flex-start;
 
 
 
-<div id="sbc_1t7qid81"></div>
+<div id="sbc_3uuio3h2"></div>
 
 
 
@@ -3144,9 +2932,9 @@ justify-content: flex-start;
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_1t7qid81',
+				srcNode: '#sbc_3uuio3h2',
 
-				barId: 'sbb_1t7qid81',
+				barId: 'sbb_3uuio3h2',
 
 				skinName: 'default',
 
@@ -3164,9 +2952,9 @@ justify-content: flex-start;
 
 				
 
-				title: 'Check out the Texans vs Colts match-up on NFL.com\&#039;s GameCenter.',
+				title: 'Check out the Colts vs Eagles match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2018093004/2018/REG4/texans@colts',
+				linkBack: 'http://www.nfl.com/gamecenter/2018092308/2018/REG3/colts@eagles',
 
 				
 
@@ -3221,7 +3009,7 @@ justify-content: flex-start;
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2018093003"	>
+	<div id="sb-wrapper-2018092307"	>
 	
 		
 		
@@ -3242,14 +3030,14 @@ justify-content: flex-start;
 
 
 <div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093003">
+	<div id="scorebox-2018092307">
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
 				
 				<span class="network" title="Airing on Network Channel">cbs</span>
-				<span class="tickets-link"><a href="/tickets/green-bay-packers?icampaign=Scores_Tickets">GET TICKETS</a></span>
+				<span class="tickets-link"><a href="/tickets/minnesota-vikings?icampaign=Scores_Tickets">GET TICKETS</a></span>
 			</p>
 		</div>
 		<div class="new-score-box">
@@ -3258,7 +3046,7 @@ justify-content: flex-start;
 					<a href="/teams/profile?team=BUF"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/BUF.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
+							<p class="team-record">(0-2-0)</p>
 							<p class="team-name"><a href="/teams/profile?team=BUF">Bills</a></p>
 						</div>
 						<p class="total-score">--</p>
@@ -3267,11 +3055,11 @@ justify-content: flex-start;
 			</div>
 			<div class="team-wrapper">
 				<div class="home-team">
-					<a href="/teams/profile?team=GB"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/GB.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=MIN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/MIN.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(1-0-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=GB">Packers</a></p>
+							<p class="team-record">(1-0-1)</p>
+							<p class="team-name"><a href="/teams/profile?team=MIN">Vikings</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -3279,7 +3067,7 @@ justify-content: flex-start;
 			</div>
 			<div class="game-center-area">
 				
-				<a href="/gamecenter/2018093003/2018/REG4/bills@packers" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<a href="/gamecenter/2018092307/2018/REG3/bills@vikings" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
 				<p><span class="time-left" >1:00 PM  ET</span></p>
 			</div>
 			<div class="products-social">
@@ -3291,7 +3079,7 @@ justify-content: flex-start;
 	</div>
 	</div>
 	
-	<div id="share-2018093003" class="share">
+	<div id="share-2018092307" class="share">
 
 
 
@@ -3309,7 +3097,7 @@ justify-content: flex-start;
 
 
 
-<div id="sbc_6in246fw"></div>
+<div id="sbc_ychu01b2"></div>
 
 
 
@@ -3345,9 +3133,9 @@ justify-content: flex-start;
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_6in246fw',
+				srcNode: '#sbc_ychu01b2',
 
-				barId: 'sbb_6in246fw',
+				barId: 'sbb_ychu01b2',
 
 				skinName: 'default',
 
@@ -3365,9 +3153,9 @@ justify-content: flex-start;
 
 				
 
-				title: 'Check out the Bills vs Packers match-up on NFL.com\&#039;s GameCenter.',
+				title: 'Check out the Bills vs Vikings match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2018093003/2018/REG4/bills@packers',
+				linkBack: 'http://www.nfl.com/gamecenter/2018092307/2018/REG3/bills@vikings',
 
 				
 
@@ -3422,7 +3210,7 @@ justify-content: flex-start;
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2018093002"	>
+	<div id="sb-wrapper-2018092306"	>
 	
 		
 		
@@ -3443,416 +3231,416 @@ justify-content: flex-start;
 
 
 <div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093002">
+	<div id="scorebox-2018092306">
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
-				
-				<span class="network" title="Airing on Network Channel">fox</span>
-				<span class="tickets-link"><a href="/tickets/dallas-cowboys?icampaign=Scores_Tickets">GET TICKETS</a></span>
-			</p>
-		</div>
-		<div class="new-score-box">
-			<div class="team-wrapper">
-				<div class="away-team">
-					<a href="/teams/profile?team=DET"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DET.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=DET">Lions</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="team-wrapper">
-				<div class="home-team">
-					<a href="/teams/profile?team=DAL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DAL.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=DAL">Cowboys</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="game-center-area">
-				
-				<a href="/gamecenter/2018093002/2018/REG4/lions@cowboys" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
-				<p><span class="time-left" >1:00 PM  ET</span></p>
-			</div>
-			<div class="products-social">
-				<p>
-					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
-				</p>
-			</div>
-		</div>
-	</div>
-	</div>
-	
-	<div id="share-2018093002" class="share">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="sbc_vj731gr5"></div>
-
-
-
-<script>
-
-	nfl.use('share-bar', function (Y) {
-
-
-
-		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
-
-			setTimeout(init, 1000);
-
-		}else{
-
-			init();
-
-		}
-
-
-
-		function init(){
-
-			
-
-			var mediaItem = [], actionLink = {}, qs, i;
-
-			
-
-			
-
-			
-
-			new Y.NFL.ShareBar({
-
-				srcNode: '#sbc_vj731gr5',
-
-				barId: 'sbb_vj731gr5',
-
-				skinName: 'default',
-
-				register: false,
-
-				lazyLoad: true,
-
-				scope: 'both',
-
-				
-
-				
-
-				
-
-				
-
-				title: 'Check out the Lions vs Cowboys match-up on NFL.com\&#039;s GameCenter.',
-
-				linkBack: 'http://www.nfl.com/gamecenter/2018093002/2018/REG4/lions@cowboys',
-
-				
-
-				
-
-				actionLink: actionLink,
-
-				mediaItem: mediaItem,
-
-				
-
-				
-
-				
-
-				
-
-				enableBuzz: false,
-
-				render: true
-
-			});
-
-			
-
-		};
-
-		
-
-	});
-
-	
-
-</script>
-
-
-
-</div>
-</div>
-<!-- END INCLUDE scoresbox/pre -->
-
-		
-		
-	</div>
-	<!-- isCurrentWeek = false -->
-	
-
-		
-		
-		
-		<!-- state: PRE -->
-		<script>console.log('');</script>
-		
-	
-	<div id="sb-wrapper-2018093001"	>
-	
-		
-		
-			<!-- BEGIN INCLUDE scoresbox/pre -->
-
-
-
-
-
-<!-- currentWeather? false -->
-<!-- forecastWeather? false -->
-<!-- isCurrentWeek? false -->
-
-
-
-
-
-
-
-<div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093001">
-	<div class="new-score-box-wrapper">
-		<div class="new-score-box-heading">
-			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
-				
-				<span class="network" title="Airing on Network Channel">fox</span>
-				<span class="tickets-link"><a href="/tickets/chicago-bears?icampaign=Scores_Tickets">GET TICKETS</a></span>
-			</p>
-		</div>
-		<div class="new-score-box">
-			<div class="team-wrapper">
-				<div class="away-team">
-					<a href="/teams/profile?team=TB"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/TB.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(1-0-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=TB">Buccaneers</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="team-wrapper">
-				<div class="home-team">
-					<a href="/teams/profile?team=CHI"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/CHI.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=CHI">Bears</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="game-center-area">
-				
-				<a href="/gamecenter/2018093001/2018/REG4/buccaneers@bears" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
-				<p><span class="time-left" >1:00 PM  ET</span></p>
-			</div>
-			<div class="products-social">
-				<p>
-					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
-				</p>
-			</div>
-		</div>
-	</div>
-	</div>
-	
-	<div id="share-2018093001" class="share">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="sbc_80vfpm61"></div>
-
-
-
-<script>
-
-	nfl.use('share-bar', function (Y) {
-
-
-
-		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
-
-			setTimeout(init, 1000);
-
-		}else{
-
-			init();
-
-		}
-
-
-
-		function init(){
-
-			
-
-			var mediaItem = [], actionLink = {}, qs, i;
-
-			
-
-			
-
-			
-
-			new Y.NFL.ShareBar({
-
-				srcNode: '#sbc_80vfpm61',
-
-				barId: 'sbb_80vfpm61',
-
-				skinName: 'default',
-
-				register: false,
-
-				lazyLoad: true,
-
-				scope: 'both',
-
-				
-
-				
-
-				
-
-				
-
-				title: 'Check out the Buccaneers vs Bears match-up on NFL.com\&#039;s GameCenter.',
-
-				linkBack: 'http://www.nfl.com/gamecenter/2018093001/2018/REG4/buccaneers@bears',
-
-				
-
-				
-
-				actionLink: actionLink,
-
-				mediaItem: mediaItem,
-
-				
-
-				
-
-				
-
-				
-
-				enableBuzz: false,
-
-				render: true
-
-			});
-
-			
-
-		};
-
-		
-
-	});
-
-	
-
-</script>
-
-
-
-</div>
-</div>
-<!-- END INCLUDE scoresbox/pre -->
-
-		
-		
-	</div>
-	<!-- isCurrentWeek = false -->
-	
-
-		
-		
-		
-		<!-- state: PRE -->
-		<script>console.log('');</script>
-		
-	
-	<div id="sb-wrapper-2018093000"	>
-	
-		
-		
-			<!-- BEGIN INCLUDE scoresbox/pre -->
-
-
-
-
-
-<!-- currentWeather? false -->
-<!-- forecastWeather? false -->
-<!-- isCurrentWeek? false -->
-
-
-
-
-
-
-
-<div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093000">
-	<div class="new-score-box-wrapper">
-		<div class="new-score-box-heading">
-			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
 				
 				<span class="network" title="Airing on Network Channel">cbs</span>
-				<span class="tickets-link"><a href="/tickets/atlanta-falcons?icampaign=Scores_Tickets">GET TICKETS</a></span>
+				<span class="tickets-link"><a href="/tickets/miami-dolphins?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=OAK"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/OAK.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(0-2-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=OAK">Raiders</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="team-wrapper">
+				<div class="home-team">
+					<a href="/teams/profile?team=MIA"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/MIA.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(2-0-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=MIA">Dolphins</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2018092306/2018/REG3/raiders@dolphins" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+			</div>
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2018092306" class="share">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sbc_m78b6m85"></div>
+
+
+
+<script>
+
+	nfl.use('share-bar', function (Y) {
+
+
+
+		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
+
+			setTimeout(init, 1000);
+
+		}else{
+
+			init();
+
+		}
+
+
+
+		function init(){
+
+			
+
+			var mediaItem = [], actionLink = {}, qs, i;
+
+			
+
+			
+
+			
+
+			new Y.NFL.ShareBar({
+
+				srcNode: '#sbc_m78b6m85',
+
+				barId: 'sbb_m78b6m85',
+
+				skinName: 'default',
+
+				register: false,
+
+				lazyLoad: true,
+
+				scope: 'both',
+
+				
+
+				
+
+				
+
+				
+
+				title: 'Check out the Raiders vs Dolphins match-up on NFL.com\&#039;s GameCenter.',
+
+				linkBack: 'http://www.nfl.com/gamecenter/2018092306/2018/REG3/raiders@dolphins',
+
+				
+
+				
+
+				actionLink: actionLink,
+
+				mediaItem: mediaItem,
+
+				
+
+				
+
+				
+
+				
+
+				enableBuzz: false,
+
+				render: true
+
+			});
+
+			
+
+		};
+
+		
+
+	});
+
+	
+
+</script>
+
+
+
+</div>
+</div>
+<!-- END INCLUDE scoresbox/pre -->
+
+		
+		
+	</div>
+	<!-- isCurrentWeek = false -->
+	
+
+		
+		
+		
+		<!-- state: PRE -->
+		<script>console.log('');</script>
+		
+	
+	<div id="sb-wrapper-2018092301"	>
+	
+		
+		
+			<!-- BEGIN INCLUDE scoresbox/pre -->
+
+
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2018092301">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
+				
+				<span class="network" title="Airing on Network Channel">cbs</span>
+				<span class="tickets-link"><a href="/tickets/baltimore-ravens?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=DEN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DEN.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(2-0-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=DEN">Broncos</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="team-wrapper">
+				<div class="home-team">
+					<a href="/teams/profile?team=BAL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/BAL.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(1-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=BAL">Ravens</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2018092301/2018/REG3/broncos@ravens" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+			</div>
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2018092301" class="share">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sbc_6hq77i11"></div>
+
+
+
+<script>
+
+	nfl.use('share-bar', function (Y) {
+
+
+
+		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
+
+			setTimeout(init, 1000);
+
+		}else{
+
+			init();
+
+		}
+
+
+
+		function init(){
+
+			
+
+			var mediaItem = [], actionLink = {}, qs, i;
+
+			
+
+			
+
+			
+
+			new Y.NFL.ShareBar({
+
+				srcNode: '#sbc_6hq77i11',
+
+				barId: 'sbb_6hq77i11',
+
+				skinName: 'default',
+
+				register: false,
+
+				lazyLoad: true,
+
+				scope: 'both',
+
+				
+
+				
+
+				
+
+				
+
+				title: 'Check out the Broncos vs Ravens match-up on NFL.com\&#039;s GameCenter.',
+
+				linkBack: 'http://www.nfl.com/gamecenter/2018092301/2018/REG3/broncos@ravens',
+
+				
+
+				
+
+				actionLink: actionLink,
+
+				mediaItem: mediaItem,
+
+				
+
+				
+
+				
+
+				
+
+				enableBuzz: false,
+
+				render: true
+
+			});
+
+			
+
+		};
+
+		
+
+	});
+
+	
+
+</script>
+
+
+
+</div>
+</div>
+<!-- END INCLUDE scoresbox/pre -->
+
+		
+		
+	</div>
+	<!-- isCurrentWeek = false -->
+	
+
+		
+		
+		
+		<!-- state: PRE -->
+		<script>console.log('');</script>
+		
+	
+	<div id="sb-wrapper-2018092302"	>
+	
+		
+		
+			<!-- BEGIN INCLUDE scoresbox/pre -->
+
+
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2018092302">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
+				
+				<span class="network" title="Airing on Network Channel">cbs</span>
+				<span class="tickets-link"><a href="/tickets/carolina-panthers?icampaign=Scores_Tickets">GET TICKETS</a></span>
 			</p>
 		</div>
 		<div class="new-score-box">
@@ -3870,11 +3658,11 @@ justify-content: flex-start;
 			</div>
 			<div class="team-wrapper">
 				<div class="home-team">
-					<a href="/teams/profile?team=ATL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/ATL.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=CAR"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/CAR.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=ATL">Falcons</a></p>
+							<p class="team-record">(1-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=CAR">Panthers</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -3882,7 +3670,7 @@ justify-content: flex-start;
 			</div>
 			<div class="game-center-area">
 				
-				<a href="/gamecenter/2018093000/2018/REG4/bengals@falcons" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<a href="/gamecenter/2018092302/2018/REG3/bengals@panthers" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
 				<p><span class="time-left" >1:00 PM  ET</span></p>
 			</div>
 			<div class="products-social">
@@ -3894,7 +3682,7 @@ justify-content: flex-start;
 	</div>
 	</div>
 	
-	<div id="share-2018093000" class="share">
+	<div id="share-2018092302" class="share">
 
 
 
@@ -3912,7 +3700,7 @@ justify-content: flex-start;
 
 
 
-<div id="sbc_a70g4dim"></div>
+<div id="sbc_r6whrtf8"></div>
 
 
 
@@ -3948,9 +3736,9 @@ justify-content: flex-start;
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_a70g4dim',
+				srcNode: '#sbc_r6whrtf8',
 
-				barId: 'sbb_a70g4dim',
+				barId: 'sbb_r6whrtf8',
 
 				skinName: 'default',
 
@@ -3968,9 +3756,9 @@ justify-content: flex-start;
 
 				
 
-				title: 'Check out the Bengals vs Falcons match-up on NFL.com\&#039;s GameCenter.',
+				title: 'Check out the Bengals vs Panthers match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2018093000/2018/REG4/bengals@falcons',
+				linkBack: 'http://www.nfl.com/gamecenter/2018092302/2018/REG3/bengals@panthers',
 
 				
 
@@ -4025,7 +3813,7 @@ justify-content: flex-start;
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2018093008"	>
+	<div id="sb-wrapper-2018092303"	>
 	
 		
 		
@@ -4046,19 +3834,835 @@ justify-content: flex-start;
 
 
 <div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093008">
+	<div id="scorebox-2018092303">
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
 				
 				<span class="network" title="Airing on Network Channel">fox</span>
-				<span class="tickets-link"><a href="/tickets/arizona-cardinals?icampaign=Scores_Tickets">GET TICKETS</a></span>
+				<span class="tickets-link"><a href="/tickets/houston-texans?icampaign=Scores_Tickets">GET TICKETS</a></span>
 			</p>
 		</div>
 		<div class="new-score-box">
 			<div class="team-wrapper">
 				<div class="away-team">
+					<a href="/teams/profile?team=NYG"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NYG.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(0-2-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=NYG">Giants</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="team-wrapper">
+				<div class="home-team">
+					<a href="/teams/profile?team=HOU"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/HOU.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(0-2-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=HOU">Texans</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2018092303/2018/REG3/giants@texans" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+			</div>
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2018092303" class="share">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sbc_402r574e"></div>
+
+
+
+<script>
+
+	nfl.use('share-bar', function (Y) {
+
+
+
+		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
+
+			setTimeout(init, 1000);
+
+		}else{
+
+			init();
+
+		}
+
+
+
+		function init(){
+
+			
+
+			var mediaItem = [], actionLink = {}, qs, i;
+
+			
+
+			
+
+			
+
+			new Y.NFL.ShareBar({
+
+				srcNode: '#sbc_402r574e',
+
+				barId: 'sbb_402r574e',
+
+				skinName: 'default',
+
+				register: false,
+
+				lazyLoad: true,
+
+				scope: 'both',
+
+				
+
+				
+
+				
+
+				
+
+				title: 'Check out the Giants vs Texans match-up on NFL.com\&#039;s GameCenter.',
+
+				linkBack: 'http://www.nfl.com/gamecenter/2018092303/2018/REG3/giants@texans',
+
+				
+
+				
+
+				actionLink: actionLink,
+
+				mediaItem: mediaItem,
+
+				
+
+				
+
+				
+
+				
+
+				enableBuzz: false,
+
+				render: true
+
+			});
+
+			
+
+		};
+
+		
+
+	});
+
+	
+
+</script>
+
+
+
+</div>
+</div>
+<!-- END INCLUDE scoresbox/pre -->
+
+		
+		
+	</div>
+	<!-- isCurrentWeek = false -->
+	
+
+		
+		
+		
+		<!-- state: PRE -->
+		<script>console.log('');</script>
+		
+	
+	<div id="sb-wrapper-2018092304"	>
+	
+		
+		
+			<!-- BEGIN INCLUDE scoresbox/pre -->
+
+
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2018092304">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
+				
+				<span class="network" title="Airing on Network Channel">cbs</span>
+				<span class="tickets-link"><a href="/tickets/jacksonville-jaguars?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=TEN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/TEN.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(1-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=TEN">Titans</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="team-wrapper">
+				<div class="home-team">
+					<a href="/teams/profile?team=JAX"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/JAX.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(2-0-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=JAX">Jaguars</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2018092304/2018/REG3/titans@jaguars" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+			</div>
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2018092304" class="share">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sbc_0xjp1l0y"></div>
+
+
+
+<script>
+
+	nfl.use('share-bar', function (Y) {
+
+
+
+		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
+
+			setTimeout(init, 1000);
+
+		}else{
+
+			init();
+
+		}
+
+
+
+		function init(){
+
+			
+
+			var mediaItem = [], actionLink = {}, qs, i;
+
+			
+
+			
+
+			
+
+			new Y.NFL.ShareBar({
+
+				srcNode: '#sbc_0xjp1l0y',
+
+				barId: 'sbb_0xjp1l0y',
+
+				skinName: 'default',
+
+				register: false,
+
+				lazyLoad: true,
+
+				scope: 'both',
+
+				
+
+				
+
+				
+
+				
+
+				title: 'Check out the Titans vs Jaguars match-up on NFL.com\&#039;s GameCenter.',
+
+				linkBack: 'http://www.nfl.com/gamecenter/2018092304/2018/REG3/titans@jaguars',
+
+				
+
+				
+
+				actionLink: actionLink,
+
+				mediaItem: mediaItem,
+
+				
+
+				
+
+				
+
+				
+
+				enableBuzz: false,
+
+				render: true
+
+			});
+
+			
+
+		};
+
+		
+
+	});
+
+	
+
+</script>
+
+
+
+</div>
+</div>
+<!-- END INCLUDE scoresbox/pre -->
+
+		
+		
+	</div>
+	<!-- isCurrentWeek = false -->
+	
+
+		
+		
+		
+		<!-- state: PRE -->
+		<script>console.log('');</script>
+		
+	
+	<div id="sb-wrapper-2018092305"	>
+	
+		
+		
+			<!-- BEGIN INCLUDE scoresbox/pre -->
+
+
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2018092305">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
+				
+				<span class="network" title="Airing on Network Channel">fox</span>
+				<span class="tickets-link"><a href="/tickets/kansas-city-chiefs?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=SF"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/SF.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(1-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=SF">49ers</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="team-wrapper">
+				<div class="home-team">
+					<a href="/teams/profile?team=KC"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/KC.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(2-0-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=KC">Chiefs</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2018092305/2018/REG3/49ers@chiefs" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >1:00 PM  ET</span></p>
+			</div>
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2018092305" class="share">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sbc_oqo61l3n"></div>
+
+
+
+<script>
+
+	nfl.use('share-bar', function (Y) {
+
+
+
+		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
+
+			setTimeout(init, 1000);
+
+		}else{
+
+			init();
+
+		}
+
+
+
+		function init(){
+
+			
+
+			var mediaItem = [], actionLink = {}, qs, i;
+
+			
+
+			
+
+			
+
+			new Y.NFL.ShareBar({
+
+				srcNode: '#sbc_oqo61l3n',
+
+				barId: 'sbb_oqo61l3n',
+
+				skinName: 'default',
+
+				register: false,
+
+				lazyLoad: true,
+
+				scope: 'both',
+
+				
+
+				
+
+				
+
+				
+
+				title: 'Check out the 49ers vs Chiefs match-up on NFL.com\&#039;s GameCenter.',
+
+				linkBack: 'http://www.nfl.com/gamecenter/2018092305/2018/REG3/49ers@chiefs',
+
+				
+
+				
+
+				actionLink: actionLink,
+
+				mediaItem: mediaItem,
+
+				
+
+				
+
+				
+
+				
+
+				enableBuzz: false,
+
+				render: true
+
+			});
+
+			
+
+		};
+
+		
+
+	});
+
+	
+
+</script>
+
+
+
+</div>
+</div>
+<!-- END INCLUDE scoresbox/pre -->
+
+		
+		
+	</div>
+	<!-- isCurrentWeek = false -->
+	
+
+		
+		
+		
+		<!-- state: PRE -->
+		<script>console.log('');</script>
+		
+	
+	<div id="sb-wrapper-2018092310"	>
+	
+		
+		
+			<!-- BEGIN INCLUDE scoresbox/pre -->
+
+
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2018092310">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
+				
+				<span class="network" title="Airing on Network Channel">cbs</span>
+				<span class="tickets-link"><a href="/tickets/los-angeles-rams?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=LAC"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/LAC.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(1-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=LAC">Chargers</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="team-wrapper">
+				<div class="home-team">
+					<a href="/teams/profile?team=LA"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/LA.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(2-0-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=LA">Rams</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2018092310/2018/REG3/chargers@rams" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >4:05 PM  ET</span></p>
+			</div>
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2018092310" class="share">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sbc_71026157"></div>
+
+
+
+<script>
+
+	nfl.use('share-bar', function (Y) {
+
+
+
+		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
+
+			setTimeout(init, 1000);
+
+		}else{
+
+			init();
+
+		}
+
+
+
+		function init(){
+
+			
+
+			var mediaItem = [], actionLink = {}, qs, i;
+
+			
+
+			
+
+			
+
+			new Y.NFL.ShareBar({
+
+				srcNode: '#sbc_71026157',
+
+				barId: 'sbb_71026157',
+
+				skinName: 'default',
+
+				register: false,
+
+				lazyLoad: true,
+
+				scope: 'both',
+
+				
+
+				
+
+				
+
+				
+
+				title: 'Check out the Chargers vs Rams match-up on NFL.com\&#039;s GameCenter.',
+
+				linkBack: 'http://www.nfl.com/gamecenter/2018092310/2018/REG3/chargers@rams',
+
+				
+
+				
+
+				actionLink: actionLink,
+
+				mediaItem: mediaItem,
+
+				
+
+				
+
+				
+
+				
+
+				enableBuzz: false,
+
+				render: true
+
+			});
+
+			
+
+		};
+
+		
+
+	});
+
+	
+
+</script>
+
+
+
+</div>
+</div>
+<!-- END INCLUDE scoresbox/pre -->
+
+		
+		
+	</div>
+	<!-- isCurrentWeek = false -->
+	
+
+		
+		
+		
+		<!-- state: PRE -->
+		<script>console.log('');</script>
+		
+	
+	<div id="sb-wrapper-2018092312"	>
+	
+		
+		
+			<!-- BEGIN INCLUDE scoresbox/pre -->
+
+
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2018092312">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
+				
+				<span class="network" title="Airing on Network Channel">fox</span>
+				<span class="tickets-link"><a href="/tickets/seattle-seahawks?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=DAL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DAL.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(1-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=DAL">Cowboys</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
+			<div class="team-wrapper">
+				<div class="home-team">
 					<a href="/teams/profile?team=SEA"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/SEA.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
@@ -4069,12 +4673,201 @@ justify-content: flex-start;
 					</div>
 				</div>
 			</div>
+			<div class="game-center-area">
+				
+				<a href="/gamecenter/2018092312/2018/REG3/cowboys@seahawks" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<p><span class="time-left" >4:25 PM  ET</span></p>
+			</div>
+			<div class="products-social">
+				<p>
+					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="share-2018092312" class="share">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sbc_geu528m5"></div>
+
+
+
+<script>
+
+	nfl.use('share-bar', function (Y) {
+
+
+
+		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
+
+			setTimeout(init, 1000);
+
+		}else{
+
+			init();
+
+		}
+
+
+
+		function init(){
+
+			
+
+			var mediaItem = [], actionLink = {}, qs, i;
+
+			
+
+			
+
+			
+
+			new Y.NFL.ShareBar({
+
+				srcNode: '#sbc_geu528m5',
+
+				barId: 'sbb_geu528m5',
+
+				skinName: 'default',
+
+				register: false,
+
+				lazyLoad: true,
+
+				scope: 'both',
+
+				
+
+				
+
+				
+
+				
+
+				title: 'Check out the Cowboys vs Seahawks match-up on NFL.com\&#039;s GameCenter.',
+
+				linkBack: 'http://www.nfl.com/gamecenter/2018092312/2018/REG3/cowboys@seahawks',
+
+				
+
+				
+
+				actionLink: actionLink,
+
+				mediaItem: mediaItem,
+
+				
+
+				
+
+				
+
+				
+
+				enableBuzz: false,
+
+				render: true
+
+			});
+
+			
+
+		};
+
+		
+
+	});
+
+	
+
+</script>
+
+
+
+</div>
+</div>
+<!-- END INCLUDE scoresbox/pre -->
+
+		
+		
+	</div>
+	<!-- isCurrentWeek = false -->
+	
+
+		
+		
+		
+		<!-- state: PRE -->
+		<script>console.log('');</script>
+		
+	
+	<div id="sb-wrapper-2018092311"	>
+	
+		
+		
+			<!-- BEGIN INCLUDE scoresbox/pre -->
+
+
+
+
+
+<!-- currentWeather? false -->
+<!-- forecastWeather? false -->
+<!-- isCurrentWeek? false -->
+
+
+
+
+
+
+
+<div class="scorebox-wrapper pre">
+	<div id="scorebox-2018092311">
+	<div class="new-score-box-wrapper">
+		<div class="new-score-box-heading">
+			<p>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
+				
+				<span class="network" title="Airing on Network Channel">fox</span>
+				<span class="tickets-link"><a href="/tickets/arizona-cardinals?icampaign=Scores_Tickets">GET TICKETS</a></span>
+			</p>
+		</div>
+		<div class="new-score-box">
+			<div class="team-wrapper">
+				<div class="away-team">
+					<a href="/teams/profile?team=CHI"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/CHI.png" class='team-logo' alt=""/></a>
+					<div class="team-data">
+						<div class="team-info">
+							<p class="team-record">(0-1-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=CHI">Bears</a></p>
+						</div>
+						<p class="total-score">--</p>
+					</div>
+				</div>
+			</div>
 			<div class="team-wrapper">
 				<div class="home-team">
 					<a href="/teams/profile?team=ARI"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/ARI.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
+							<p class="team-record">(0-2-0)</p>
 							<p class="team-name"><a href="/teams/profile?team=ARI">Cardinals</a></p>
 						</div>
 						<p class="total-score">--</p>
@@ -4083,409 +4876,7 @@ justify-content: flex-start;
 			</div>
 			<div class="game-center-area">
 				
-				<a href="/gamecenter/2018093008/2018/REG4/seahawks@cardinals" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
-				<p><span class="time-left" >4:05 PM  ET</span></p>
-			</div>
-			<div class="products-social">
-				<p>
-					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
-				</p>
-			</div>
-		</div>
-	</div>
-	</div>
-	
-	<div id="share-2018093008" class="share">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="sbc_vbk2x1ee"></div>
-
-
-
-<script>
-
-	nfl.use('share-bar', function (Y) {
-
-
-
-		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
-
-			setTimeout(init, 1000);
-
-		}else{
-
-			init();
-
-		}
-
-
-
-		function init(){
-
-			
-
-			var mediaItem = [], actionLink = {}, qs, i;
-
-			
-
-			
-
-			
-
-			new Y.NFL.ShareBar({
-
-				srcNode: '#sbc_vbk2x1ee',
-
-				barId: 'sbb_vbk2x1ee',
-
-				skinName: 'default',
-
-				register: false,
-
-				lazyLoad: true,
-
-				scope: 'both',
-
-				
-
-				
-
-				
-
-				
-
-				title: 'Check out the Seahawks vs Cardinals match-up on NFL.com\&#039;s GameCenter.',
-
-				linkBack: 'http://www.nfl.com/gamecenter/2018093008/2018/REG4/seahawks@cardinals',
-
-				
-
-				
-
-				actionLink: actionLink,
-
-				mediaItem: mediaItem,
-
-				
-
-				
-
-				
-
-				
-
-				enableBuzz: false,
-
-				render: true
-
-			});
-
-			
-
-		};
-
-		
-
-	});
-
-	
-
-</script>
-
-
-
-</div>
-</div>
-<!-- END INCLUDE scoresbox/pre -->
-
-		
-		
-	</div>
-	<!-- isCurrentWeek = false -->
-	
-
-		
-		
-		
-		<!-- state: PRE -->
-		<script>console.log('');</script>
-		
-	
-	<div id="sb-wrapper-2018093009"	>
-	
-		
-		
-			<!-- BEGIN INCLUDE scoresbox/pre -->
-
-
-
-
-
-<!-- currentWeather? false -->
-<!-- forecastWeather? false -->
-<!-- isCurrentWeek? false -->
-
-
-
-
-
-
-
-<div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093009">
-	<div class="new-score-box-wrapper">
-		<div class="new-score-box-heading">
-			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
-				
-				<span class="network" title="Airing on Network Channel">fox</span>
-				<span class="tickets-link"><a href="/tickets/oakland-raiders?icampaign=Scores_Tickets">GET TICKETS</a></span>
-			</p>
-		</div>
-		<div class="new-score-box">
-			<div class="team-wrapper">
-				<div class="away-team">
-					<a href="/teams/profile?team=CLE"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/CLE.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(0-0-1)</p>
-							<p class="team-name"><a href="/teams/profile?team=CLE">Browns</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="team-wrapper">
-				<div class="home-team">
-					<a href="/teams/profile?team=OAK"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/OAK.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=OAK">Raiders</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="game-center-area">
-				
-				<a href="/gamecenter/2018093009/2018/REG4/browns@raiders" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
-				<p><span class="time-left" >4:05 PM  ET</span></p>
-			</div>
-			<div class="products-social">
-				<p>
-					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
-				</p>
-			</div>
-		</div>
-	</div>
-	</div>
-	
-	<div id="share-2018093009" class="share">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="sbc_yw71j72v"></div>
-
-
-
-<script>
-
-	nfl.use('share-bar', function (Y) {
-
-
-
-		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
-
-			setTimeout(init, 1000);
-
-		}else{
-
-			init();
-
-		}
-
-
-
-		function init(){
-
-			
-
-			var mediaItem = [], actionLink = {}, qs, i;
-
-			
-
-			
-
-			
-
-			new Y.NFL.ShareBar({
-
-				srcNode: '#sbc_yw71j72v',
-
-				barId: 'sbb_yw71j72v',
-
-				skinName: 'default',
-
-				register: false,
-
-				lazyLoad: true,
-
-				scope: 'both',
-
-				
-
-				
-
-				
-
-				
-
-				title: 'Check out the Browns vs Raiders match-up on NFL.com\&#039;s GameCenter.',
-
-				linkBack: 'http://www.nfl.com/gamecenter/2018093009/2018/REG4/browns@raiders',
-
-				
-
-				
-
-				actionLink: actionLink,
-
-				mediaItem: mediaItem,
-
-				
-
-				
-
-				
-
-				
-
-				enableBuzz: false,
-
-				render: true
-
-			});
-
-			
-
-		};
-
-		
-
-	});
-
-	
-
-</script>
-
-
-
-</div>
-</div>
-<!-- END INCLUDE scoresbox/pre -->
-
-		
-		
-	</div>
-	<!-- isCurrentWeek = false -->
-	
-
-		
-		
-		
-		<!-- state: PRE -->
-		<script>console.log('');</script>
-		
-	
-	<div id="sb-wrapper-2018093011"	>
-	
-		
-		
-			<!-- BEGIN INCLUDE scoresbox/pre -->
-
-
-
-
-
-<!-- currentWeather? false -->
-<!-- forecastWeather? false -->
-<!-- isCurrentWeek? false -->
-
-
-
-
-
-
-
-<div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093011">
-	<div class="new-score-box-wrapper">
-		<div class="new-score-box-heading">
-			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
-				
-				<span class="network" title="Airing on Network Channel">cbs</span>
-				<span class="tickets-link"><a href="/tickets/new-york-giants?icampaign=Scores_Tickets">GET TICKETS</a></span>
-			</p>
-		</div>
-		<div class="new-score-box">
-			<div class="team-wrapper">
-				<div class="away-team">
-					<a href="/teams/profile?team=NO"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NO.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=NO">Saints</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="team-wrapper">
-				<div class="home-team">
-					<a href="/teams/profile?team=NYG"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NYG.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=NYG">Giants</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="game-center-area">
-				
-				<a href="/gamecenter/2018093011/2018/REG4/saints@giants" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<a href="/gamecenter/2018092311/2018/REG3/bears@cardinals" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
 				<p><span class="time-left" >4:25 PM  ET</span></p>
 			</div>
 			<div class="products-social">
@@ -4497,7 +4888,7 @@ justify-content: flex-start;
 	</div>
 	</div>
 	
-	<div id="share-2018093011" class="share">
+	<div id="share-2018092311" class="share">
 
 
 
@@ -4515,7 +4906,7 @@ justify-content: flex-start;
 
 
 
-<div id="sbc_17usk577"></div>
+<div id="sbc_0l6anq3o"></div>
 
 
 
@@ -4551,9 +4942,9 @@ justify-content: flex-start;
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_17usk577',
+				srcNode: '#sbc_0l6anq3o',
 
-				barId: 'sbb_17usk577',
+				barId: 'sbb_0l6anq3o',
 
 				skinName: 'default',
 
@@ -4571,9 +4962,9 @@ justify-content: flex-start;
 
 				
 
-				title: 'Check out the Saints vs Giants match-up on NFL.com\&#039;s GameCenter.',
+				title: 'Check out the Bears vs Cardinals match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2018093011/2018/REG4/saints@giants',
+				linkBack: 'http://www.nfl.com/gamecenter/2018092311/2018/REG3/bears@cardinals',
 
 				
 
@@ -4628,7 +5019,7 @@ justify-content: flex-start;
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2018093010"	>
+	<div id="sb-wrapper-2018092313"	>
 	
 		
 		
@@ -4649,225 +5040,24 @@ justify-content: flex-start;
 
 
 <div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093010">
+	<div id="scorebox-2018092313">
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
-				
-				<span class="network" title="Airing on Network Channel">cbs</span>
-				<span class="tickets-link"><a href="/tickets/los-angeles-chargers?icampaign=Scores_Tickets">GET TICKETS</a></span>
-			</p>
-		</div>
-		<div class="new-score-box">
-			<div class="team-wrapper">
-				<div class="away-team">
-					<a href="/teams/profile?team=SF"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/SF.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=SF">49ers</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="team-wrapper">
-				<div class="home-team">
-					<a href="/teams/profile?team=LAC"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/LAC.png" class='team-logo' alt=""/></a>
-					<div class="team-data">
-						<div class="team-info">
-							<p class="team-record">(0-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=LAC">Chargers</a></p>
-						</div>
-						<p class="total-score">--</p>
-					</div>
-				</div>
-			</div>
-			<div class="game-center-area">
-				
-				<a href="/gamecenter/2018093010/2018/REG4/49ers@chargers" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
-				<p><span class="time-left" >4:25 PM  ET</span></p>
-			</div>
-			<div class="products-social">
-				<p>
-					<span class="listen"><a href="/gamepass?icampaign=GP_Scores"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/camera.png" alt=""/> WATCH LIVE</a></span>
-				</p>
-			</div>
-		</div>
-	</div>
-	</div>
-	
-	<div id="share-2018093010" class="share">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="sbc_433l5nji"></div>
-
-
-
-<script>
-
-	nfl.use('share-bar', function (Y) {
-
-
-
-		if(Y.PROTOTYPE_COMPAT && Y.UA.ie){// video page often throws an error with Element.identify
-
-			setTimeout(init, 1000);
-
-		}else{
-
-			init();
-
-		}
-
-
-
-		function init(){
-
-			
-
-			var mediaItem = [], actionLink = {}, qs, i;
-
-			
-
-			
-
-			
-
-			new Y.NFL.ShareBar({
-
-				srcNode: '#sbc_433l5nji',
-
-				barId: 'sbb_433l5nji',
-
-				skinName: 'default',
-
-				register: false,
-
-				lazyLoad: true,
-
-				scope: 'both',
-
-				
-
-				
-
-				
-
-				
-
-				title: 'Check out the 49ers vs Chargers match-up on NFL.com\&#039;s GameCenter.',
-
-				linkBack: 'http://www.nfl.com/gamecenter/2018093010/2018/REG4/49ers@chargers',
-
-				
-
-				
-
-				actionLink: actionLink,
-
-				mediaItem: mediaItem,
-
-				
-
-				
-
-				
-
-				
-
-				enableBuzz: false,
-
-				render: true
-
-			});
-
-			
-
-		};
-
-		
-
-	});
-
-	
-
-</script>
-
-
-
-</div>
-</div>
-<!-- END INCLUDE scoresbox/pre -->
-
-		
-		
-	</div>
-	<!-- isCurrentWeek = false -->
-	
-
-		
-		
-		
-		<!-- state: PRE -->
-		<script>console.log('');</script>
-		
-	
-	<div id="sb-wrapper-2018093012"	>
-	
-		
-		
-			<!-- BEGIN INCLUDE scoresbox/pre -->
-
-
-
-
-
-<!-- currentWeather? false -->
-<!-- forecastWeather? false -->
-<!-- isCurrentWeek? false -->
-
-
-
-
-
-
-
-<div class="scorebox-wrapper pre">
-	<div id="scorebox-2018093012">
-	<div class="new-score-box-wrapper">
-		<div class="new-score-box-heading">
-			<p>
-				<span class="date" title="Date Airing">Sun, Sep 30</span>
+				<span class="date" title="Date Airing">Sun, Sep 23</span>
 				
 				<span class="network" title="Airing on Network Channel">nbc</span>
-				<span class="tickets-link"><a href="/tickets/pittsburgh-steelers?icampaign=Scores_Tickets">GET TICKETS</a></span>
+				<span class="tickets-link"><a href="/tickets/detroit-lions?icampaign=Scores_Tickets">GET TICKETS</a></span>
 			</p>
 		</div>
 		<div class="new-score-box">
 			<div class="team-wrapper">
 				<div class="away-team">
-					<a href="/teams/profile?team=BAL"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/BAL.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=NE"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/NE.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
 							<p class="team-record">(1-1-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=BAL">Ravens</a></p>
+							<p class="team-name"><a href="/teams/profile?team=NE">Patriots</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -4875,11 +5065,11 @@ justify-content: flex-start;
 			</div>
 			<div class="team-wrapper">
 				<div class="home-team">
-					<a href="/teams/profile?team=PIT"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/PIT.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=DET"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DET.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(0-0-1)</p>
-							<p class="team-name"><a href="/teams/profile?team=PIT">Steelers</a></p>
+							<p class="team-record">(0-2-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=DET">Lions</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -4887,7 +5077,7 @@ justify-content: flex-start;
 			</div>
 			<div class="game-center-area">
 				
-				<a href="/gamecenter/2018093012/2018/REG4/ravens@steelers" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<a href="/gamecenter/2018092313/2018/REG3/patriots@lions" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
 				<p><span class="time-left" >8:20 PM  ET</span></p>
 			</div>
 			<div class="products-social">
@@ -4899,7 +5089,7 @@ justify-content: flex-start;
 	</div>
 	</div>
 	
-	<div id="share-2018093012" class="share">
+	<div id="share-2018092313" class="share">
 
 
 
@@ -4917,7 +5107,7 @@ justify-content: flex-start;
 
 
 
-<div id="sbc_h2for027"></div>
+<div id="sbc_71fs7c2q"></div>
 
 
 
@@ -4953,9 +5143,9 @@ justify-content: flex-start;
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_h2for027',
+				srcNode: '#sbc_71fs7c2q',
 
-				barId: 'sbb_h2for027',
+				barId: 'sbb_71fs7c2q',
 
 				skinName: 'default',
 
@@ -4973,9 +5163,9 @@ justify-content: flex-start;
 
 				
 
-				title: 'Check out the Ravens vs Steelers match-up on NFL.com\&#039;s GameCenter.',
+				title: 'Check out the Patriots vs Lions match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2018093012/2018/REG4/ravens@steelers',
+				linkBack: 'http://www.nfl.com/gamecenter/2018092313/2018/REG3/patriots@lions',
 
 				
 
@@ -5030,7 +5220,7 @@ justify-content: flex-start;
 		<script>console.log('');</script>
 		
 	
-	<div id="sb-wrapper-2018100100"	>
+	<div id="sb-wrapper-2018092400"	>
 	
 		
 		
@@ -5051,24 +5241,24 @@ justify-content: flex-start;
 
 
 <div class="scorebox-wrapper pre">
-	<div id="scorebox-2018100100">
+	<div id="scorebox-2018092400">
 	<div class="new-score-box-wrapper">
 		<div class="new-score-box-heading">
 			<p>
-				<span class="date" title="Date Airing">Mon, Oct 1</span>
+				<span class="date" title="Date Airing">Mon, Sep 24</span>
 				
 				<span class="network" title="Airing on Network Channel">espn</span>
-				<span class="tickets-link"><a href="/tickets/denver-broncos?icampaign=Scores_Tickets">GET TICKETS</a></span>
+				<span class="tickets-link"><a href="/tickets/tampa-bay-buccaneers?icampaign=Scores_Tickets">GET TICKETS</a></span>
 			</p>
 		</div>
 		<div class="new-score-box">
 			<div class="team-wrapper">
 				<div class="away-team">
-					<a href="/teams/profile?team=KC"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/KC.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=PIT"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/PIT.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(1-0-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=KC">Chiefs</a></p>
+							<p class="team-record">(0-1-1)</p>
+							<p class="team-name"><a href="/teams/profile?team=PIT">Steelers</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -5076,11 +5266,11 @@ justify-content: flex-start;
 			</div>
 			<div class="team-wrapper">
 				<div class="home-team">
-					<a href="/teams/profile?team=DEN"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/DEN.png" class='team-logo' alt=""/></a>
+					<a href="/teams/profile?team=TB"><img src="http://i.nflcdn.com/static/site/7.5/img/logos/teams-matte-80x53/TB.png" class='team-logo' alt=""/></a>
 					<div class="team-data">
 						<div class="team-info">
-							<p class="team-record">(1-0-0)</p>
-							<p class="team-name"><a href="/teams/profile?team=DEN">Broncos</a></p>
+							<p class="team-record">(2-0-0)</p>
+							<p class="team-name"><a href="/teams/profile?team=TB">Buccaneers</a></p>
 						</div>
 						<p class="total-score">--</p>
 					</div>
@@ -5088,7 +5278,7 @@ justify-content: flex-start;
 			</div>
 			<div class="game-center-area">
 				
-				<a href="/gamecenter/2018100100/2018/REG4/chiefs@broncos" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
+				<a href="/gamecenter/2018092400/2018/REG3/steelers@buccaneers" class="game-center-link"><img src="http://i.nflcdn.com/static/site/7.5/img/scores/game-center-regular.png" alt="Game Center" /></a>
 				<p><span class="time-left" >8:15 PM  ET</span></p>
 			</div>
 			<div class="products-social">
@@ -5100,7 +5290,7 @@ justify-content: flex-start;
 	</div>
 	</div>
 	
-	<div id="share-2018100100" class="share">
+	<div id="share-2018092400" class="share">
 
 
 
@@ -5118,7 +5308,7 @@ justify-content: flex-start;
 
 
 
-<div id="sbc_pljd522i"></div>
+<div id="sbc_e2ojdpx2"></div>
 
 
 
@@ -5154,9 +5344,9 @@ justify-content: flex-start;
 
 			new Y.NFL.ShareBar({
 
-				srcNode: '#sbc_pljd522i',
+				srcNode: '#sbc_e2ojdpx2',
 
-				barId: 'sbb_pljd522i',
+				barId: 'sbb_e2ojdpx2',
 
 				skinName: 'default',
 
@@ -5174,9 +5364,9 @@ justify-content: flex-start;
 
 				
 
-				title: 'Check out the Chiefs vs Broncos match-up on NFL.com\&#039;s GameCenter.',
+				title: 'Check out the Steelers vs Buccaneers match-up on NFL.com\&#039;s GameCenter.',
 
-				linkBack: 'http://www.nfl.com/gamecenter/2018100100/2018/REG4/chiefs@broncos',
+				linkBack: 'http://www.nfl.com/gamecenter/2018092400/2018/REG3/steelers@buccaneers',
 
 				
 

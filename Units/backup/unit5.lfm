@@ -64,9 +64,9 @@ object Form5: TForm5
       Height = 438
       Top = 1
       Width = 776
-      ActivePage = TabSheet5
+      ActivePage = TabSheet3
       Align = alClient
-      TabIndex = 4
+      TabIndex = 2
       TabOrder = 0
       object TabSheet1: TTabSheet
         Caption = 'Roster'
@@ -79,22 +79,20 @@ object Form5: TForm5
           Width = 768
           Align = alClient
           ItemHeight = 0
-          OnClick = ListBox1Click
           TabOrder = 0
         end
       end
       object TabSheet2: TTabSheet
         Caption = 'Injured'
-        ClientHeight = 394
+        ClientHeight = 410
         ClientWidth = 768
         object ListBox2: TListBox
           Left = 0
-          Height = 394
+          Height = 410
           Top = 0
           Width = 768
           Align = alClient
           ItemHeight = 0
-          OnClick = ListBox1Click
           TabOrder = 0
         end
       end
@@ -109,7 +107,8 @@ object Form5: TForm5
           Width = 768
           Align = alClient
           ItemHeight = 0
-          OnClick = ListBox1Click
+          OnDrawItem = ListBox3DrawItem
+          Style = lbOwnerDrawFixed
           TabOrder = 0
         end
       end
@@ -124,7 +123,6 @@ object Form5: TForm5
           Width = 768
           Align = alClient
           ItemHeight = 0
-          OnClick = ListBox1Click
           TabOrder = 0
         end
       end
@@ -139,7 +137,6 @@ object Form5: TForm5
           Width = 768
           Align = alClient
           ItemHeight = 0
-          OnClick = ListBox1Click
           TabOrder = 0
         end
       end
@@ -154,7 +151,6 @@ object Form5: TForm5
           Width = 768
           Align = alClient
           ItemHeight = 0
-          OnClick = ListBox1Click
           TabOrder = 0
         end
       end

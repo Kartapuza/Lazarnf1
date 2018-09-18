@@ -1,11 +1,11 @@
 object Form2: TForm2
-  Left = 76
+  Left = 495
   Height = 838
-  Top = 65
-  Width = 1091
+  Top = 224
+  Width = 1146
   Caption = 'Work-table'
   ClientHeight = 838
-  ClientWidth = 1091
+  ClientWidth = 1146
   OnResize = FormResize
   LCLVersion = '1.6.2.0'
   object Panel1: TPanel
@@ -95,7 +95,6 @@ object Form2: TForm2
         Align = alTop
         BevelOuter = bvNone
         TabOrder = 0
-        OnClick = Panel6Click
       end
       object Panel7: TPanel
         Left = 0
@@ -107,7 +106,6 @@ object Form2: TForm2
         ClientHeight = 213
         ClientWidth = 88
         TabOrder = 1
-        OnClick = Panel7Click
         object Panel8: TPanel
           Left = 0
           Height = 50
@@ -138,27 +136,26 @@ object Form2: TForm2
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 2
-      OnClick = Panel5Click
     end
   end
   object Panel2: TPanel
     Left = 88
     Height = 838
     Top = 0
-    Width = 1003
+    Width = 1058
     Align = alClient
     BevelOuter = bvNone
     ClientHeight = 838
-    ClientWidth = 1003
+    ClientWidth = 1058
     TabOrder = 1
     object Panel11: TPanel
       Left = 0
       Height = 838
       Top = 0
-      Width = 1003
+      Width = 1058
       Align = alClient
       ClientHeight = 838
-      ClientWidth = 1003
+      ClientWidth = 1058
       TabOrder = 1
       object Label2: TLabel
         Left = 264
@@ -173,19 +170,19 @@ object Form2: TForm2
       Left = 0
       Height = 838
       Top = 0
-      Width = 1003
+      Width = 1058
       Align = alClient
       ClientHeight = 838
-      ClientWidth = 1003
+      ClientWidth = 1058
       TabOrder = 0
       object Panel12: TPanel
         Left = 1
         Height = 337
         Top = 500
-        Width = 1001
+        Width = 1056
         Align = alBottom
         ClientHeight = 337
-        ClientWidth = 1001
+        ClientWidth = 1056
         TabOrder = 0
         object Panel133: TPanel
           Left = 1
@@ -264,20 +261,20 @@ object Form2: TForm2
           Left = 520
           Height = 325
           Top = 11
-          Width = 480
+          Width = 535
           Align = alClient
           ClientHeight = 325
-          ClientWidth = 480
+          ClientWidth = 535
           TabOrder = 1
           object Panel136: TPanel
             Left = 1
             Height = 66
             Top = 1
-            Width = 478
+            Width = 533
             Align = alTop
             BevelOuter = bvNone
             ClientHeight = 66
-            ClientWidth = 478
+            ClientWidth = 533
             TabOrder = 0
             object Image226: TImage
               Left = 0
@@ -324,7 +321,7 @@ object Form2: TForm2
             Left = 1
             Height = 57
             Top = 67
-            Width = 478
+            Width = 533
             Align = alTop
             BorderStyle = bsSingle
             TabOrder = 1
@@ -335,7 +332,7 @@ object Form2: TForm2
           Left = 1
           Height = 10
           Top = 1
-          Width = 999
+          Width = 1054
           Align = alTop
           Caption = 'V'
           DragCursor = crHandPoint
@@ -347,11 +344,11 @@ object Form2: TForm2
         Left = 1
         Height = 23
         Top = 1
-        Width = 1001
+        Width = 1056
         Align = alTop
         BevelOuter = bvNone
         ClientHeight = 23
-        ClientWidth = 1001
+        ClientWidth = 1056
         TabOrder = 1
         object Panel15: TPanel
           Cursor = crHandPoint
@@ -576,14 +573,27 @@ object Form2: TForm2
         end
         object Panel50: TPanel
           Cursor = crHandPoint
-          Left = 952
+          Left = 1008
           Height = 23
           Top = 0
-          Width = 49
+          Width = 48
           Align = alClient
           Caption = ' ~ '
           DragCursor = crHandPoint
           TabOrder = 17
+        end
+        object Panel165: TPanel
+          Cursor = crHandPoint
+          Left = 952
+          Height = 23
+          Top = 0
+          Width = 56
+          Align = alLeft
+          Caption = '18'
+          DragCursor = crHandPoint
+          PopupMenu = PopupMenu1
+          TabOrder = 18
+          OnClick = Panel15Click
         end
       end
       object Panel32: TPanel
@@ -1005,7 +1015,6 @@ object Form2: TForm2
           ClientHeight = 38
           ClientWidth = 221
           TabOrder = 1
-          OnClick = Panel34Click
           object Image3: TImage
             Left = 1
             Height = 36
@@ -1035,7 +1044,6 @@ object Form2: TForm2
             Width = 10
             Caption = '--'
             ParentColor = False
-            OnClick = Label6Click
           end
           object Label25: TLabel
             AnchorSideLeft.Control = Image1
@@ -2729,21 +2737,20 @@ object Form2: TForm2
         Left = 224
         Height = 476
         Top = 24
-        Width = 448
+        Width = 503
         Align = alClient
         Caption = 'Panel49'
         ClientHeight = 476
-        ClientWidth = 448
+        ClientWidth = 503
         TabOrder = 3
-        OnClick = Panel49Click
         object Panel52: TPanel
           Left = 1
           Height = 38
           Top = 1
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 0
           object Panel69: TPanel
             Left = 1
@@ -2755,7 +2762,6 @@ object Form2: TForm2
             ClientHeight = 36
             ClientWidth = 384
             TabOrder = 0
-            OnClick = Panel69Click
             object Image33: TImage
               Left = 0
               Height = 36
@@ -3598,7 +3604,6 @@ object Form2: TForm2
               Top = 0
               Width = 32
               Align = alLeft
-              OnClick = Image44Click
               ParentShowHint = False
               Picture.Data = {
                 0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -3674,11 +3679,11 @@ object Form2: TForm2
             Left = 385
             Height = 36
             Top = 1
-            Width = 60
+            Width = 115
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 60
+            ClientWidth = 115
             TabOrder = 1
             object Panel117: TPanel
               Left = 0
@@ -4313,10 +4318,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 39
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 1
           object Panel70: TPanel
             Left = 1
@@ -5181,7 +5186,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -5258,11 +5262,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel118: TPanel
               Left = 0
@@ -5274,7 +5278,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel138: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -5897,10 +5901,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 77
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 2
           object Panel71: TPanel
             Left = 1
@@ -6765,7 +6769,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -6842,11 +6845,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel119: TPanel
               Left = 0
@@ -6858,7 +6861,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel139: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -7481,10 +7484,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 115
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 3
           object Panel72: TPanel
             Left = 1
@@ -8349,7 +8352,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -8426,11 +8428,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel120: TPanel
               Left = 0
@@ -8442,7 +8444,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel140: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -9065,10 +9067,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 153
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 4
           object Panel73: TPanel
             Left = 1
@@ -9933,7 +9935,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -10010,11 +10011,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel121: TPanel
               Left = 0
@@ -10026,7 +10027,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel141: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -10649,10 +10650,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 191
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 5
           object Panel74: TPanel
             Left = 1
@@ -11517,7 +11518,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -11594,11 +11594,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel122: TPanel
               Left = 0
@@ -11610,7 +11610,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel142: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -12233,10 +12233,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 229
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 6
           object Panel75: TPanel
             Left = 1
@@ -13101,7 +13101,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -13178,11 +13177,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel123: TPanel
               Left = 0
@@ -13194,7 +13193,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel143: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -13817,10 +13816,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 267
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 7
           object Panel76: TPanel
             Left = 1
@@ -14685,7 +14684,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -14762,11 +14760,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel124: TPanel
               Left = 0
@@ -14778,7 +14776,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel144: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -15401,10 +15399,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 305
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 8
           object Panel77: TPanel
             Left = 1
@@ -16269,7 +16267,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -16346,11 +16343,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel125: TPanel
               Left = 0
@@ -16362,7 +16359,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel145: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -16985,10 +16982,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 343
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 9
           object Panel78: TPanel
             Left = 1
@@ -17853,7 +17850,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -17930,11 +17926,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel126: TPanel
               Left = 0
@@ -17946,7 +17942,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel146: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -18569,10 +18565,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 381
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 10
           object Panel79: TPanel
             Left = 1
@@ -19437,7 +19433,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -19514,11 +19509,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel127: TPanel
               Left = 0
@@ -19530,7 +19525,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel147: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -20153,10 +20148,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 419
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 11
           object Panel80: TPanel
             Left = 1
@@ -21021,7 +21016,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -21098,11 +21092,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel128: TPanel
               Left = 0
@@ -21114,7 +21108,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel148: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -21737,10 +21731,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 457
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 12
           object Panel81: TPanel
             Left = 1
@@ -22605,7 +22599,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -22682,11 +22675,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel129: TPanel
               Left = 0
@@ -22698,7 +22691,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel149: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -23321,10 +23314,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 475
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 13
           object Panel82: TPanel
             Left = 1
@@ -24189,7 +24182,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -24266,11 +24258,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel130: TPanel
               Left = 0
@@ -24282,7 +24274,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel150: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -24905,10 +24897,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 475
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 14
           object Panel83: TPanel
             Left = 1
@@ -25773,7 +25765,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -25850,11 +25841,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel131: TPanel
               Left = 0
@@ -25866,7 +25857,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel151: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -26489,10 +26480,10 @@ object Form2: TForm2
           Left = 1
           Height = 38
           Top = 475
-          Width = 446
+          Width = 501
           Align = alTop
           ClientHeight = 38
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 15
           object Panel84: TPanel
             Left = 1
@@ -27357,7 +27348,6 @@ object Form2: TForm2
                 Top = 0
                 Width = 32
                 Align = alLeft
-                OnClick = Image44Click
                 ParentShowHint = False
                 Picture.Data = {
                   0954474946496D616765DA07000047494638396150005000E60300FFFFFFF5F6
@@ -27434,11 +27424,11 @@ object Form2: TForm2
             Left = 395
             Height = 36
             Top = 1
-            Width = 50
+            Width = 105
             Align = alClient
             BevelOuter = bvNone
             ClientHeight = 36
-            ClientWidth = 50
+            ClientWidth = 105
             TabOrder = 1
             object Panel132: TPanel
               Left = 0
@@ -27450,7 +27440,7 @@ object Form2: TForm2
               TabOrder = 0
             end
             object Panel152: TPanel
-              Left = 50
+              Left = 58
               Height = 36
               Top = 0
               Width = 298
@@ -28073,23 +28063,23 @@ object Form2: TForm2
           Left = 1
           Height = 0
           Top = 475
-          Width = 446
+          Width = 501
           Align = alClient
           ClientHeight = 0
-          ClientWidth = 446
+          ClientWidth = 501
           TabOrder = 16
           object Panel85: TPanel
             Left = 1
             Height = 0
             Top = 0
-            Width = 444
+            Width = 499
             Align = alClient
             TabOrder = 0
           end
         end
       end
       object Panel153: TPanel
-        Left = 672
+        Left = 727
         Height = 476
         Top = 24
         Width = 330
@@ -28137,6 +28127,7 @@ object Form2: TForm2
               ClientHeight = 66
               ClientWidth = 156
               TabOrder = 0
+              OnClick = Panel157Click
               object Image355: TImage
                 Left = 0
                 Height = 66
@@ -28228,6 +28219,8 @@ object Form2: TForm2
                 Width = 40
                 Caption = 'Label86'
                 ParentColor = False
+                ParentShowHint = False
+                ShowHint = True
               end
             end
             object Panel161: TPanel
@@ -28269,5 +28262,12 @@ object Form2: TForm2
     OnTimer = Timer1Timer
     left = 296
     top = 8
+  end
+  object Timer2: TTimer
+    Enabled = False
+    Interval = 5000
+    OnTimer = Timer2Timer
+    left = 232
+    top = 514
   end
 end

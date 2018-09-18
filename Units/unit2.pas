@@ -629,28 +629,22 @@ type
     Panel99: TPanel;
     PopupMenu1: TPopupMenu;
     Timer1: TTimer;
+    Timer2: TTimer;
     procedure FormResize(Sender: TObject);
     procedure Image1Click(Sender: TObject);
     procedure Image225Click(Sender: TObject);
     procedure Image2Click(Sender: TObject);
-    procedure Image44Click(Sender: TObject);
     procedure Label3DblClick(Sender: TObject);
     procedure Label4DblClick(Sender: TObject);
-    procedure Label6Click(Sender: TObject);
     procedure Label87Click(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
     procedure Panel154Click(Sender: TObject);
     procedure Panel15Click(Sender: TObject);
     procedure Panel162Click(Sender: TObject);
-    procedure Panel34Click(Sender: TObject);
-    procedure Panel49Click(Sender: TObject);
-    procedure Panel5Click(Sender: TObject);
-    procedure Panel69Click(Sender: TObject);
-    procedure Panel6Click(Sender: TObject);
-    procedure Panel7Click(Sender: TObject);
     procedure Panel8Click(Sender: TObject);
     procedure Panel9Click(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
+    procedure Timer2Timer(Sender: TObject);
   private
     { private declarations }
   public
@@ -1047,6 +1041,7 @@ begin
       Form4.ComboBox1.Text:='Load Team';
        form4.Button1.Click;
        Form4.Button3.Hint:=Label85.Hint;
+        Timer2.Enabled:=True;
    end;
 
 
@@ -1066,19 +1061,9 @@ begin
    Label90.Hint:= HintPrint(Image226.Hint,2);
 end;
 
-procedure TForm2.Image44Click(Sender: TObject);
-begin
-
-end;
-
 procedure TForm2.Label4DblClick(Sender: TObject);
 begin
   Form4.Show;
-end;
-
-procedure TForm2.Label6Click(Sender: TObject);
-begin
-
 end;
 
 procedure TForm2.Label87Click(Sender: TObject);
@@ -1252,36 +1237,6 @@ begin
                         end;
 end;
 
-procedure TForm2.Panel34Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm2.Panel49Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm2.Panel5Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm2.Panel69Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm2.Panel6Click(Sender: TObject);
-begin
-
-end;
-
-procedure TForm2.Panel7Click(Sender: TObject);
-begin
-
-end;
-
 procedure TForm2.Panel9Click(Sender: TObject);
 begin
   NewsNflShow;
@@ -1293,6 +1248,14 @@ begin
   form4.Button3.Click;
   form4.Button4.Click;
   Timer1.Enabled:=False;
+end;
+
+procedure TForm2.Timer2Timer(Sender: TObject);
+begin
+     Form4.ComboBox1.Text:='Load Team';
+  form4.Button3.Click;
+  form4.Button4.Click;
+  Timer2.Enabled:=False;
 end;
 
 
